@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
         
         :root {
             --bg-primary: #faf6f1;
@@ -97,7 +97,7 @@
 
         body {
             font-family: var(--font-ui);
-            background: var(--bg-primary);
+            background: transparent;
             min-height: 100vh;
             color: var(--text-primary);
             line-height: 1.6;
@@ -145,6 +145,58 @@
             opacity: 0.025;
             pointer-events: none;
             z-index: 0;
+        }
+
+        /* ===== FULLSCREEN BACKGROUND IMAGE ===== */
+        .bg-image-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: url('https://c4.wallpaperflare.com/wallpaper/688/794/455/digital-art-pixel-art-pixels-building-pixelated-hd-wallpaper-preview.jpg') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: -2;
+        }
+
+        /* Dark overlay on top of the image */
+        .bg-image-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(
+                180deg,
+                rgba(44, 36, 25, 0.72) 0%,
+                rgba(44, 36, 25, 0.65) 40%,
+                rgba(44, 36, 25, 0.78) 100%
+            );
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        [data-theme="dark"] .bg-image-overlay {
+            background: linear-gradient(
+                180deg,
+                rgba(10, 8, 5, 0.82) 0%,
+                rgba(10, 8, 5, 0.75) 40%,
+                rgba(10, 8, 5, 0.88) 100%
+            );
+        }
+
+        /* Fix for iOS/mobile: background-attachment: fixed breaks on mobile */
+        @supports (-webkit-touch-callout: none) {
+            .bg-image-layer {
+                background-attachment: scroll;
+            }
+        }
+
+        @media (hover: none) and (pointer: coarse) {
+            .bg-image-layer {
+                background-attachment: scroll;
+            }
         }
 
         .app-container {
@@ -1702,6 +1754,9 @@
     </style>
 </head>
 <body>
+<!-- Fullscreen background image layer -->
+<div class="bg-image-layer" aria-hidden="true"></div>
+<div class="bg-image-overlay" aria-hidden="true"></div>
 
     <!-- Sakura petals background -->
     <div class="sakura-container" id="sakura-container"></div>
@@ -1886,8 +1941,8 @@
     // ============================================
     // SUPABASE CONFIG
     // ============================================
-    const SUPABASE_URL = 'https://dluvuqplfvbmxrdemfln.supabase.co';
-    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRsdXZ1cXBsZnZibXhyZGVtZmxuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA1NjEyMjQsImV4cCI6MjA4NjEzNzIyNH0.c0zviB7CT3P7SwMcHvtMmbZ68VhobjxtNthxZjrKJzc';
+    const SUPABASE_URL = 'https://mlkiktunkjgiaribqwuq.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sa2lrdHVua2pnaWFyaWJxd3VxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA2MTE3MTgsImV4cCI6MjA4NjE4NzcxOH0.64I8nlecs7R0M3oKlesfr8UsrRBHLgSSRb_wJcgpRDM';
     const MASTERY_THRESHOLD = 1;
 
     // ============================================
@@ -1913,20 +1968,107 @@
     function initSupabase() {
         try {
             if (typeof window.supabase === 'undefined' || !window.supabase.createClient) {
-                console.warn('Supabase JS library not loaded. Running in offline mode.');
                 return false;
             }
             if (!SUPABASE_URL || SUPABASE_URL.includes('abcdefghij') ||
                 !SUPABASE_ANON_KEY || SUPABASE_ANON_KEY === 'YOUR_SUPABASE_ANON_KEY') {
-                console.warn('Supabase credentials not configured. Running in offline mode.');
                 return false;
             }
-            sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+            sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+                auth: {
+                    persistSession: true,        // сессия сохраняется в localStorage автоматически
+                    autoRefreshToken: true,       // refresh-токен обновляется до истечения срока
+                    detectSessionInUrl: true,     // подхватывает OAuth-callback параметры из URL
+                    storageKey: 'mnq-auth-token', // уникальный ключ, чтобы не конфликтовать с другими приложениями
+                    storage: window.localStorage  // явное указание хранилища
+                }
+            });
             supabaseReady = true;
             return true;
         } catch (e) {
-            console.warn('Supabase init failed:', e.message, '— running in offline mode.');
             return false;
+        }
+    }
+
+    // ============================================
+    // AUTH STATE LISTENER (onAuthStateChange)
+    // ============================================
+    let authSubscription = null;
+
+    function setupAuthListener() {
+        if (!supabaseReady || !sb) return;
+
+        // Подписка на все изменения состояния аутентификации
+        var { data } = sb.auth.onAuthStateChange(async function(event, session) {
+            // Auth event handled silently (no console logging in production)
+
+            switch (event) {
+                // ——— Начальная загрузка: сессия восстановлена из localStorage (F5, новая вкладка) ———
+                case 'INITIAL_SESSION':
+                    if (session && session.user) {
+                        state.user = session.user;
+                        await onAuthSuccess();
+                    } else {
+                        // Нет сохранённой сессии — показываем логин
+                        resetToAuthScreen();
+                    }
+                    break;
+
+                // ——— Пользователь залогинился ———
+                case 'SIGNED_IN':
+                    // Обрабатываем только если user ещё не установлен (чтобы не дублировать handleAuthSubmit)
+                    if (!state.user && session && session.user) {
+                        state.user = session.user;
+                        await onAuthSuccess();
+                    }
+                    break;
+
+                // ——— Пользователь вышел / сессия была invalidated ———
+                case 'SIGNED_OUT':
+                    resetToAuthScreen();
+                    break;
+
+                // ——— Access-токен успешно обновлён через refresh-токен ———
+                case 'TOKEN_REFRESHED':
+                    if (session && session.user) {
+                        state.user = session.user; // обновляем объект user на случай изменений
+                    }
+                    break;
+
+                // ——— Данные пользователя обновились (метаданные, email и т.д.) ———
+                case 'USER_UPDATED':
+                    if (session && session.user) {
+                        state.user = session.user;
+                        // Обновляем имя на случай если пользователь сменил display_name
+                        var dn = session.user.user_metadata && session.user.user_metadata.display_name;
+                        if (dn) els.headerUserName.textContent = dn;
+                    }
+                    break;
+
+                // ——— Пароль восстановлен через email-ссылку ———
+                case 'PASSWORD_RECOVERY':
+                    // Можно показать форму смены пароля; пока просто логируем
+                    // Password recovery flow detected — could show password change form
+                    break;
+            }
+        });
+
+        authSubscription = data.subscription;
+    }
+
+    function resetToAuthScreen() {
+        state.user = null;
+        state.userProgress = {};
+        showHeaderButtons(false);
+        showScreen('auth');
+        updateAuthLabels();
+    }
+
+    // Очистка подписки (вызывается при необходимости: SPA-роутинг, unmount)
+    function teardownAuthListener() {
+        if (authSubscription) {
+            authSubscription.unsubscribe();
+            authSubscription = null;
         }
     }
 
@@ -2420,8 +2562,20 @@
         els.authSubmitBtn.textContent = state.authMode === 'login' ? txt.loginBtn : txt.registerBtn;
     }
 
+    var _authAttempts = 0;
+    var _authLockUntil = 0;
+    var AUTH_MAX_ATTEMPTS = 5;
+    var AUTH_LOCK_MS = 30000; // 30 seconds cooldown
+
     async function handleAuthSubmit() {
         if (!supabaseReady) return;
+
+        var now = Date.now();
+        if (now < _authLockUntil) {
+            var secsLeft = Math.ceil((_authLockUntil - now) / 1000);
+            els.authError.textContent = uiTexts[state.lang].wait + ' (' + secsLeft + 's)';
+            return;
+        }
 
         var txt = uiTexts[state.lang];
         var email = els.authEmail.value.trim();
@@ -2466,6 +2620,11 @@
             }
 
             if (result.error) {
+                _authAttempts++;
+                if (_authAttempts >= AUTH_MAX_ATTEMPTS) {
+                    _authLockUntil = Date.now() + AUTH_LOCK_MS;
+                    _authAttempts = 0;
+                }
                 var msg = result.error.message || '';
                 if (msg.indexOf('Invalid login') !== -1) {
                     els.authError.textContent = txt.errInvalidCreds;
@@ -2478,6 +2637,8 @@
             }
 
             state.user = (result.data.user) || (result.data.session && result.data.session.user);
+            _authAttempts = 0;
+            _authLockUntil = 0;
             await onAuthSuccess();
         } catch (err) {
             els.authError.textContent = txt.errGeneric;
@@ -2539,7 +2700,7 @@
                 });
             }
         } catch (e) {
-            console.error('Failed to load progress:', e);
+            // Silently fail — progress will use local fallback
         }
     }
 
@@ -2560,7 +2721,7 @@
                     p_is_correct: isCorrect
                 });
             } catch (e) {
-                console.error('Failed to save answer to Supabase:', e);
+                // Save failed silently — local progress already updated
             }
         }
 
@@ -2570,15 +2731,26 @@
     // ============================================
     // PROGRESS CALCULATIONS
     // ============================================
+    // Pre-index words by lesson for O(1) lookups instead of repeated .filter()
+    var _wordsByLesson = {};
+    wordsData.forEach(function(w) {
+        if (!_wordsByLesson[w.lesson]) _wordsByLesson[w.lesson] = [];
+        _wordsByLesson[w.lesson].push(w);
+    });
+
+    function getWordsByLesson(lessonNum) {
+        return _wordsByLesson[lessonNum] || [];
+    }
+
     function getLessonProgress(lessonNum) {
-        var lessonWords = wordsData.filter(function(w) { return w.lesson === lessonNum; });
+        var lessonWords = getWordsByLesson(lessonNum);
         var total = lessonWords.length;
         var mastered = 0;
         lessonWords.forEach(function(w) {
             var p = state.userProgress[w.id];
             if (p && p.correct_count >= MASTERY_THRESHOLD) mastered++;
         });
-        return { mastered: mastered, total: total, percent: total > 0 ? Math.round((mastered / total) * 100) : 0 };
+        return { mastered: mastered, total: total, percent: total > 0 ? Math.min(100, Math.max(0, Math.round((mastered / total) * 100))) : 0 };
     }
 
     function getProgressColor(percent) {
@@ -2597,10 +2769,13 @@
         updateUILabels();
     }
 
+    var _cachedLessons = null;
     function getAvailableLessons() {
+        if (_cachedLessons) return _cachedLessons;
         var lessonsSet = {};
         wordsData.forEach(function(w) { lessonsSet[w.lesson] = true; });
-        return Object.keys(lessonsSet).map(Number).sort(function(a,b) { return a - b; });
+        _cachedLessons = Object.keys(lessonsSet).map(Number).sort(function(a,b) { return a - b; });
+        return _cachedLessons;
     }
 
     function renderLessonGrid() {
@@ -2668,7 +2843,9 @@
             renderLessonGrid();
         } else if (els.quizView.classList.contains('visible')) {
             renderQuestion(false);
-            if (state.isModalOpen) updateModalContent(state.quizData[state.currentIndex]);
+            if (state.isModalOpen && state.currentIndex < state.quizData.length) {
+                updateModalContent(state.quizData[state.currentIndex]);
+            }
         } else if (els.resultsView.classList.contains('visible')) {
             showResults();
         } else if (els.leaderboardScreen.classList.contains('visible')) {
@@ -2710,8 +2887,8 @@
     }
 
     function getSmartDistractors(currentWord) {
-        var sameLessonWords = wordsData.filter(function(w) {
-            return w.id !== currentWord.id && w.lesson === currentWord.lesson;
+        var sameLessonWords = getWordsByLesson(currentWord.lesson).filter(function(w) {
+            return w.id !== currentWord.id;
         });
 
         if (sameLessonWords.length >= 3) {
@@ -2731,7 +2908,7 @@
     }
 
     function renderQuestion(randomize) {
-        if (state.currentIndex >= state.quizData.length) return;
+        if (state.currentIndex >= state.quizData.length || state.quizData.length === 0) return;
 
         var currentWord = state.quizData[state.currentIndex];
         var txt = uiTexts[state.lang];
@@ -2830,11 +3007,17 @@
     }
 
     function updateModalContent(wordData) {
-        var ex = wordData.exampleSentences[state.lang];
-        els.correctAnswerText.innerText = wordData.translations[state.lang];
-        els.modalExampleJp.innerHTML = ex.jp;
-        els.modalExampleTrans.innerText = ex.translation;
-        els.modalGrammarText.innerText = ex.grammarInfo;
+        var ex = wordData.exampleSentences ? wordData.exampleSentences[state.lang] : null;
+        els.correctAnswerText.innerText = wordData.translations[state.lang] || '';
+        if (ex) {
+            els.modalExampleJp.innerHTML = ex.jp || '';
+            els.modalExampleTrans.innerText = ex.translation || '';
+            els.modalGrammarText.innerText = ex.grammarInfo || '';
+        } else {
+            els.modalExampleJp.innerHTML = '';
+            els.modalExampleTrans.innerText = '';
+            els.modalGrammarText.innerText = '';
+        }
     }
 
     function startTimer() {
@@ -2900,7 +3083,7 @@
                 item.className = 'mistake-item';
                 item.innerHTML =
                     '<div class="mistake-word">' + word.japanese + '</div>' +
-                    '<div class="mistake-answer">' + word.translations[state.lang] + '</div>';
+                    '<div class="mistake-answer">' + escapeHtml(word.translations[state.lang]) + '</div>';
                 els.mistakesList.appendChild(item);
             });
         }
@@ -2960,15 +3143,14 @@
                 els.leaderboardList.appendChild(div);
             });
         } catch (e) {
-            console.error('Leaderboard error:', e);
             els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + txt.leaderboardEmpty + '</div>';
         }
     }
 
+    var _escapeDiv = document.createElement('div');
     function escapeHtml(str) {
-        var div = document.createElement('div');
-        div.textContent = str;
-        return div.innerHTML;
+        _escapeDiv.textContent = str || '';
+        return _escapeDiv.innerHTML;
     }
 
     // ============================================
@@ -3145,7 +3327,7 @@
         var lessons = getAvailableLessons();
 
         lessons.forEach(function(lessonNum) {
-            var lessonWords = wordsData.filter(function(w) { return w.lesson === lessonNum; });
+            var lessonWords = getWordsByLesson(lessonNum);
 
             var btn = document.createElement('button');
             btn.className = 'dict-lesson-btn';
@@ -3170,7 +3352,7 @@
         var list = document.createElement('div');
         list.className = 'dict-words-list';
 
-        var lessonWords = wordsData.filter(function(w) { return w.lesson === lessonNum; });
+        var lessonWords = getWordsByLesson(lessonNum);
 
         lessonWords.forEach(function(word) {
             var card = document.createElement('div');
@@ -3178,7 +3360,7 @@
             card.innerHTML =
                 '<div>' +
                     '<div class="dict-word-jp">' + word.japanese + '</div>' +
-                    '<div class="dict-word-trans">' + word.translations[state.lang] + '</div>' +
+                    '<div class="dict-word-trans">' + escapeHtml(word.translations[state.lang]) + '</div>' +
                 '</div>' +
                 '<span class="dict-word-arrow">' + ICONS.chevronRight + '</span>';
             card.onclick = (function(id) { return function() { dictGoToWord(id); }; })(word.id);
@@ -3205,7 +3387,7 @@
         header.className = 'dict-detail-header';
         header.innerHTML =
             '<div class="dict-detail-jp">' + word.japanese + '</div>' +
-            '<div class="dict-detail-trans">' + word.translations[state.lang] + '</div>';
+            '<div class="dict-detail-trans">' + escapeHtml(word.translations[state.lang]) + '</div>';
         container.appendChild(header);
 
         var examples = word.dictionaryExamples ? word.dictionaryExamples[state.lang] : null;
@@ -3281,22 +3463,21 @@
             if (e.key === 'Enter') handleAuthSubmit();
         });
 
+        els.authEmail.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') handleAuthSubmit();
+        });
+
+        els.authName.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') handleAuthSubmit();
+        });
+
         var hasSupabase = initSupabase();
 
         if (hasSupabase) {
-            sb.auth.getSession().then(function(result) {
-                var session = result.data && result.data.session;
-                if (session) {
-                    state.user = session.user;
-                    onAuthSuccess();
-                } else {
-                    showScreen('auth');
-                    updateAuthLabels();
-                }
-            }).catch(function() {
-                showScreen('auth');
-                updateAuthLabels();
-            });
+            // onAuthStateChange вызовет INITIAL_SESSION автоматически,
+            // что восстановит сессию из localStorage при F5/перезагрузке
+            // или покажет экран логина, если сессии нет.
+            setupAuthListener();
         } else {
             showHeaderButtons(false);
             els.soundToggleBtn.classList.add('visible');
