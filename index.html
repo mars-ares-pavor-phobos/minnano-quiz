@@ -2310,6 +2310,7 @@
             errNameRequired: "Введите ваше имя",
             errInvalidCreds: "Неверный email или пароль",
             errEmailTaken: "Этот email уже зарегистрирован",
+            errEmailRateLimit: "Слишком много писем отправлено. Подождите немного и попробуйте снова.",
             errGeneric: "Произошла ошибка. Попробуйте ещё раз.",
             leaderboardTitle: "Рейтинг учеников",
             leaderboardEmpty: "Пока нет данных. Начните учить слова!",
@@ -2351,6 +2352,7 @@
             errNameRequired: "Ismingizni kiriting",
             errInvalidCreds: "Noto'g'ri email yoki parol",
             errEmailTaken: "Bu email allaqachon ro'yxatdan o'tgan",
+            errEmailRateLimit: "Juda ko'p xat yuborildi. Biroz kutib qayta urinib ko'ring.",
             errGeneric: "Xatolik yuz berdi. Qaytadan urinib ko'ring.",
             leaderboardTitle: "O'quvchilar reytingi",
             leaderboardEmpty: "Hozircha ma'lumot yo'q. So'z o'rganishni boshlang!",
@@ -2623,20 +2625,29 @@
 
     var _authAttempts = 0;
     var _authLockUntil = 0;
+    var _signupRateLimitUntil = 0;
     var AUTH_MAX_ATTEMPTS = 5;
     var AUTH_LOCK_MS = 30000; // 30 seconds cooldown
+    var SIGNUP_RATE_LIMIT_MS = 60000;
 
     async function handleAuthSubmit() {
         if (!supabaseReady) return;
 
+        var txt = uiTexts[state.lang];
         var now = Date.now();
+
         if (now < _authLockUntil) {
             var secsLeft = Math.ceil((_authLockUntil - now) / 1000);
-            els.authError.textContent = uiTexts[state.lang].wait + ' (' + secsLeft + 's)';
+            els.authError.textContent = txt.wait + ' (' + secsLeft + 's)';
             return;
         }
 
-        var txt = uiTexts[state.lang];
+        if (state.authMode === 'register' && now < _signupRateLimitUntil) {
+            var signupWait = Math.ceil((_signupRateLimitUntil - now) / 1000);
+            els.authError.textContent = txt.errEmailRateLimit + ' (' + signupWait + 's)';
+            return;
+        }
+
         var email = els.authEmail.value.trim();
         var password = els.authPassword.value;
         var name = els.authName.value.trim();
@@ -2679,12 +2690,30 @@
             }
 
             if (result.error) {
+                var msg = result.error.message || '';
+                var code = result.error.code || '';
+                var isRateLimited =
+                    result.error.status === 429 ||
+                    msg.toLowerCase().indexOf('rate limit') !== -1 ||
+                    code.toLowerCase().indexOf('rate_limit') !== -1 ||
+                    code === 'over_email_send_rate_limit';
+
+                if (isRateLimited) {
+                    if (state.authMode === 'register') {
+                        _signupRateLimitUntil = Date.now() + SIGNUP_RATE_LIMIT_MS;
+                        var signupSecs = Math.ceil(SIGNUP_RATE_LIMIT_MS / 1000);
+                        els.authError.textContent = txt.errEmailRateLimit + ' (' + signupSecs + 's)';
+                    } else {
+                        els.authError.textContent = txt.wait;
+                    }
+                    return;
+                }
+
                 _authAttempts++;
                 if (_authAttempts >= AUTH_MAX_ATTEMPTS) {
                     _authLockUntil = Date.now() + AUTH_LOCK_MS;
                     _authAttempts = 0;
                 }
-                var msg = result.error.message || '';
                 if (msg.indexOf('Invalid login') !== -1) {
                     els.authError.textContent = txt.errInvalidCreds;
                 } else if (msg.indexOf('already registered') !== -1 || msg.indexOf('already been registered') !== -1) {
