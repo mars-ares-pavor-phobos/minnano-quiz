@@ -1974,6 +1974,13 @@
                 !SUPABASE_ANON_KEY || SUPABASE_ANON_KEY === 'YOUR_SUPABASE_ANON_KEY') {
                 return false;
             }
+            // Если токен в localStorage повреждён, восстановление сессии может сломаться после refresh.
+            try {
+                var rawSession = window.localStorage.getItem('mnq-auth-token');
+                if (rawSession) JSON.parse(rawSession);
+            } catch (e) {
+                try { window.localStorage.removeItem('mnq-auth-token'); } catch(_e) {}
+            }
             sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
                 auth: {
                     persistSession: true,        // сессия сохраняется в localStorage автоматически
@@ -1996,31 +2003,63 @@
     let authSubscription = null;
     let initialAuthResolved = false;
     const INITIAL_AUTH_FALLBACK_MS = 2000;
+    const AUTH_REQUEST_TIMEOUT_MS = 15000;
+    const AUTH_BOOTSTRAP_TIMEOUT_MS = 6000;
+    const POST_LOGIN_TIMEOUT_MS = 8000;
 
-    async function applyInitialSession(session) {
-        if (initialAuthResolved) return;
-        initialAuthResolved = true;
+    function withTimeout(promise, timeoutMs) {
+        return new Promise(function(resolve, reject) {
+            var settled = false;
+            var timer = window.setTimeout(function() {
+                if (settled) return;
+                settled = true;
+                reject(new Error('request_timeout'));
+            }, timeoutMs);
 
+            Promise.resolve(promise)
+                .then(function(value) {
+                    if (settled) return;
+                    settled = true;
+                    window.clearTimeout(timer);
+                    resolve(value);
+                })
+                .catch(function(err) {
+                    if (settled) return;
+                    settled = true;
+                    window.clearTimeout(timer);
+                    reject(err);
+                });
+        });
+    }
+
+    async function applyInitialSession(session, finalizeIfMissing) {
         if (session && session.user) {
+            if (initialAuthResolved && state.user && state.user.id === session.user.id) {
+                return;
+            }
+            initialAuthResolved = true;
             state.user = session.user;
             await onAuthSuccess();
-        } else {
-            resetToAuthScreen();
+            return;
+        }
+
+        resetToAuthScreen();
+        if (finalizeIfMissing) {
+            initialAuthResolved = true;
         }
     }
 
     function scheduleInitialSessionFallback() {
-        window.setTimeout(function() {
+        window.setTimeout(async function() {
             if (initialAuthResolved || !supabaseReady || !sb) return;
 
-            sb.auth.getSession()
-                .then(function(res) {
-                    var session = res && res.data ? res.data.session : null;
-                    return applyInitialSession(session);
-                })
-                .catch(function() {
-                    return applyInitialSession(null);
-                });
+            try {
+                var res = await withTimeout(sb.auth.getSession(), AUTH_BOOTSTRAP_TIMEOUT_MS);
+                var session = res && res.data ? res.data.session : null;
+                await applyInitialSession(session, true);
+            } catch (e) {
+                await applyInitialSession(null, true);
+            }
         }, INITIAL_AUTH_FALLBACK_MS);
     }
 
@@ -2035,18 +2074,20 @@
                     switch (event) {
                         // ——— Начальная загрузка: сессия восстановлена из localStorage (F5, новая вкладка) ———
                         case 'INITIAL_SESSION':
-                            await applyInitialSession(session);
+                            // Если INITIAL_SESSION пришёл без сессии, оставляем шанс fallback getSession().
+                            await applyInitialSession(session, false);
                             break;
 
                         // ——— Пользователь залогинился ———
                         case 'SIGNED_IN':
-                            // Обрабатываем только если user ещё не установлен (чтобы не дублировать handleAuthSubmit)
-                            if (!state.user && session && session.user) {
+                            // Восстанавливаем UI, если вход выполнен после refresh или ручного логина.
+                            if (session && session.user) {
+                                var shouldReinit = !state.user || state.user.id !== session.user.id;
                                 state.user = session.user;
                                 initialAuthResolved = true;
-                                await onAuthSuccess();
-                            } else if (session && session.user) {
-                                state.user = session.user;
+                                if (shouldReinit || els.authScreen.classList.contains('visible')) {
+                                    await onAuthSuccess();
+                                }
                             }
                             break;
 
@@ -2311,6 +2352,9 @@
             errInvalidCreds: "Неверный email или пароль",
             errEmailTaken: "Этот email уже зарегистрирован",
             errEmailRateLimit: "Слишком много писем отправлено. Подождите немного и попробуйте снова.",
+            errEmailNotConfirmed: "Подтвердите email по ссылке в письме, затем войдите.",
+            signupCheckEmail: "Аккаунт создан. Проверьте email и подтвердите регистрацию.",
+            errTimeout: "Сеть отвечает слишком долго. Попробуйте ещё раз.",
             errGeneric: "Произошла ошибка. Попробуйте ещё раз.",
             leaderboardTitle: "Рейтинг учеников",
             leaderboardEmpty: "Пока нет данных. Начните учить слова!",
@@ -2353,6 +2397,9 @@
             errInvalidCreds: "Noto'g'ri email yoki parol",
             errEmailTaken: "Bu email allaqachon ro'yxatdan o'tgan",
             errEmailRateLimit: "Juda ko'p xat yuborildi. Biroz kutib qayta urinib ko'ring.",
+            errEmailNotConfirmed: "Emailni tasdiqlang va keyin tizimga kiring.",
+            signupCheckEmail: "Hisob yaratildi. Emailni tekshirib tasdiqlang.",
+            errTimeout: "Tarmoq javobi juda sekin. Qayta urinib ko'ring.",
             errGeneric: "Xatolik yuz berdi. Qaytadan urinib ko'ring.",
             leaderboardTitle: "O'quvchilar reytingi",
             leaderboardEmpty: "Hozircha ma'lumot yo'q. So'z o'rganishni boshlang!",
@@ -2626,12 +2673,14 @@
     var _authAttempts = 0;
     var _authLockUntil = 0;
     var _signupRateLimitUntil = 0;
+    var _authRequestInFlight = false;
+    var _authSuccessInFlight = false;
     var AUTH_MAX_ATTEMPTS = 5;
     var AUTH_LOCK_MS = 30000; // 30 seconds cooldown
     var SIGNUP_RATE_LIMIT_MS = 60000;
 
     async function handleAuthSubmit() {
-        if (!supabaseReady) return;
+        if (!supabaseReady || _authRequestInFlight) return;
 
         var txt = uiTexts[state.lang];
         var now = Date.now();
@@ -2672,6 +2721,7 @@
             return;
         }
 
+        _authRequestInFlight = true;
         els.authSubmitBtn.disabled = true;
         var btnLabel = state.authMode === 'login' ? txt.loginBtn : txt.registerBtn;
         els.authSubmitBtn.innerHTML = '<span class="spinner"></span>' + btnLabel;
@@ -2680,21 +2730,28 @@
         try {
             var result;
             if (state.authMode === 'login') {
-                result = await sb.auth.signInWithPassword({ email: email, password: password });
+                result = await withTimeout(
+                    sb.auth.signInWithPassword({ email: email, password: password }),
+                    AUTH_REQUEST_TIMEOUT_MS
+                );
             } else {
-                result = await sb.auth.signUp({
-                    email: email,
-                    password: password,
-                    options: { data: { display_name: name } }
-                });
+                result = await withTimeout(
+                    sb.auth.signUp({
+                        email: email,
+                        password: password,
+                        options: { data: { display_name: name } }
+                    }),
+                    AUTH_REQUEST_TIMEOUT_MS
+                );
             }
 
             if (result.error) {
                 var msg = result.error.message || '';
                 var code = result.error.code || '';
+                var lowerMsg = msg.toLowerCase();
                 var isRateLimited =
                     result.error.status === 429 ||
-                    msg.toLowerCase().indexOf('rate limit') !== -1 ||
+                    lowerMsg.indexOf('rate limit') !== -1 ||
                     code.toLowerCase().indexOf('rate_limit') !== -1 ||
                     code === 'over_email_send_rate_limit';
 
@@ -2706,6 +2763,11 @@
                     } else {
                         els.authError.textContent = txt.wait;
                     }
+                    return;
+                }
+
+                if (lowerMsg.indexOf('email not confirmed') !== -1 || code === 'email_not_confirmed') {
+                    els.authError.textContent = txt.errEmailNotConfirmed;
                     return;
                 }
 
@@ -2724,13 +2786,36 @@
                 return;
             }
 
-            state.user = (result.data.user) || (result.data.session && result.data.session.user);
+            var sessionUser = result.data && result.data.session ? result.data.session.user : null;
+            var returnedUser = result.data ? result.data.user : null;
+
+            // При включенном email confirmation signUp может вернуть user без session.
+            if (state.authMode === 'register' && returnedUser && !sessionUser) {
+                _authAttempts = 0;
+                _authLockUntil = 0;
+                switchAuthMode('login');
+                els.authPassword.value = '';
+                els.authError.textContent = txt.signupCheckEmail;
+                return;
+            }
+
+            state.user = sessionUser || returnedUser;
+            if (!state.user || (state.authMode === 'login' && !sessionUser)) {
+                els.authError.textContent = txt.errGeneric;
+                return;
+            }
+
             _authAttempts = 0;
             _authLockUntil = 0;
             await onAuthSuccess();
         } catch (err) {
-            els.authError.textContent = txt.errGeneric;
+            if (err && err.message === 'request_timeout') {
+                els.authError.textContent = txt.errTimeout;
+            } else {
+                els.authError.textContent = txt.errGeneric;
+            }
         } finally {
+            _authRequestInFlight = false;
             els.authSubmitBtn.disabled = false;
             updateAuthLabels();
         }
@@ -2742,20 +2827,33 @@
             return;
         }
 
-        showHeaderButtons(true);
+        if (_authSuccessInFlight) return;
+        _authSuccessInFlight = true;
 
-        var displayName = 'User';
         try {
-            var res = await sb.from('profiles').select('display_name').eq('id', state.user.id).single();
-            if (res.data && res.data.display_name) displayName = res.data.display_name;
-            else if (state.user.user_metadata && state.user.user_metadata.display_name) displayName = state.user.user_metadata.display_name;
-        } catch(e) {
-            if (state.user.user_metadata && state.user.user_metadata.display_name) displayName = state.user.user_metadata.display_name;
-        }
-        els.headerUserName.textContent = displayName;
+            showHeaderButtons(true);
 
-        await loadSupabaseProgress();
-        initLessonSelection();
+            var displayName = 'User';
+            try {
+                var res = await withTimeout(
+                    sb.from('profiles').select('display_name').eq('id', state.user.id).single(),
+                    POST_LOGIN_TIMEOUT_MS
+                );
+                if (res.data && res.data.display_name) displayName = res.data.display_name;
+                else if (state.user.user_metadata && state.user.user_metadata.display_name) displayName = state.user.user_metadata.display_name;
+            } catch(e) {
+                if (state.user.user_metadata && state.user.user_metadata.display_name) displayName = state.user.user_metadata.display_name;
+            }
+            els.headerUserName.textContent = displayName;
+
+            try {
+                await withTimeout(loadSupabaseProgress(), POST_LOGIN_TIMEOUT_MS);
+            } catch(e) {}
+
+            initLessonSelection();
+        } finally {
+            _authSuccessInFlight = false;
+        }
     }
 
     async function handleLogout() {
