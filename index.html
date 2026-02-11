@@ -141,7 +141,7 @@
             position: fixed;
             top: 0; left: 0;
             width: 100%; height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='https://github.com/mars-ares-pavor-phobos/minnano-quiz/blob/main/Abandoned%20Shinto.jpeg?raw=true");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
             opacity: 0.025;
             pointer-events: none;
             z-index: 0;
@@ -1994,71 +1994,118 @@
     // AUTH STATE LISTENER (onAuthStateChange)
     // ============================================
     let authSubscription = null;
+    let initialAuthResolved = false;
+    const INITIAL_AUTH_FALLBACK_MS = 2000;
+
+    async function applyInitialSession(session) {
+        if (initialAuthResolved) return;
+        initialAuthResolved = true;
+
+        if (session && session.user) {
+            state.user = session.user;
+            await onAuthSuccess();
+        } else {
+            resetToAuthScreen();
+        }
+    }
+
+    function scheduleInitialSessionFallback() {
+        window.setTimeout(function() {
+            if (initialAuthResolved || !supabaseReady || !sb) return;
+
+            sb.auth.getSession()
+                .then(function(res) {
+                    var session = res && res.data ? res.data.session : null;
+                    return applyInitialSession(session);
+                })
+                .catch(function() {
+                    return applyInitialSession(null);
+                });
+        }, INITIAL_AUTH_FALLBACK_MS);
+    }
 
     function setupAuthListener() {
         if (!supabaseReady || !sb) return;
 
-        // Подписка на все изменения состояния аутентификации
-        var { data } = sb.auth.onAuthStateChange(async function(event, session) {
-            // Auth event handled silently (no console logging in production)
+        try {
+            // Подписка на все изменения состояния аутентификации
+            var subscriptionResult = sb.auth.onAuthStateChange(async function(event, session) {
+                // Auth event handled silently (no console logging in production)
+                try {
+                    switch (event) {
+                        // ——— Начальная загрузка: сессия восстановлена из localStorage (F5, новая вкладка) ———
+                        case 'INITIAL_SESSION':
+                            await applyInitialSession(session);
+                            break;
 
-            switch (event) {
-                // ——— Начальная загрузка: сессия восстановлена из localStorage (F5, новая вкладка) ———
-                case 'INITIAL_SESSION':
-                    if (session && session.user) {
-                        state.user = session.user;
-                        await onAuthSuccess();
-                    } else {
-                        // Нет сохранённой сессии — показываем логин
-                        resetToAuthScreen();
+                        // ——— Пользователь залогинился ———
+                        case 'SIGNED_IN':
+                            // Обрабатываем только если user ещё не установлен (чтобы не дублировать handleAuthSubmit)
+                            if (!state.user && session && session.user) {
+                                state.user = session.user;
+                                initialAuthResolved = true;
+                                await onAuthSuccess();
+                            } else if (session && session.user) {
+                                state.user = session.user;
+                            }
+                            break;
+
+                        // ——— Пользователь вышел / сессия была invalidated ———
+                        case 'SIGNED_OUT':
+                            initialAuthResolved = true;
+                            resetToAuthScreen();
+                            break;
+
+                        // ——— Access-токен успешно обновлён через refresh-токен ———
+                        case 'TOKEN_REFRESHED':
+                            if (session && session.user) {
+                                state.user = session.user; // обновляем объект user на случай изменений
+                            }
+                            break;
+
+                        // ——— Данные пользователя обновились (метаданные, email и т.д.) ———
+                        case 'USER_UPDATED':
+                            if (session && session.user) {
+                                state.user = session.user;
+                                // Обновляем имя на случай если пользователь сменил display_name
+                                var dn = session.user.user_metadata && session.user.user_metadata.display_name;
+                                if (dn) els.headerUserName.textContent = dn;
+                            }
+                            break;
+
+                        // ——— Пароль восстановлен через email-ссылку ———
+                        case 'PASSWORD_RECOVERY':
+                            // Можно показать форму смены пароля; пока просто логируем
+                            // Password recovery flow detected — could show password change form
+                            break;
                     }
-                    break;
-
-                // ——— Пользователь залогинился ———
-                case 'SIGNED_IN':
-                    // Обрабатываем только если user ещё не установлен (чтобы не дублировать handleAuthSubmit)
-                    if (!state.user && session && session.user) {
-                        state.user = session.user;
-                        await onAuthSuccess();
-                    }
-                    break;
-
-                // ——— Пользователь вышел / сессия была invalidated ———
-                case 'SIGNED_OUT':
+                } catch (e) {
                     resetToAuthScreen();
-                    break;
+                }
+            });
 
-                // ——— Access-токен успешно обновлён через refresh-токен ———
-                case 'TOKEN_REFRESHED':
-                    if (session && session.user) {
-                        state.user = session.user; // обновляем объект user на случай изменений
-                    }
-                    break;
-
-                // ——— Данные пользователя обновились (метаданные, email и т.д.) ———
-                case 'USER_UPDATED':
-                    if (session && session.user) {
-                        state.user = session.user;
-                        // Обновляем имя на случай если пользователь сменил display_name
-                        var dn = session.user.user_metadata && session.user.user_metadata.display_name;
-                        if (dn) els.headerUserName.textContent = dn;
-                    }
-                    break;
-
-                // ——— Пароль восстановлен через email-ссылку ———
-                case 'PASSWORD_RECOVERY':
-                    // Можно показать форму смены пароля; пока просто логируем
-                    // Password recovery flow detected — could show password change form
-                    break;
+            if (subscriptionResult && subscriptionResult.data && subscriptionResult.data.subscription) {
+                authSubscription = subscriptionResult.data.subscription;
             }
-        });
+        } catch (e) {
+            resetToAuthScreen();
+            return;
+        }
 
-        authSubscription = data.subscription;
+        scheduleInitialSessionFallback();
     }
 
     function resetToAuthScreen() {
         state.user = null;
         state.userProgress = {};
+        if (state.timerInterval) {
+            clearInterval(state.timerInterval);
+            state.timerInterval = null;
+        }
+        state.isModalOpen = false;
+        if (els.modal) {
+            els.modal.classList.remove('visible');
+        }
         showHeaderButtons(false);
         showScreen('auth');
         updateAuthLabels();
@@ -2070,6 +2117,7 @@
             authSubscription.unsubscribe();
             authSubscription = null;
         }
+        initialAuthResolved = false;
     }
 
     // ============================================
@@ -2489,11 +2537,19 @@
     // ============================================
     var LS_KEY = 'mnn_progress';
 
+    function isPlainObject(value) {
+        return !!value && typeof value === 'object' && !Array.isArray(value);
+    }
+
     function loadLocalProgress() {
+        state.userProgress = {};
         try {
             var data = localStorage.getItem(LS_KEY);
-            if (data) {
-                state.userProgress = JSON.parse(data);
+            if (!data) return;
+
+            var parsed = JSON.parse(data);
+            if (isPlainObject(parsed)) {
+                state.userProgress = parsed;
             }
         } catch(e) {
             state.userProgress = {};
@@ -2501,6 +2557,9 @@
     }
 
     function saveLocalProgress() {
+        if (!isPlainObject(state.userProgress)) {
+            state.userProgress = {};
+        }
         try {
             localStorage.setItem(LS_KEY, JSON.stringify(state.userProgress));
         } catch(e) {}
@@ -2649,6 +2708,11 @@
     }
 
     async function onAuthSuccess() {
+        if (!state.user || !state.user.id) {
+            resetToAuthScreen();
+            return;
+        }
+
         showHeaderButtons(true);
 
         var displayName = 'User';
@@ -2705,6 +2769,10 @@
     }
 
     async function saveAnswer(wordData, isCorrect) {
+        if (!isPlainObject(state.userProgress)) {
+            state.userProgress = {};
+        }
+
         if (!state.userProgress[wordData.id]) {
             state.userProgress[wordData.id] = { correct_count: 0, lesson_number: wordData.lesson };
         }
@@ -2743,6 +2811,9 @@
     }
 
     function getLessonProgress(lessonNum) {
+        if (!isPlainObject(state.userProgress)) {
+            state.userProgress = {};
+        }
         var lessonWords = getWordsByLesson(lessonNum);
         var total = lessonWords.length;
         var mastered = 0;
@@ -2820,11 +2891,12 @@
         state.isModalOpen = false;
         state.currentLessonFilter = lessonFilter;
 
-        var filteredData = wordsData;
-        if (lessonFilter !== null) {
-            filteredData = wordsData.filter(function(w) { return w.lesson === lessonFilter; });
-        }
+        var filteredData = lessonFilter === null ? wordsData : getWordsByLesson(lessonFilter);
         state.quizData = shuffleArray(filteredData.slice());
+        if (state.quizData.length === 0) {
+            initLessonSelection();
+            return;
+        }
 
         showScreen('quiz');
         renderQuestion(true);
@@ -3070,7 +3142,7 @@
 
     function showResults() {
         showScreen('results');
-        var percentage = Math.round((state.score / state.quizData.length) * 100);
+        var percentage = state.quizData.length > 0 ? Math.round((state.score / state.quizData.length) * 100) : 0;
         els.finalScore.innerText = percentage + '%';
 
         els.mistakesList.innerHTML = '';
@@ -3474,6 +3546,11 @@
         var hasSupabase = initSupabase();
 
         if (hasSupabase) {
+            // Показываем безопасный экран сразу, пока восстанавливается сессия.
+            showHeaderButtons(false);
+            showScreen('auth');
+            updateAuthLabels();
+
             // onAuthStateChange вызовет INITIAL_SESSION автоматически,
             // что восстановит сессию из localStorage при F5/перезагрузке
             // или покажет экран логина, если сессии нет.
