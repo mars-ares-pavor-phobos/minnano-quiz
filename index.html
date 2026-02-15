@@ -1915,7 +1915,7 @@
                 </div>
             </div>
             <div class="example-section">
-                <div class="example-label">Пример</div>
+                <div class="example-label" id="modal-example-label">Пример</div>
                 <div class="example-jp" id="modal-example-jp"></div>
                 <div class="example-translation" id="modal-example-trans"></div>
             </div>
@@ -1953,6 +1953,8 @@
         }
     })();
     const SUPABASE_STORAGE_KEY = 'mnq-auth-token-' + SUPABASE_PROJECT_REF;
+    const BACKEND_CAPS_CACHE_KEY = 'mnq-backend-caps-' + SUPABASE_PROJECT_REF;
+    const BACKEND_CAPS_CACHE_TTL_MS = 10 * 60 * 1000;
 
     // ============================================
     // SVG ICON HELPERS
@@ -2045,36 +2047,101 @@
     var backendCaps = {
         checked: false,
         hasWordProgressTable: false,
-        hasLeaderboardRpc: false
+        hasLeaderboardRpc: false,
+        hasUpsertProgressRpc: false
     };
+    var backendCapsRequest = null;
+
+    function applyBackendCapabilities(caps) {
+        backendCaps.hasWordProgressTable = !!caps.hasWordProgressTable;
+        backendCaps.hasLeaderboardRpc = !!caps.hasLeaderboardRpc;
+        backendCaps.hasUpsertProgressRpc = !!caps.hasUpsertProgressRpc;
+        backendCaps.checked = true;
+    }
+
+    function readCachedBackendCapabilities() {
+        try {
+            var raw = window.sessionStorage.getItem(BACKEND_CAPS_CACHE_KEY);
+            if (!raw) return null;
+
+            var parsed = JSON.parse(raw);
+            if (!parsed || typeof parsed !== 'object') return null;
+
+            var ts = Number(parsed.ts) || 0;
+            if (!ts || (Date.now() - ts) > BACKEND_CAPS_CACHE_TTL_MS) {
+                return null;
+            }
+
+            return parsed.value || null;
+        } catch (_e) {
+            return null;
+        }
+    }
+
+    function writeCachedBackendCapabilities() {
+        try {
+            window.sessionStorage.setItem(BACKEND_CAPS_CACHE_KEY, JSON.stringify({
+                ts: Date.now(),
+                value: {
+                    hasWordProgressTable: backendCaps.hasWordProgressTable,
+                    hasLeaderboardRpc: backendCaps.hasLeaderboardRpc,
+                    hasUpsertProgressRpc: backendCaps.hasUpsertProgressRpc
+                }
+            }));
+        } catch (_e) {}
+    }
 
     async function ensureBackendCapabilities() {
-        if (backendCaps.checked || !supabaseReady) {
+        if (!supabaseReady) {
             return backendCaps;
         }
 
-        backendCaps.checked = true;
-        try {
-            var res = await withTimeout(fetch(SUPABASE_URL + '/rest/v1/', {
-                method: 'GET',
-                headers: {
-                    apikey: SUPABASE_ANON_KEY,
-                    Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
-                    Accept: 'application/openapi+json'
-                }
-            }), 5000);
+        if (backendCaps.checked) {
+            return backendCaps;
+        }
 
-            if (!res.ok) {
-                return backendCaps;
+        if (backendCapsRequest) {
+            return backendCapsRequest;
+        }
+
+        var cachedCaps = readCachedBackendCapabilities();
+        if (cachedCaps) {
+            applyBackendCapabilities(cachedCaps);
+            return backendCaps;
+        }
+
+        backendCapsRequest = (async function() {
+            try {
+                var res = await withTimeout(fetch(SUPABASE_URL + '/rest/v1/', {
+                    method: 'GET',
+                    headers: {
+                        apikey: SUPABASE_ANON_KEY,
+                        Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
+                        Accept: 'application/openapi+json'
+                    }
+                }), 5000);
+
+                if (!res.ok) {
+                    return backendCaps;
+                }
+
+                var spec = await res.json();
+                var paths = spec && spec.paths ? spec.paths : {};
+                applyBackendCapabilities({
+                    hasWordProgressTable: !!paths['/word_progress'],
+                    hasLeaderboardRpc: !!paths['/rpc/get_leaderboard'],
+                    hasUpsertProgressRpc: !!paths['/rpc/upsert_word_progress']
+                });
+                writeCachedBackendCapabilities();
+            } catch (_e) {}
+            finally {
+                backendCapsRequest = null;
             }
 
-            var spec = await res.json();
-            var paths = spec && spec.paths ? spec.paths : {};
-            backendCaps.hasWordProgressTable = !!paths['/word_progress'];
-            backendCaps.hasLeaderboardRpc = !!paths['/rpc/get_leaderboard'];
-        } catch (_e) {}
+            return backendCaps;
+        })();
 
-        return backendCaps;
+        return backendCapsRequest;
     }
 
     async function applyInitialSession(session, finalizeIfMissing) {
@@ -2399,6 +2466,7 @@
             registerBtn: "Создать аккаунт",
             logout: "Выйти",
             errEmailRequired: "Введите email",
+            errEmailInvalid: "Введите корректный email",
             errPasswordRequired: "Введите пароль (мин. 6 символов)",
             errNameRequired: "Введите ваше имя",
             errInvalidCreds: "Неверный email или пароль",
@@ -2444,6 +2512,7 @@
             registerBtn: "Hisob yaratish",
             logout: "Chiqish",
             errEmailRequired: "Email kiriting",
+            errEmailInvalid: "To'g'ri email kiriting",
             errPasswordRequired: "Parol kiriting (kamida 6 belgi)",
             errNameRequired: "Ismingizni kiriting",
             errInvalidCreds: "Noto'g'ri email yoki parol",
@@ -2538,6 +2607,7 @@
         els.correctLabel = document.getElementById('correct-label');
         els.correctAnswerText = document.getElementById('correct-answer-text');
         els.modalExampleJp = document.getElementById('modal-example-jp');
+        els.modalExampleLabel = document.getElementById('modal-example-label');
         els.modalExampleTrans = document.getElementById('modal-example-trans');
         els.modalGrammarLabel = document.getElementById('modal-grammar-label');
         els.modalGrammarText = document.getElementById('modal-grammar-text');
@@ -2637,7 +2707,13 @@
     // ============================================
     // LOCAL STORAGE PROGRESS (offline fallback)
     // ============================================
-    var LS_KEY = 'mnn_progress';
+    var LS_KEY_PREFIX = 'mnn_progress_' + SUPABASE_PROJECT_REF;
+    var LEGACY_LS_KEY = 'mnn_progress';
+
+    function getLocalProgressStorageKey() {
+        var userPart = state.user && state.user.id ? state.user.id : 'guest';
+        return LS_KEY_PREFIX + ':' + userPart;
+    }
 
     function isPlainObject(value) {
         return !!value && typeof value === 'object' && !Array.isArray(value);
@@ -2646,7 +2722,14 @@
     function loadLocalProgress() {
         state.userProgress = {};
         try {
-            var data = localStorage.getItem(LS_KEY);
+            var storageKey = getLocalProgressStorageKey();
+            var data = localStorage.getItem(storageKey);
+            if (!data && storageKey.indexOf(':guest') !== -1) {
+                data = localStorage.getItem(LEGACY_LS_KEY);
+                if (data) {
+                    localStorage.setItem(storageKey, data);
+                }
+            }
             if (!data) return;
 
             var parsed = JSON.parse(data);
@@ -2663,7 +2746,7 @@
             state.userProgress = {};
         }
         try {
-            localStorage.setItem(LS_KEY, JSON.stringify(state.userProgress));
+            localStorage.setItem(getLocalProgressStorageKey(), JSON.stringify(state.userProgress));
         } catch(e) {}
     }
 
@@ -2732,6 +2815,10 @@
     var AUTH_LOCK_MS = 30000; // 30 seconds cooldown
     var SIGNUP_RATE_LIMIT_MS = 60000;
 
+    function isValidEmailAddress(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
     async function handleAuthSubmit() {
         if (!supabaseReady || _authRequestInFlight) return;
 
@@ -2761,6 +2848,11 @@
         if (!email) {
             els.authEmail.classList.add('error');
             els.authError.textContent = txt.errEmailRequired;
+            return;
+        }
+        if (!isValidEmailAddress(email)) {
+            els.authEmail.classList.add('error');
+            els.authError.textContent = txt.errEmailInvalid;
             return;
         }
         if (!password || password.length < 6) {
@@ -2960,7 +3052,7 @@
                 });
             }
         } catch (e) {
-            // Silently fail — progress will use local fallback
+            loadLocalProgress();
         }
     }
 
@@ -2979,7 +3071,14 @@
         if (supabaseReady && state.user) {
             try {
                 var caps = await ensureBackendCapabilities();
-                if (caps.hasWordProgressTable) {
+                if (caps.hasUpsertProgressRpc) {
+                    await sb.rpc('upsert_word_progress', {
+                        p_user_id: state.user.id,
+                        p_word_id: wordData.id,
+                        p_lesson_number: wordData.lesson,
+                        p_is_correct: !!isCorrect
+                    });
+                } else if (caps.hasWordProgressTable) {
                     await sb.from('word_progress').upsert({
                         user_id: state.user.id,
                         word_id: wordData.id,
@@ -3101,6 +3200,7 @@
     }
 
     function setLanguage(lang) {
+        if (!uiTexts[lang]) return;
         state.lang = lang;
         els.langBtns.forEach(function(btn) {
             btn.classList.toggle('active', btn.dataset.lang === lang);
@@ -3129,6 +3229,7 @@
 
     function updateUILabels() {
         var txt = uiTexts[state.lang];
+        setTitleWithMark(txt.title);
         els.selectLessonTitle.innerText = txt.selectLesson;
         els.labelQ.innerText = txt.question;
         els.labelScore.innerText = txt.score;
@@ -3139,10 +3240,38 @@
         els.leaderboardBackBtn.innerText = txt.back;
         els.dictionaryBackBtn.innerText = txt.back;
         els.quizBackBtn.innerText = txt.back;
+        setLabelWithIcon(els.mistakesTitle, txt.mistakesTitle);
+        setLabelWithIcon(els.leaderboardTitle, txt.leaderboardTitle);
+        setLabelWithIcon(els.dictionaryTitle, txt.dictionary);
+        setLabelWithIcon(els.modalGrammarLabel, txt.grammarLabel);
+        if (els.modalExampleLabel) {
+            els.modalExampleLabel.innerText = txt.examples;
+        }
 
         if (!els.modalNextBtn.disabled) {
             els.btnText.innerText = txt.nextBtn;
         }
+    }
+
+    function setTitleWithMark(titleText) {
+        var mark = els.title ? els.title.querySelector('.title-mark') : null;
+        if (!mark || !els.title) {
+            if (els.title) {
+                els.title.textContent = titleText;
+            }
+            return;
+        }
+        els.title.innerHTML = mark.outerHTML + ' ' + escapeHtml(titleText);
+    }
+
+    function setLabelWithIcon(element, labelText) {
+        if (!element) return;
+        var icon = element.querySelector('.icon');
+        if (!icon) {
+            element.textContent = labelText;
+            return;
+        }
+        element.innerHTML = icon.outerHTML + ' ' + escapeHtml(labelText);
     }
 
     function shuffleArray(array) {
@@ -3187,7 +3316,7 @@
         els.currentScoreDisplay.classList.remove('bump');
         void els.currentScoreDisplay.offsetWidth;
         els.lessonIndicator.innerText = txt.lessonPrefix + ' ' + currentWord.lesson;
-        els.wordDisplay.innerHTML = currentWord.japanese;
+        els.wordDisplay.innerHTML = sanitizeRubyHtml(currentWord.japanese);
         
         // Re-trigger word reveal animation
         els.wordDisplay.style.animation = 'none';
@@ -3279,7 +3408,7 @@
         var ex = wordData.exampleSentences ? wordData.exampleSentences[state.lang] : null;
         els.correctAnswerText.innerText = wordData.translations[state.lang] || '';
         if (ex) {
-            els.modalExampleJp.innerHTML = ex.jp || '';
+            els.modalExampleJp.innerHTML = sanitizeRubyHtml(ex.jp || '');
             els.modalExampleTrans.innerText = ex.translation || '';
             els.modalGrammarText.innerText = ex.grammarInfo || '';
         } else {
@@ -3351,7 +3480,7 @@
                 var item = document.createElement('div');
                 item.className = 'mistake-item';
                 item.innerHTML =
-                    '<div class="mistake-word">' + word.japanese + '</div>' +
+                    '<div class="mistake-word">' + sanitizeRubyHtml(word.japanese) + '</div>' +
                     '<div class="mistake-answer">' + escapeHtml(word.translations[state.lang]) + '</div>';
                 els.mistakesList.appendChild(item);
             });
@@ -3399,62 +3528,9 @@
         }];
     }
 
-    async function buildLeaderboardFromWordProgress(totalWords) {
-        var progressRes = await sb.from('word_progress').select('user_id, correct_count');
-        if (progressRes.error) throw progressRes.error;
-
-        var byUser = {};
-        (progressRes.data || []).forEach(function(row) {
-            if (!row || !row.user_id) return;
-            if (!byUser[row.user_id]) {
-                byUser[row.user_id] = 0;
-            }
-            if (Number(row.correct_count) >= MASTERY_THRESHOLD) {
-                byUser[row.user_id]++;
-            }
-        });
-
-        var userIds = Object.keys(byUser);
-        if (userIds.length === 0) {
-            return [];
-        }
-
-        var namesById = {};
-        try {
-            var profilesRes = await sb.from('profiles').select('*').in('id', userIds);
-            if (!profilesRes.error && profilesRes.data) {
-                profilesRes.data.forEach(function(profile) {
-                    namesById[profile.id] = profile.display_name || profile.full_name || profile.name || null;
-                });
-            }
-        } catch (_e) {}
-
-        var rows = userIds.map(function(userId) {
-            var mastered = byUser[userId] || 0;
-            var percent = totalWords > 0 ? Math.round((mastered / totalWords) * 100) : 0;
-            var name = namesById[userId];
-            if (!name) {
-                name = (state.user && state.user.id === userId) ? getCurrentDisplayName() : ('User ' + userId.slice(0, 8));
-            }
-            return {
-                user_id: userId,
-                display_name: name,
-                mastery_percentage: percent
-            };
-        });
-
-        rows.sort(function(a, b) {
-            var diff = (Number(b.mastery_percentage) || 0) - (Number(a.mastery_percentage) || 0);
-            if (diff !== 0) return diff;
-            return String(a.display_name || '').localeCompare(String(b.display_name || ''));
-        });
-
-        return rows;
-    }
-
     function renderLeaderboardRows(rows, emptyText) {
         if (!rows || rows.length === 0) {
-            els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + emptyText + '</div>';
+            els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + escapeHtml(emptyText) + '</div>';
             return;
         }
 
@@ -3491,7 +3567,7 @@
         var txt = uiTexts[state.lang];
 
         if (!supabaseReady) {
-            els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + txt.leaderboardOffline + '</div>';
+            els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + escapeHtml(txt.leaderboardOffline) + '</div>';
             return;
         }
 
@@ -3506,17 +3582,12 @@
                 try {
                     var res = await sb.rpc('get_leaderboard', {
                         mastery_threshold: MASTERY_THRESHOLD,
-                        total_words: totalWords
+                        total_words: totalWords,
+                        limit_rows: 100
                     });
                     if (!res.error && Array.isArray(res.data)) {
                         rows = res.data;
                     }
-                } catch (_e) {}
-            }
-
-            if ((!rows || rows.length === 0) && caps.hasWordProgressTable) {
-                try {
-                    rows = await buildLeaderboardFromWordProgress(totalWords);
                 } catch (_e) {}
             }
 
@@ -3534,6 +3605,40 @@
     function escapeHtml(str) {
         _escapeDiv.textContent = str || '';
         return _escapeDiv.innerHTML;
+    }
+
+    var RUBY_ALLOWED_TAGS = { RUBY: true, RT: true, RP: true, BR: true };
+    function sanitizeRubyHtml(rawHtml) {
+        if (!rawHtml) return '';
+        var template = document.createElement('template');
+        template.innerHTML = String(rawHtml);
+        sanitizeRubyNode(template.content);
+        return template.innerHTML;
+    }
+
+    function sanitizeRubyNode(parentNode) {
+        var nodes = [];
+        for (var i = 0; i < parentNode.childNodes.length; i++) {
+            nodes.push(parentNode.childNodes[i]);
+        }
+
+        nodes.forEach(function(node) {
+            if (node.nodeType === 3) return;
+            if (node.nodeType !== 1) {
+                parentNode.removeChild(node);
+                return;
+            }
+
+            if (!RUBY_ALLOWED_TAGS[node.tagName]) {
+                parentNode.replaceChild(document.createTextNode(node.textContent || ''), node);
+                return;
+            }
+
+            while (node.attributes.length > 0) {
+                node.removeAttribute(node.attributes[0].name);
+            }
+            sanitizeRubyNode(node);
+        });
     }
 
     // ============================================
@@ -3742,7 +3847,7 @@
             card.className = 'dict-word-card';
             card.innerHTML =
                 '<div>' +
-                    '<div class="dict-word-jp">' + word.japanese + '</div>' +
+                    '<div class="dict-word-jp">' + sanitizeRubyHtml(word.japanese) + '</div>' +
                     '<div class="dict-word-trans">' + escapeHtml(word.translations[state.lang]) + '</div>' +
                 '</div>' +
                 '<span class="dict-word-arrow">' + ICONS.chevronRight + '</span>';
@@ -3769,7 +3874,7 @@
         var header = document.createElement('div');
         header.className = 'dict-detail-header';
         header.innerHTML =
-            '<div class="dict-detail-jp">' + word.japanese + '</div>' +
+            '<div class="dict-detail-jp">' + sanitizeRubyHtml(word.japanese) + '</div>' +
             '<div class="dict-detail-trans">' + escapeHtml(word.translations[state.lang]) + '</div>';
         container.appendChild(header);
 
@@ -3784,8 +3889,8 @@
                 var item = document.createElement('div');
                 item.className = 'dict-example-item';
                 item.innerHTML =
-                    '<div class="dict-example-jp">' + ex.jp + '</div>' +
-                    '<div class="dict-example-trans">' + ex.translation + '</div>';
+                    '<div class="dict-example-jp">' + sanitizeRubyHtml(ex.jp) + '</div>' +
+                    '<div class="dict-example-trans">' + escapeHtml(ex.translation) + '</div>';
                 container.appendChild(item);
             });
         }
@@ -3814,7 +3919,7 @@
 
         // Event listeners
         els.langBtns.forEach(function(btn) {
-            btn.addEventListener('click', function(e) { setLanguage(e.target.dataset.lang); });
+            btn.addEventListener('click', function() { setLanguage(btn.dataset.lang); });
         });
         els.modalNextBtn.addEventListener('click', nextQuestion);
         els.restartBtn.addEventListener('click', function() { initLessonSelection(); });
