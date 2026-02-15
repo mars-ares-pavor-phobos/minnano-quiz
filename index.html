@@ -1944,6 +1944,15 @@
     const SUPABASE_URL = 'https://roqighfozecwwkqdoofe.supabase.co';
     const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJvcWlnaGZvemVjd3drcWRvb2ZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzExNTU1NzgsImV4cCI6MjA4NjczMTU3OH0.ii7MpFQRSohw2Ja_oGVKKA6-bLrEB5j1hkfV052NN24';
     const MASTERY_THRESHOLD = 1;
+    const LEGACY_SUPABASE_STORAGE_KEY = 'mnq-auth-token';
+    const SUPABASE_PROJECT_REF = (function() {
+        try {
+            return (new URL(SUPABASE_URL)).hostname.split('.')[0] || 'project';
+        } catch (e) {
+            return 'project';
+        }
+    })();
+    const SUPABASE_STORAGE_KEY = 'mnq-auth-token-' + SUPABASE_PROJECT_REF;
 
     // ============================================
     // SVG ICON HELPERS
@@ -1974,20 +1983,21 @@
                 !SUPABASE_ANON_KEY || SUPABASE_ANON_KEY === 'YOUR_SUPABASE_ANON_KEY') {
                 return false;
             }
-            // Если токен в localStorage повреждён, восстановление сессии может сломаться после refresh.
             try {
-                var rawSession = window.localStorage.getItem('mnq-auth-token');
-                if (rawSession) JSON.parse(rawSession);
-            } catch (e) {
-                try { window.localStorage.removeItem('mnq-auth-token'); } catch(_e) {}
-            }
+                var currentToken = window.localStorage.getItem(SUPABASE_STORAGE_KEY);
+                var legacyToken = window.localStorage.getItem(LEGACY_SUPABASE_STORAGE_KEY);
+                if (!currentToken && legacyToken) {
+                    window.localStorage.setItem(SUPABASE_STORAGE_KEY, legacyToken);
+                    window.localStorage.removeItem(LEGACY_SUPABASE_STORAGE_KEY);
+                }
+            } catch (_e) {}
             sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
                 auth: {
-                    persistSession: true,        // сессия сохраняется в localStorage автоматически
-                    autoRefreshToken: true,       // refresh-токен обновляется до истечения срока
-                    detectSessionInUrl: true,     // подхватывает OAuth-callback параметры из URL
-                    storageKey: 'mnq-auth-token', // уникальный ключ, чтобы не конфликтовать с другими приложениями
-                    storage: window.localStorage  // явное указание хранилища
+                    persistSession: true,
+                    autoRefreshToken: true,
+                    detectSessionInUrl: false,
+                    storageKey: SUPABASE_STORAGE_KEY,
+                    storage: window.localStorage
                 }
             });
             supabaseReady = true;
@@ -2032,6 +2042,41 @@
         });
     }
 
+    var backendCaps = {
+        checked: false,
+        hasWordProgressTable: false,
+        hasLeaderboardRpc: false
+    };
+
+    async function ensureBackendCapabilities() {
+        if (backendCaps.checked || !supabaseReady) {
+            return backendCaps;
+        }
+
+        backendCaps.checked = true;
+        try {
+            var res = await withTimeout(fetch(SUPABASE_URL + '/rest/v1/', {
+                method: 'GET',
+                headers: {
+                    apikey: SUPABASE_ANON_KEY,
+                    Authorization: 'Bearer ' + SUPABASE_ANON_KEY,
+                    Accept: 'application/openapi+json'
+                }
+            }), 5000);
+
+            if (!res.ok) {
+                return backendCaps;
+            }
+
+            var spec = await res.json();
+            var paths = spec && spec.paths ? spec.paths : {};
+            backendCaps.hasWordProgressTable = !!paths['/word_progress'];
+            backendCaps.hasLeaderboardRpc = !!paths['/rpc/get_leaderboard'];
+        } catch (_e) {}
+
+        return backendCaps;
+    }
+
     async function applyInitialSession(session, finalizeIfMissing) {
         if (session && session.user) {
             if (initialAuthResolved && state.user && state.user.id === session.user.id) {
@@ -2043,8 +2088,8 @@
             return;
         }
 
-        resetToAuthScreen();
         if (finalizeIfMissing) {
+            resetToAuthScreen();
             initialAuthResolved = true;
         }
     }
@@ -2094,6 +2139,7 @@
                         // ——— Пользователь вышел / сессия была invalidated ———
                         case 'SIGNED_OUT':
                             initialAuthResolved = true;
+                            try { window.localStorage.removeItem(SUPABASE_STORAGE_KEY); } catch (_e) {}
                             resetToAuthScreen();
                             break;
 
@@ -2108,9 +2154,12 @@
                         case 'USER_UPDATED':
                             if (session && session.user) {
                                 state.user = session.user;
-                                // Обновляем имя на случай если пользователь сменил display_name
-                                var dn = session.user.user_metadata && session.user.user_metadata.display_name;
-                                if (dn) els.headerUserName.textContent = dn;
+                                var md = session.user.user_metadata || {};
+                                var dn = md.display_name || md.full_name || md.name;
+                                if (dn) {
+                                    state.displayName = dn;
+                                    els.headerUserName.textContent = dn;
+                                }
                             }
                             break;
 
@@ -2121,7 +2170,9 @@
                             break;
                     }
                 } catch (e) {
-                    resetToAuthScreen();
+                    if (event === 'SIGNED_OUT' || !(session && session.user)) {
+                        resetToAuthScreen();
+                    }
                 }
             });
 
@@ -2138,6 +2189,7 @@
 
     function resetToAuthScreen() {
         state.user = null;
+        state.displayName = 'User';
         state.userProgress = {};
         if (state.timerInterval) {
             clearInterval(state.timerInterval);
@@ -2426,6 +2478,7 @@
         isModalOpen: false,
         timerInterval: null,
         user: null,
+        displayName: 'User',
         userProgress: {},
         authMode: 'login',
         soundEnabled: true,
@@ -2735,14 +2788,14 @@
                     AUTH_REQUEST_TIMEOUT_MS
                 );
             } else {
-                result = await withTimeout(
-                    sb.auth.signUp({
-                        email: email,
-                        password: password,
-                        options: { data: { display_name: name } }
-                    }),
-                    AUTH_REQUEST_TIMEOUT_MS
-                );
+                    result = await withTimeout(
+                        sb.auth.signUp({
+                            email: email,
+                            password: password,
+                            options: { data: { display_name: name, full_name: name, name: name } }
+                        }),
+                        AUTH_REQUEST_TIMEOUT_MS
+                    );
             }
 
             if (result.error) {
@@ -2833,18 +2886,25 @@
         try {
             showHeaderButtons(true);
 
-            var displayName = 'User';
+            var displayName = state.displayName || 'User';
+            if (state.user.user_metadata) {
+                displayName =
+                    state.user.user_metadata.display_name ||
+                    state.user.user_metadata.full_name ||
+                    state.user.user_metadata.name ||
+                    displayName;
+            }
             try {
                 var res = await withTimeout(
-                    sb.from('profiles').select('display_name').eq('id', state.user.id).single(),
+                    sb.from('profiles').select('*').eq('id', state.user.id).maybeSingle(),
                     POST_LOGIN_TIMEOUT_MS
                 );
-                if (res.data && res.data.display_name) displayName = res.data.display_name;
-                else if (state.user.user_metadata && state.user.user_metadata.display_name) displayName = state.user.user_metadata.display_name;
-            } catch(e) {
-                if (state.user.user_metadata && state.user.user_metadata.display_name) displayName = state.user.user_metadata.display_name;
-            }
-            els.headerUserName.textContent = displayName;
+                if (res.data) {
+                    displayName = res.data.display_name || res.data.full_name || res.data.name || displayName;
+                }
+            } catch(_e) {}
+            state.displayName = displayName || 'User';
+            els.headerUserName.textContent = state.displayName;
 
             try {
                 await withTimeout(loadSupabaseProgress(), POST_LOGIN_TIMEOUT_MS);
@@ -2861,6 +2921,7 @@
             try { await sb.auth.signOut(); } catch(e) {}
         }
         state.user = null;
+        state.displayName = 'User';
         state.userProgress = {};
         showHeaderButtons(false);
         if (supabaseReady) {
@@ -2877,9 +2938,17 @@
     async function loadSupabaseProgress() {
         if (!supabaseReady || !state.user) return;
         try {
+            var caps = await ensureBackendCapabilities();
+            if (!caps.hasWordProgressTable) {
+                loadLocalProgress();
+                return;
+            }
+
             var res = await sb.from('word_progress')
                 .select('word_id, correct_count, lesson_number')
                 .eq('user_id', state.user.id);
+
+            if (res.error) throw res.error;
 
             state.userProgress = {};
             if (res.data) {
@@ -2909,15 +2978,16 @@
 
         if (supabaseReady && state.user) {
             try {
-                await sb.rpc('upsert_word_progress', {
-                    p_user_id: state.user.id,
-                    p_word_id: wordData.id,
-                    p_lesson_number: wordData.lesson,
-                    p_is_correct: isCorrect
-                });
-            } catch (e) {
-                // Save failed silently — local progress already updated
-            }
+                var caps = await ensureBackendCapabilities();
+                if (caps.hasWordProgressTable) {
+                    await sb.from('word_progress').upsert({
+                        user_id: state.user.id,
+                        word_id: wordData.id,
+                        lesson_number: wordData.lesson,
+                        correct_count: state.userProgress[wordData.id].correct_count
+                    }, { onConflict: 'user_id,word_id' });
+                }
+            } catch (_e) {}
         }
 
         saveLocalProgress();
@@ -3291,6 +3361,129 @@
     // ============================================
     // LEADERBOARD
     // ============================================
+    function getCurrentDisplayName() {
+        if (state.displayName && String(state.displayName).trim()) {
+            return String(state.displayName).trim();
+        }
+        if (state.user && state.user.user_metadata) {
+            return (
+                state.user.user_metadata.display_name ||
+                state.user.user_metadata.full_name ||
+                state.user.user_metadata.name ||
+                (state.user.email ? state.user.email.split('@')[0] : 'User')
+            );
+        }
+        return state.user && state.user.email ? state.user.email.split('@')[0] : 'User';
+    }
+
+    function getLocalMasteryPercent() {
+        var total = wordsData.length;
+        if (total === 0) return 0;
+
+        var mastered = 0;
+        wordsData.forEach(function(word) {
+            var p = state.userProgress[word.id];
+            if (p && Number(p.correct_count) >= MASTERY_THRESHOLD) {
+                mastered++;
+            }
+        });
+        return Math.round((mastered / total) * 100);
+    }
+
+    function buildLocalLeaderboardRows() {
+        if (!state.user) return [];
+        return [{
+            user_id: state.user.id,
+            display_name: getCurrentDisplayName(),
+            mastery_percentage: getLocalMasteryPercent()
+        }];
+    }
+
+    async function buildLeaderboardFromWordProgress(totalWords) {
+        var progressRes = await sb.from('word_progress').select('user_id, correct_count');
+        if (progressRes.error) throw progressRes.error;
+
+        var byUser = {};
+        (progressRes.data || []).forEach(function(row) {
+            if (!row || !row.user_id) return;
+            if (!byUser[row.user_id]) {
+                byUser[row.user_id] = 0;
+            }
+            if (Number(row.correct_count) >= MASTERY_THRESHOLD) {
+                byUser[row.user_id]++;
+            }
+        });
+
+        var userIds = Object.keys(byUser);
+        if (userIds.length === 0) {
+            return [];
+        }
+
+        var namesById = {};
+        try {
+            var profilesRes = await sb.from('profiles').select('*').in('id', userIds);
+            if (!profilesRes.error && profilesRes.data) {
+                profilesRes.data.forEach(function(profile) {
+                    namesById[profile.id] = profile.display_name || profile.full_name || profile.name || null;
+                });
+            }
+        } catch (_e) {}
+
+        var rows = userIds.map(function(userId) {
+            var mastered = byUser[userId] || 0;
+            var percent = totalWords > 0 ? Math.round((mastered / totalWords) * 100) : 0;
+            var name = namesById[userId];
+            if (!name) {
+                name = (state.user && state.user.id === userId) ? getCurrentDisplayName() : ('User ' + userId.slice(0, 8));
+            }
+            return {
+                user_id: userId,
+                display_name: name,
+                mastery_percentage: percent
+            };
+        });
+
+        rows.sort(function(a, b) {
+            var diff = (Number(b.mastery_percentage) || 0) - (Number(a.mastery_percentage) || 0);
+            if (diff !== 0) return diff;
+            return String(a.display_name || '').localeCompare(String(b.display_name || ''));
+        });
+
+        return rows;
+    }
+
+    function renderLeaderboardRows(rows, emptyText) {
+        if (!rows || rows.length === 0) {
+            els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + emptyText + '</div>';
+            return;
+        }
+
+        els.leaderboardList.innerHTML = '';
+        rows.forEach(function(row, idx) {
+            var rank = idx + 1;
+            var rankClass = rank === 1 ? ' gold' : rank === 2 ? ' silver' : rank === 3 ? ' bronze' : '';
+            var isCurrentUser = state.user && row.user_id === state.user.id;
+            var percent = Math.min(100, Math.max(0, Number(row.mastery_percentage) || 0));
+            var colorClass = getProgressColor(percent);
+            var name = row.display_name || row.full_name || row.name || 'User';
+
+            var div = document.createElement('div');
+            div.className = 'leaderboard-row' + (isCurrentUser ? ' current-user' : '');
+            div.innerHTML =
+                '<div class="leaderboard-rank' + rankClass + '">' + rank + '</div>' +
+                '<div class="leaderboard-info">' +
+                    '<div class="leaderboard-name">' + escapeHtml(name) + '</div>' +
+                    '<div class="leaderboard-stats">' +
+                        '<div class="leaderboard-bar-track">' +
+                            '<div class="leaderboard-bar-fill ' + colorClass + '" style="width:' + percent + '%"></div>' +
+                        '</div>' +
+                        '<span class="leaderboard-percent">' + percent + '%</span>' +
+                    '</div>' +
+                '</div>';
+            els.leaderboardList.appendChild(div);
+        });
+    }
+
     async function showLeaderboard() {
         showScreen('leaderboard');
         updateUILabels();
@@ -3305,44 +3498,35 @@
         els.leaderboardList.innerHTML = '<div class="leaderboard-empty" style="opacity:0.5;">...</div>';
 
         try {
+            var caps = await ensureBackendCapabilities();
             var totalWords = wordsData.length;
-            var res = await sb.rpc('get_leaderboard', {
-                mastery_threshold: MASTERY_THRESHOLD,
-                total_words: totalWords
-            });
+            var rows = [];
 
-            if (res.error) throw res.error;
-
-            if (!res.data || res.data.length === 0) {
-                els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + txt.leaderboardEmpty + '</div>';
-                return;
+            if (caps.hasLeaderboardRpc) {
+                try {
+                    var res = await sb.rpc('get_leaderboard', {
+                        mastery_threshold: MASTERY_THRESHOLD,
+                        total_words: totalWords
+                    });
+                    if (!res.error && Array.isArray(res.data)) {
+                        rows = res.data;
+                    }
+                } catch (_e) {}
             }
 
-            els.leaderboardList.innerHTML = '';
-            res.data.forEach(function(row, idx) {
-                var rank = idx + 1;
-                var rankClass = rank === 1 ? ' gold' : rank === 2 ? ' silver' : rank === 3 ? ' bronze' : '';
-                var isCurrentUser = state.user && row.user_id === state.user.id;
-                var percent = Number(row.mastery_percentage) || 0;
-                var colorClass = getProgressColor(percent);
+            if ((!rows || rows.length === 0) && caps.hasWordProgressTable) {
+                try {
+                    rows = await buildLeaderboardFromWordProgress(totalWords);
+                } catch (_e) {}
+            }
 
-                var div = document.createElement('div');
-                div.className = 'leaderboard-row' + (isCurrentUser ? ' current-user' : '');
-                div.innerHTML =
-                    '<div class="leaderboard-rank' + rankClass + '">' + rank + '</div>' +
-                    '<div class="leaderboard-info">' +
-                        '<div class="leaderboard-name">' + escapeHtml(row.display_name) + '</div>' +
-                        '<div class="leaderboard-stats">' +
-                            '<div class="leaderboard-bar-track">' +
-                                '<div class="leaderboard-bar-fill ' + colorClass + '" style="width:' + percent + '%"></div>' +
-                            '</div>' +
-                            '<span class="leaderboard-percent">' + percent + '%</span>' +
-                        '</div>' +
-                    '</div>';
-                els.leaderboardList.appendChild(div);
-            });
-        } catch (e) {
-            els.leaderboardList.innerHTML = '<div class="leaderboard-empty">' + txt.leaderboardEmpty + '</div>';
+            if (!rows || rows.length === 0) {
+                rows = buildLocalLeaderboardRows();
+            }
+
+            renderLeaderboardRows(rows, txt.leaderboardEmpty);
+        } catch (_e) {
+            renderLeaderboardRows(buildLocalLeaderboardRows(), txt.leaderboardEmpty);
         }
     }
 
@@ -3681,6 +3865,7 @@
             // onAuthStateChange вызовет INITIAL_SESSION автоматически,
             // что восстановит сессию из localStorage при F5/перезагрузке
             // или покажет экран логина, если сессии нет.
+            ensureBackendCapabilities();
             setupAuthListener();
         } else {
             showHeaderButtons(false);
