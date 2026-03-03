@@ -14854,6 +14854,7524 @@
         ],
       },
     },
+    {
+      id: 191,
+      lesson: 5,
+      japanese: "<ruby>行<rt>い</rt></ruby>きます",
+      cleanWord: "行きます",
+      translations: { ru: "идти, ехать", uz: "bormoq, ketmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>一人<rt>ひとり</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "В следующем году я поеду в Японию один.",
+          grammarInfo:
+            "1. 来年（らいねん）— «в следующем году». Слова времени стоят в начале предложения.\n\n2. 一人で（ひとりで）— «один, в одиночку». Наречие, описывающее способ действия.\n\n3. 日本へ — частица へ（え）указывает направление движения: «в Японию».\n\n4. 行きます — глагол «идти/ехать» в вежливой форме настоящего-будущего времени.\n\n💡 Частица へ читается как «э», а не «хэ», когда указывает направление!",
+        },
+        uz: {
+          jp: "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>一人<rt>ひとり</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Keyingi yil Yaponiyaga yolg'iz o'zim boraman.",
+          grammarInfo:
+            "1. 来年（らいねん）— «keyingi yil». Vaqt so'zlari gap boshida keladi.\n\n2. 一人で（ひとりで）— «yolg'iz, bir o'zi». Ravish sifatida ishlatiladi.\n\n3. 日本へ — へ（え）yuklatmasi yo'nalishni bildiradi: «Yaponiyaga».\n\n4. 行きます — «bormoq» fe'lining hozirgi-kelasi zamon shakli.\n\n💡 へ yuklatmasi yo'nalish bildirganida «э» deb o'qiladi, «хэ» emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>と <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Поеду в Киото с другом.",
+          },
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>で ハワイへ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "Летал на Гавайи на самолёте.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby>、どこへも <ruby>行<rt>い</rt></ruby>きません。",
+            translation: "На следующей неделе никуда не поеду.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>と <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Do'stim bilan Kiotoga boraman.",
+          },
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>で ハワイへ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "Samolyotda Gavayiga bordim.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby>、どこへも <ruby>行<rt>い</rt></ruby>きません。",
+            translation: "Keyingi hafta hech qayerga bormayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 192,
+      lesson: 5,
+      japanese: "<ruby>来<rt>き</rt></ruby>ます",
+      cleanWord: "来ます",
+      translations: { ru: "приходить, приезжать", uz: "kelmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>去年<rt>きょねん</rt></ruby> ウズベキスタンから <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>き</rt></ruby>ました。",
+          translation: "Она приехала в Японию из Узбекистана в прошлом году.",
+          grammarInfo:
+            "1. 彼女は — «она» + тематическая частица は.\n\n2. 去年（きょねん）— «в прошлом году».\n\n3. ウズベキスタンから — частица から указывает отправную точку: «из Узбекистана».\n\n4. 日本へ — частица へ указывает направление: «в Японию».\n\n5. 来ました — глагол «приходить» в прошедшем времени (ます → ました).\n\n⚠️ 来ます — неправильный глагол (III группа). Его основа き, а не こ!",
+        },
+        uz: {
+          jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>去年<rt>きょねん</rt></ruby> ウズベキスタンから <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>き</rt></ruby>ました。",
+          translation: "U o'tgan yili O'zbekistondan Yaponiyaga keldi.",
+          grammarInfo:
+            "1. 彼女は — «u (ayol)» + mavzu yuklatmasi は.\n\n2. 去年（きょねん）— «o'tgan yil».\n\n3. ウズベキスタンから — から yuklatmasi boshlang'ich nuqtani bildiradi: «O'zbekistondan».\n\n4. 日本へ — へ yuklatmasi yo'nalishni bildiradi: «Yaponiyaga».\n\n5. 来ました — «kelmoq» fe'lining o'tgan zamon shakli (ます → ました).\n\n⚠️ 来ます — noto'g'ri fe'l (III guruh). Ildizi き, こ emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>から <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "В прошлом месяце из Японии приехал друг.",
+          },
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>は まだ <ruby>来<rt>き</rt></ruby>ません。",
+            translation: "Учитель ещё не пришёл.",
+          },
+          {
+            jp: "タクシーが <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Такси приехало.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>日本<rt>にほん</rt></ruby>から <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "O'tgan oy Yaponiyadan do'stim keldi.",
+          },
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>は まだ <ruby>来<rt>き</rt></ruby>ません。",
+            translation: "Sensei hali kelmadi.",
+          },
+          {
+            jp: "タクシーが <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Taksi keldi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 193,
+      lesson: 5,
+      japanese: "<ruby>帰<rt>かえ</rt></ruby>ります",
+      cleanWord: "帰ります",
+      translations: { ru: "возвращаться", uz: "qaytmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>今日<rt>きょう</rt></ruby>は <ruby>一人<rt>ひとり</rt></ruby>で <ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>ります。",
+          translation: "Сегодня я вернусь домой пешком один.",
+          grammarInfo:
+            "1. 今日は — «сегодня» + тематическая частица は.\n\n2. 一人で — «один, в одиночку».\n\n3. 歩いて — «пешком» (наречие, описывает способ передвижения).\n\n4. 帰ります — «возвращаться (домой)» в вежливой форме.\n\n💡 帰ります всегда подразумевает «домой» или «к себе». Не нужно добавлять うちへ!",
+        },
+        uz: {
+          jp: "<ruby>今日<rt>きょう</rt></ruby>は <ruby>一人<rt>ひとり</rt></ruby>で <ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>ります。",
+          translation: "Bugun yolg'iz o'zim piyoda qaytaman.",
+          grammarInfo:
+            "1. 今日は — «bugun» + mavzu yuklatmasi は.\n\n2. 一人で — «yolg'iz, bir o'zi».\n\n3. 歩いて — «piyoda» (harakat usulini bildiradi).\n\n4. 帰ります — «qaytmoq (uyga)» fe'lining hozirgi-kelasi zamon shakli.\n\n💡 帰ります har doim «uyga qaytmoq» ma'nosini bildiradi. うちへ qo'shish shart emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby>、くにへ <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "На прошлой неделе вернулся на родину.",
+          },
+          {
+            jp: "<ruby>何時<rt>なんじ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りますか。",
+            translation: "Во сколько вернётесь?",
+          },
+          {
+            jp: "<ruby>昨日<rt>きのう</rt></ruby> <ruby>帰<rt>かえ</rt></ruby>りませんでした。",
+            translation: "Вчера не вернулся домой.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby>、くにへ <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "O'tgan hafta vatanga qaytdim.",
+          },
+          {
+            jp: "<ruby>何時<rt>なんじ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りますか。",
+            translation: "Soat nechada qaytasiz?",
+          },
+          {
+            jp: "<ruby>昨日<rt>きのう</rt></ruby> <ruby>帰<rt>かえ</rt></ruby>りませんでした。",
+            translation: "Kecha uyga qaytmadim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 194,
+      lesson: 5,
+      japanese: "<ruby>学校<rt>がっこう</rt></ruby>",
+      cleanWord: "学校",
+      translations: { ru: "школа", uz: "maktab" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Каждый день езжу в школу на велосипеде.",
+          grammarInfo:
+            "1. 毎日（まいにち）— «каждый день». Не требует частицы に.\n\n2. 自転車で — частица で указывает средство передвижения: «на велосипеде».\n\n3. 学校へ — частица へ указывает направление: «в школу».\n\n4. 行きます — «ехать» в вежливой форме.\n\n💡 Средство передвижения + で стоит перед направлением + へ.",
+        },
+        uz: {
+          jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Har kuni velosipedda maktabga boraman.",
+          grammarInfo:
+            "1. 毎日（まいにち）— «har kun». に yuklatmasi talab qilmaydi.\n\n2. 自転車で — で yuklatmasi transport vositasini bildiradi: «velosipedda».\n\n3. 学校へ — へ yuklatmasi yo'nalishni bildiradi: «maktabga».\n\n4. 行きます — «bormoq» fe'lining hozirgi-kelasi zamon shakli.\n\n💡 Transport vositasi + で yo'nalish + へ dan oldin keladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>学校<rt>がっこう</rt></ruby>は <ruby>9<rt>く</rt></ruby><ruby>時<rt>じ</rt></ruby>から <ruby>3<rt>さん</rt></ruby><ruby>時<rt>じ</rt></ruby>までです。",
+            translation: "Школа — с 9 до 3 часов.",
+          },
+          {
+            jp: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>学校<rt>がっこう</rt></ruby>は おもしろいです。",
+            translation: "Японские школы — интересные.",
+          },
+          {
+            jp: "<ruby>学校<rt>がっこう</rt></ruby>へ <ruby>歩<rt>ある</rt></ruby>いて <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Иду в школу пешком.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>学校<rt>がっこう</rt></ruby>は <ruby>9<rt>く</rt></ruby><ruby>時<rt>じ</rt></ruby>から <ruby>3<rt>さん</rt></ruby><ruby>時<rt>じ</rt></ruby>までです。",
+            translation: "Maktab soat 9 dan 3 gacha.",
+          },
+          {
+            jp: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>学校<rt>がっこう</rt></ruby>は おもしろいです。",
+            translation: "Yaponiya maktablari qiziqarli.",
+          },
+          {
+            jp: "<ruby>学校<rt>がっこう</rt></ruby>へ <ruby>歩<rt>ある</rt></ruby>いて <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Maktabga piyoda boraman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 195,
+      lesson: 5,
+      japanese: "スーパー",
+      cleanWord: "スーパー",
+      translations: { ru: "супермаркет", uz: "supermarket" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の スーパーで <ruby>7時<rt>しちじ</rt></ruby>に おべんとうが やすく なります。",
+          translation:
+            "В японских супермаркетах в 7 вечера бэнто становятся дешевле.",
+          grammarInfo:
+            "1. 日本の スーパーで — «в японском супермаркете». Частица で указывает место действия.\n\n2. 7時に — «в 7 часов». Частица に указывает точное время.\n\n3. おべんとう — «бэнто» (японский обед в коробке).\n\n4. やすく なります — «становится дешевле» (это конструкция из более поздних уроков, но понятна по контексту).\n\n💡 В Японии супермаркеты делают скидки на бэнто вечером — настоящий лайфхак для студентов!",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の スーパーで <ruby>7時<rt>しちじ</rt></ruby>に おべんとうが やすく なります。",
+          translation:
+            "Yaponiya supermarketlarida soat 7 da bento arzonlashadi.",
+          grammarInfo:
+            "1. 日本の スーパーで — «Yaponiya supermarketida». で yuklatmasi ish joy bildiradi.\n\n2. 7時に — «soat 7 da». に yuklatmasi aniq vaqtni bildiradi.\n\n3. おべんとう — «bento» (yapon tushlik qutisi).\n\n4. やすく なります — «arzonlashadi».\n\n💡 Yaponiyada supermarketlar kechqurun bentoga chegirma qiladi — talabalar uchun foydali maslahat!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて スーパーへ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Пойду в супермаркет пешком.",
+          },
+          {
+            jp: "スーパーは <ruby>駅<rt>えき</rt></ruby>の ちかくです。",
+            translation: "Супермаркет — рядом со станцией.",
+          },
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> スーパーへ <ruby>行<rt>い</rt></ruby>きますか。",
+            translation: "Вы каждый день ходите в супермаркет?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて スーパーへ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Supermarketga piyoda boraman.",
+          },
+          {
+            jp: "スーパーは <ruby>駅<rt>えき</rt></ruby>の ちかくです。",
+            translation: "Supermarket bekатning yonida.",
+          },
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> スーパーへ <ruby>行<rt>い</rt></ruby>きますか。",
+            translation: "Har kuni supermarketga borasizmi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 196,
+      lesson: 5,
+      japanese: "<ruby>駅<rt>えき</rt></ruby>",
+      cleanWord: "駅",
+      translations: { ru: "станция, вокзал", uz: "bekat, vokzal" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>東京<rt>とうきょう</rt></ruby>の <ruby>駅<rt>えき</rt></ruby>で <ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>人<rt>ひと</rt></ruby>を <ruby>電車<rt>でんしゃ</rt></ruby>に おす <ruby>人<rt>ひと</rt></ruby>が います。",
+          translation:
+            "На станциях Токио каждое утро есть люди, которые заталкивают пассажиров в поезда.",
+          grammarInfo:
+            "1. 東京の 駅で — «на станции Токио». の связывает два существительных, で указывает место.\n\n2. 毎朝（まいあさ）— «каждое утро».\n\n3. 人を 電車に おす 人 — «люди, которые толкают людей в поезда» (сложная конструкция для ознакомления).\n\n4. います — «есть, находятся» (для живых существ).\n\n💡 Эти люди называются «осия» (押し屋) — реальная профессия в токийском метро в час пик!",
+        },
+        uz: {
+          jp: "<ruby>東京<rt>とうきょう</rt></ruby>の <ruby>駅<rt>えき</rt></ruby>で <ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>人<rt>ひと</rt></ruby>を <ruby>電車<rt>でんしゃ</rt></ruby>に おす <ruby>人<rt>ひと</rt></ruby>が います。",
+          translation:
+            "Tokio bekatlarida har kuni ertalab odamlarni poyezdga itarib kiritadigan kishilar bor.",
+          grammarInfo:
+            "1. 東京の 駅で — «Tokio bekatida». の ikki otni bog'laydi, で joyni bildiradi.\n\n2. 毎朝（まいあさ）— «har kuni ertalab».\n\n3. 人を 電車に おす 人 — «odamlarni poyezdga itaradigan kishilar».\n\n4. います — «bor, mavjud» (tirik narsalar uchun).\n\n💡 Bu odamlar «oshiya» (押し屋) deb ataladi — Tokio metrosida haqiqiy kasb!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>駅<rt>えき</rt></ruby>から <ruby>学校<rt>がっこう</rt></ruby>まで <ruby>歩<rt>ある</rt></ruby>いて <ruby>10<rt>じゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby>です。",
+            translation: "От станции до школы — 10 минут пешком.",
+          },
+          {
+            jp: "この <ruby>駅<rt>えき</rt></ruby>は きれいですね。",
+            translation: "Эта станция красивая, правда?",
+          },
+          {
+            jp: "<ruby>駅<rt>えき</rt></ruby>で <ruby>友達<rt>ともだち</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いました。",
+            translation: "Встретил друга на станции.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>駅<rt>えき</rt></ruby>から <ruby>学校<rt>がっこう</rt></ruby>まで <ruby>歩<rt>ある</rt></ruby>いて <ruby>10<rt>じゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby>です。",
+            translation: "Bekatdan maktabgacha piyoda 10 daqiqa.",
+          },
+          {
+            jp: "この <ruby>駅<rt>えき</rt></ruby>は きれいですね。",
+            translation: "Bu bekat chiroyli, shunday emasmi?",
+          },
+          {
+            jp: "<ruby>駅<rt>えき</rt></ruby>で <ruby>友達<rt>ともだち</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いました。",
+            translation: "Bekatda do'stimni uchratdim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 197,
+      lesson: 5,
+      japanese: "<ruby>飛行機<rt>ひこうき</rt></ruby>",
+      cleanWord: "飛行機",
+      translations: { ru: "самолёт", uz: "samolyot" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>東京<rt>とうきょう</rt></ruby>から <ruby>大阪<rt>おおさか</rt></ruby>まで <ruby>1<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>です。",
+          translation: "На самолёте из Токио до Осаки — 1 час.",
+          grammarInfo:
+            "1. 飛行機で — «на самолёте». Частица で указывает средство передвижения.\n\n2. 東京から — «из Токио». Частица から — начальная точка.\n\n3. 大阪まで — «до Осаки». Частица まで — конечная точка.\n\n4. 1時間です — «1 час» (продолжительность).\n\n💡 А на синкансэне — 2,5 часа. Но синкансэн дешевле!",
+        },
+        uz: {
+          jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>東京<rt>とうきょう</rt></ruby>から <ruby>大阪<rt>おおさか</rt></ruby>まで <ruby>1<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>です。",
+          translation: "Samolyotda Tokiodan Osakagacha 1 soat.",
+          grammarInfo:
+            "1. 飛行機で — «samolyotda». で yuklatmasi transport vositasini bildiradi.\n\n2. 東京から — «Tokiodan». から yuklatmasi — boshlang'ich nuqta.\n\n3. 大阪まで — «Osakagacha». まで yuklatmasi — tugash nuqtasi.\n\n4. 1時間です — «1 soat» (davomiyligi).\n\n💡 Shinkansenda esa 2,5 soat. Lekin shinkansen arzonroq!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Полечу в Японию на самолёте.",
+          },
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>は <ruby>9<rt>く</rt></ruby><ruby>時<rt>じ</rt></ruby>です。",
+            translation: "Самолёт в 9 часов.",
+          },
+          {
+            jp: "はじめて <ruby>飛行機<rt>ひこうき</rt></ruby>に のりました。",
+            translation: "Впервые полетел на самолёте.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Samolyotda Yaponiyaga boraman.",
+          },
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>は <ruby>9<rt>く</rt></ruby><ruby>時<rt>じ</rt></ruby>です。",
+            translation: "Samolyot soat 9 da.",
+          },
+          {
+            jp: "はじめて <ruby>飛行機<rt>ひこうき</rt></ruby>に のりました。",
+            translation: "Birinchi marta samolyotga mindim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 198,
+      lesson: 5,
+      japanese: "<ruby>船<rt>ふね</rt></ruby>",
+      cleanWord: "船",
+      translations: { ru: "корабль", uz: "kema" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>船<rt>ふね</rt></ruby>で <ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。すごかったです。",
+          translation: "Поехал на Хоккайдо на корабле. Было потрясающе.",
+          grammarInfo:
+            "1. 船で — «на корабле». Частица で указывает средство передвижения.\n\n2. 北海道へ — «на Хоккайдо». Частица へ указывает направление.\n\n3. 行きました — «поехал» (прошедшее время).\n\n4. すごかったです — «было потрясающе» (прошедшее время прилагательного すごい).\n\n💡 Паром из Токио на Хоккайдо идёт около 19 часов, но виды — невероятные!",
+        },
+        uz: {
+          jp: "<ruby>船<rt>ふね</rt></ruby>で <ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。すごかったです。",
+          translation: "Kemada Hokkaidoga bordim. Ajoyib edi.",
+          grammarInfo:
+            "1. 船で — «kemada». で yuklatmasi transport vositasini bildiradi.\n\n2. 北海道へ — «Hokkaidoga». へ yuklatmasi yo'nalishni bildiradi.\n\n3. 行きました — «bordim» (o'tgan zamon).\n\n4. すごかったです — «ajoyib edi» (すごい sifatining o'tgan zamon shakli).\n\n💡 Tokiodan Hokkaidoga parom taxminan 19 soat ketadi, lekin manzaralar hayratlanarli!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "あの <ruby>船<rt>ふね</rt></ruby>は <ruby>大<rt>おお</rt></ruby>きいですね。",
+            translation: "Тот корабль большой, правда?",
+          },
+          {
+            jp: "<ruby>船<rt>ふね</rt></ruby>で <ruby>3<rt>さん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>です。",
+            translation: "На корабле — 3 часа.",
+          },
+          {
+            jp: "<ruby>船<rt>ふね</rt></ruby>は あまり はやくないです。",
+            translation: "Корабль не очень быстрый.",
+          },
+        ],
+        uz: [
+          {
+            jp: "あの <ruby>船<rt>ふね</rt></ruby>は <ruby>大<rt>おお</rt></ruby>きいですね。",
+            translation: "Ana u kema katta, shunday emasmi?",
+          },
+          {
+            jp: "<ruby>船<rt>ふね</rt></ruby>で <ruby>3<rt>さん</rt></ruby><ruby>時間<rt>じかん</rt></ruby>です。",
+            translation: "Kemada 3 soat.",
+          },
+          {
+            jp: "<ruby>船<rt>ふね</rt></ruby>は あまり はやくないです。",
+            translation: "Kema unchalik tez emas.",
+          },
+        ],
+      },
+    },
+    {
+      id: 199,
+      lesson: 5,
+      japanese: "<ruby>電車<rt>でんしゃ</rt></ruby>",
+      cleanWord: "電車",
+      translations: { ru: "поезд, электричка", uz: "poyezd" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は いつも ぴったり <ruby>来<rt>き</rt></ruby>ます。1<ruby>秒<rt>びょう</rt></ruby>も おくれません。",
+          translation:
+            "Японские поезда всегда приходят точно вовремя. Не опаздывают ни на секунду.",
+          grammarInfo:
+            "1. 日本の 電車は — «японские поезда» (тема предложения).\n\n2. いつも — «всегда».\n\n3. ぴったり — «точно, ровно».\n\n4. 来ます — «приходят» (о транспорте).\n\n5. 1秒も おくれません — «не опаздывают ни на секунду». Конструкция も + отрицание = «ни...».\n\n💡 Если поезд в Японии опоздал на 1 минуту, компания выдаёт пассажирам официальную справку об опоздании!",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は いつも ぴったり <ruby>来<rt>き</rt></ruby>ます。1<ruby>秒<rt>びょう</rt></ruby>も おくれません。",
+          translation:
+            "Yaponiya poyezdlari har doim aniq vaqtida keladi. Bir soniya ham kechmaydi.",
+          grammarInfo:
+            "1. 日本の 電車は — «Yaponiya poyezdlari» (gap mavzusi).\n\n2. いつも — «har doim».\n\n3. ぴったり — «aniq, to'g'ri».\n\n4. 来ます — «keladi» (transport haqida).\n\n5. 1秒も おくれません — «bir soniya ham kechmaydi». も + inkor = «hech...».\n\n💡 Yaponiyada poyezd 1 daqiqa kechsa, kompaniya yo'lovchilarga rasmiy ma'lumotnoma beradi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Еду на работу на электричке.",
+          },
+          {
+            jp: "<ruby>電車<rt>でんしゃ</rt></ruby>は <ruby>何時<rt>なんじ</rt></ruby>ですか。",
+            translation: "Во сколько поезд?",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は とても こんでいます。",
+            translation: "Утренние поезда очень переполнены.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Poyezdda ishga boraman.",
+          },
+          {
+            jp: "<ruby>電車<rt>でんしゃ</rt></ruby>は <ruby>何時<rt>なんじ</rt></ruby>ですか。",
+            translation: "Poyezd soat nechada?",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は とても こんでいます。",
+            translation: "Ertalabki poyezdlar juda gavjum.",
+          },
+        ],
+      },
+    },
+    {
+      id: 200,
+      lesson: 5,
+      japanese: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>",
+      cleanWord: "地下鉄",
+      translations: { ru: "метро", uz: "metro" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>東京<rt>とうきょう</rt></ruby>の <ruby>地下鉄<rt>ちかてつ</rt></ruby>は <ruby>13<rt>じゅうさん</rt></ruby> あります。せかいで いちばんです。",
+          translation: "В Токио 13 линий метро. Это больше всего в мире.",
+          grammarInfo:
+            "1. 東京の 地下鉄 — «токийское метро».\n\n2. 13 あります — «есть 13 (линий)».\n\n3. せかいで — «в мире».\n\n4. いちばんです — «самое, номер один».\n\n💡 Токийское метро — одно из самых сложных в мире. Даже японцы иногда теряются!",
+        },
+        uz: {
+          jp: "<ruby>東京<rt>とうきょう</rt></ruby>の <ruby>地下鉄<rt>ちかてつ</rt></ruby>は <ruby>13<rt>じゅうさん</rt></ruby> あります。せかいで いちばんです。",
+          translation: "Tokioda 13 ta metro liniyasi bor. Bu dunyoda eng ko'p.",
+          grammarInfo:
+            "1. 東京の 地下鉄 — «Tokio metrosi».\n\n2. 13 あります — «13 ta bor».\n\n3. せかいで — «dunyoda».\n\n4. いちばんです — «eng birinchi, eng ko'p».\n\n💡 Tokio metrosi dunyodagi eng murakkab metrolardan biri. Hatto yaponlar ham ba'zan adashadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>で <ruby>駅<rt>えき</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Поеду до станции на метро.",
+          },
+          {
+            jp: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>は はやいです。",
+            translation: "Метро — быстрое.",
+          },
+          {
+            jp: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>の きっぷは <ruby>200<rt>にひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+            translation: "Билет на метро — 200 иен.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>で <ruby>駅<rt>えき</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Metro bilan bekatga boraman.",
+          },
+          {
+            jp: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>は はやいです。",
+            translation: "Metro tez.",
+          },
+          {
+            jp: "<ruby>地下鉄<rt>ちかてつ</rt></ruby>の きっぷは <ruby>200<rt>にひゃく</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+            translation: "Metro chipitasi 200 iyena.",
+          },
+        ],
+      },
+    },
+    {
+      id: 201,
+      lesson: 5,
+      japanese: "<ruby>新幹線<rt>しんかんせん</rt></ruby>",
+      cleanWord: "新幹線",
+      translations: { ru: "синкансэн", uz: "shinkansen" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>東京<rt>とうきょう</rt></ruby>から <ruby>大阪<rt>おおさか</rt></ruby>まで <ruby>2<rt>に</rt></ruby><ruby>時間半<rt>じかんはん</rt></ruby>です。",
+          translation: "На синкансэне из Токио до Осаки — 2,5 часа.",
+          grammarInfo:
+            "1. 新幹線で — «на синкансэне». Частица で — средство передвижения.\n\n2. 東京から 大阪まで — «из Токио до Осаки». から…まで = «от…до».\n\n3. 2時間半です — «2,5 часа». 半（はん）= «половина».\n\n💡 Синкансэн разгоняется до 320 км/ч, но на ходу не трясёт — даже монетка стоит на столике!",
+        },
+        uz: {
+          jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>東京<rt>とうきょう</rt></ruby>から <ruby>大阪<rt>おおさか</rt></ruby>まで <ruby>2<rt>に</rt></ruby><ruby>時間半<rt>じかんはん</rt></ruby>です。",
+          translation: "Shinkansenda Tokiodan Osakagacha 2,5 soat.",
+          grammarInfo:
+            "1. 新幹線で — «shinkansenda». で yuklatmasi — transport vositasi.\n\n2. 東京から 大阪まで — «Tokiodan Osakagacha». から…まで = «…dan …gacha».\n\n3. 2時間半です — «2,5 soat». 半（はん）= «yarim».\n\n💡 Shinkansen soatiga 320 km tezlikda yuradi, lekin silkinmaydi — stol ustidagi tanga ham qultilamaydi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>は たかいですが、はやいです。",
+            translation: "Синкансэн дорогой, но быстрый.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby> <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "На следующей неделе поеду в Киото на синкансэне.",
+          },
+          {
+            jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>の きっぷは <ruby>14000<rt>いちまんよんせん</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+            translation: "Билет на синкансэн — 14 000 иен.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>は たかいですが、はやいです。",
+            translation: "Shinkansen qimmat, lekin tez.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby> <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Keyingi hafta shinkansenda Kiotoga boraman.",
+          },
+          {
+            jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>の きっぷは <ruby>14000<rt>いちまんよんせん</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+            translation: "Shinkansen chiptasi 14 000 iyena.",
+          },
+        ],
+      },
+    },
+    {
+      id: 202,
+      lesson: 5,
+      japanese: "バス",
+      cleanWord: "バス",
+      translations: { ru: "автобус", uz: "avtobus" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の バスは いつも おくれません。すごいですね。",
+          translation:
+            "Японские автобусы никогда не опаздывают. Удивительно, правда?",
+          grammarInfo:
+            "1. 日本の バスは — «японские автобусы» (тема).\n\n2. いつも — «всегда».\n\n3. おくれません — «не опаздывают» (отрицательная форма).\n\n4. すごいですね — «удивительно, правда?» Частица ね ищет согласия.\n\n💡 Если автобус в Японии приходит на 20 секунд раньше — это тоже считается проблемой!",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の バスは いつも おくれません。すごいですね。",
+          translation:
+            "Yaponiya avtobuslari hech qachon kechmaydi. Hayratlanarli, shunday emasmi?",
+          grammarInfo:
+            "1. 日本の バスは — «Yaponiya avtobuslari» (mavzu).\n\n2. いつも — «har doim».\n\n3. おくれません — «kechmaydi» (inkor shakli).\n\n4. すごいですね — «hayratlanarli, to'g'rimi?» ね yuklatmasi rozilik so'raydi.\n\n💡 Yaponiyada avtobus 20 soniya oldin kelsa ham, bu muammo hisoblanadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "バスで <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Еду в школу на автобусе.",
+          },
+          {
+            jp: "バスは <ruby>8<rt>はち</rt></ruby><ruby>時<rt>じ</rt></ruby>に <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Автобус приходит в 8 часов.",
+          },
+          {
+            jp: "バスと <ruby>電車<rt>でんしゃ</rt></ruby>と、どちらが はやいですか。",
+            translation: "Что быстрее — автобус или поезд?",
+          },
+        ],
+        uz: [
+          {
+            jp: "バスで <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Avtobusda maktabga boraman.",
+          },
+          {
+            jp: "バスは <ruby>8<rt>はち</rt></ruby><ruby>時<rt>じ</rt></ruby>に <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Avtobus soat 8 da keladi.",
+          },
+          {
+            jp: "バスと <ruby>電車<rt>でんしゃ</rt></ruby>と、どちらが はやいですか。",
+            translation: "Avtobus va poyezd, qaysi biri tezroq?",
+          },
+        ],
+      },
+    },
+    {
+      id: 203,
+      lesson: 5,
+      japanese: "タクシー",
+      cleanWord: "タクシー",
+      translations: { ru: "такси", uz: "taksi" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の タクシーの ドアは じどうで あきます。さわらないでください。",
+          translation:
+            "Двери японских такси открываются автоматически. Не трогайте их.",
+          grammarInfo:
+            "1. 日本の タクシーの ドア — «дверь японского такси». Двойное использование の.\n\n2. じどうで — «автоматически».\n\n3. あきます — «открывается».\n\n4. さわらないでください — «пожалуйста, не трогайте» (грамматика из более позднего урока, но полезно знать).\n\n💡 Это культурный шок для иностранцев — дверь такси сама открывается и закрывается!",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の タクシーの ドアは じどうで あきます。さわらないでください。",
+          translation:
+            "Yaponiya taksilarining eshigi avtomatik ochiladi. Iltimos, tegmang.",
+          grammarInfo:
+            "1. 日本の タクシーの ドア — «Yaponiya taksisining eshigi». の ikki marta ishlatilgan.\n\n2. じどうで — «avtomatik ravishda».\n\n3. あきます — «ochiladi».\n\n4. さわらないでください — «iltimos, tegmang» (keyingi darslarning grammatikasi, lekin bilish foydali).\n\n💡 Chet elliklar uchun madaniy shok — taksi eshigi o'zi ochiladi va yopiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "タクシーで <ruby>駅<rt>えき</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "Поехал на станцию на такси.",
+          },
+          { jp: "タクシーは たかいです。", translation: "Такси — дорогое." },
+          {
+            jp: "タクシーが <ruby>来<rt>き</rt></ruby>ません。",
+            translation: "Такси не приезжает.",
+          },
+        ],
+        uz: [
+          {
+            jp: "タクシーで <ruby>駅<rt>えき</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "Taksida bekatga bordim.",
+          },
+          { jp: "タクシーは たかいです。", translation: "Taksi qimmat." },
+          {
+            jp: "タクシーが <ruby>来<rt>き</rt></ruby>ません。",
+            translation: "Taksi kelmayapti.",
+          },
+        ],
+      },
+    },
+    {
+      id: 204,
+      lesson: 5,
+      japanese: "<ruby>自転車<rt>じてんしゃ</rt></ruby>",
+      cleanWord: "自転車",
+      translations: { ru: "велосипед", uz: "velosiped" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>では <ruby>自転車<rt>じてんしゃ</rt></ruby>に かぎを かけます。でも、とても あんぜんな くにです。",
+          translation:
+            "В Японии велосипеды запирают на замок. Но это очень безопасная страна.",
+          grammarInfo:
+            "1. 日本では — «в Японии». では — комбинация частиц で + は.\n\n2. 自転車に — «на велосипед». Частица に указывает объект действия.\n\n3. かぎを かけます — «запирать на замок».\n\n4. あんぜんな くに — «безопасная страна».\n\n💡 В Японии даже зонтики воруют чаще, чем велосипеды!",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>では <ruby>自転車<rt>じてんしゃ</rt></ruby>に かぎを かけます。でも、とても あんぜんな くにです。",
+          translation:
+            "Yaponiyada velosipedlarni qulflab qo'yishadi. Lekin juda xavfsiz mamlakat.",
+          grammarInfo:
+            "1. 日本では — «Yaponiyada». では — で + は yuklatmalari birikuvi.\n\n2. 自転車に — «velosipedga». に yuklatmasi harakat ob'ektini bildiradi.\n\n3. かぎを かけます — «qulflamoq».\n\n4. あんぜんな くに — «xavfsiz mamlakat».\n\n💡 Yaponiyada soyabonlarni velosipedlarga qaraganda ko'proq o'g'irlashadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Езжу в школу на велосипеде.",
+          },
+          {
+            jp: "あたらしい <ruby>自転車<rt>じてんしゃ</rt></ruby>が ほしいです。",
+            translation: "Хочу новый велосипед.",
+          },
+          {
+            jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>の まえです。",
+            translation: "Велосипед — перед станцией.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Velosipedda maktabga boraman.",
+          },
+          {
+            jp: "あたらしい <ruby>自転車<rt>じてんしゃ</rt></ruby>が ほしいです。",
+            translation: "Yangi velosiped xohlayman.",
+          },
+          {
+            jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>は <ruby>駅<rt>えき</rt></ruby>の まえです。",
+            translation: "Velosiped bekat oldida.",
+          },
+        ],
+      },
+    },
+    {
+      id: 205,
+      lesson: 5,
+      japanese: "<ruby>人<rt>ひと</rt></ruby>",
+      cleanWord: "人",
+      translations: { ru: "человек", uz: "odam, inson" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>東京<rt>とうきょう</rt></ruby>には <ruby>1400万<rt>せんよんひゃくまん</rt></ruby><ruby>人<rt>にん</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が います。すごいですね。",
+          translation:
+            "В Токио живёт 14 миллионов человек. Невероятно, правда?",
+          grammarInfo:
+            "1. 東京には — «в Токио». に — место существования, は — тема.\n\n2. 1400万人の 人 — «14 миллионов человек».\n\n3. います — «есть, находятся» (для живых существ).\n\n4. すごいですね — «невероятно, правда?»\n\n💡 Токио — самый населённый мегаполис в мире!",
+        },
+        uz: {
+          jp: "<ruby>東京<rt>とうきょう</rt></ruby>には <ruby>1400万<rt>せんよんひゃくまん</rt></ruby><ruby>人<rt>にん</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が います。すごいですね。",
+          translation:
+            "Tokioda 14 million odam yashaydi. Hayratlanarli, shunday emasmi?",
+          grammarInfo:
+            "1. 東京には — «Tokioda». に — mavjudlik joyi, は — mavzu.\n\n2. 1400万人の 人 — «14 million odam».\n\n3. います — «bor, yashaydi» (tirik narsalar uchun).\n\n4. すごいですね — «hayratlanarli, to'g'rimi?»\n\n💡 Tokio — dunyodagi eng gavjum megapolis!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は だれですか。",
+            translation: "Кто тот человек?",
+          },
+          {
+            jp: "<ruby>日本人<rt>にほんじん</rt></ruby>は やさしい <ruby>人<rt>ひと</rt></ruby>が おおいです。",
+            translation: "Среди японцев много добрых людей.",
+          },
+          {
+            jp: "おもしろい <ruby>人<rt>ひと</rt></ruby>ですね。",
+            translation: "Интересный человек, правда?",
+          },
+        ],
+        uz: [
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は だれですか。",
+            translation: "Ana u odam kim?",
+          },
+          {
+            jp: "<ruby>日本人<rt>にほんじん</rt></ruby>は やさしい <ruby>人<rt>ひと</rt></ruby>が おおいです。",
+            translation: "Yaponlar orasida mehribon odamlar ko'p.",
+          },
+          {
+            jp: "おもしろい <ruby>人<rt>ひと</rt></ruby>ですね。",
+            translation: "Qiziqarli odam, shunday emasmi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 206,
+      lesson: 5,
+      japanese: "<ruby>友達<rt>ともだち</rt></ruby>",
+      cleanWord: "友達",
+      translations: { ru: "друг", uz: "do'st" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>友達<rt>ともだち</rt></ruby>と <ruby>来月<rt>らいげつ</rt></ruby> <ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation:
+            "В следующем месяце поеду с японским другом в Осакский замок.",
+          grammarInfo:
+            "1. 日本の 友達 — «японский друг».\n\n2. と — частица «с, вместе с». Указывает на спутника.\n\n3. 来月 — «в следующем месяце».\n\n4. 大阪城へ — «в Осакский замок». へ — направление.\n\n5. 行きます — «поеду».\n\n💡 Частица と для совместного действия ставится после существительного: 友達と = «с другом».",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>友達<rt>ともだち</rt></ruby>と <ruby>来月<rt>らいげつ</rt></ruby> <ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Keyingi oy yapon do'stim bilan Osaka qasriga boraman.",
+          grammarInfo:
+            "1. 日本の 友達 — «yapon do'st».\n\n2. と — «bilan» yuklatmasi. Hamrohni bildiradi.\n\n3. 来月 — «keyingi oy».\n\n4. 大阪城へ — «Osaka qasriga». へ — yo'nalish.\n\n5. 行きます — «boraman».\n\n💡 と yuklatmasi hamkorlik uchun otdan keyin qo'yiladi: 友達と = «do'st bilan».",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>は タイから <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Мой друг приехал из Таиланда.",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>と <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Приехал с другом на поезде.",
+          },
+          {
+            jp: "いちばん いい <ruby>友達<rt>ともだち</rt></ruby>です。",
+            translation: "Это мой лучший друг.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>は タイから <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Do'stim Tailanddan keldi.",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>と <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Do'stim bilan poyezdda keldim.",
+          },
+          {
+            jp: "いちばん いい <ruby>友達<rt>ともだち</rt></ruby>です。",
+            translation: "Bu mening eng yaxshi do'stim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 207,
+      lesson: 5,
+      japanese: "<ruby>彼<rt>かれ</rt></ruby>",
+      cleanWord: "彼",
+      translations: { ru: "он; бойфренд", uz: "u (erkak); sevgilisi" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>彼<rt>かれ</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby> <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>20<rt>にじゅっ</rt></ruby>キロ <ruby>来<rt>き</rt></ruby>ます。すごい <ruby>人<rt>ひと</rt></ruby>です。",
+          translation:
+            "Он каждый день приезжает на велосипеде 20 км. Невероятный человек.",
+          grammarInfo:
+            "1. 彼は — «он» (тема предложения).\n\n2. 毎日 — «каждый день».\n\n3. 自転車で — «на велосипеде» (средство передвижения).\n\n4. 20キロ — «20 километров».\n\n5. 来ます — «приезжает».\n\n⚠️ 彼 в разговорной речи часто означает «бойфренд», а не просто «он»!",
+        },
+        uz: {
+          jp: "<ruby>彼<rt>かれ</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby> <ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>20<rt>にじゅっ</rt></ruby>キロ <ruby>来<rt>き</rt></ruby>ます。すごい <ruby>人<rt>ひと</rt></ruby>です。",
+          translation:
+            "U har kuni velosipedda 20 km kelib keladi. Ajoyib odam.",
+          grammarInfo:
+            "1. 彼は — «u (erkak)» (gap mavzusi).\n\n2. 毎日 — «har kun».\n\n3. 自転車で — «velosipedda» (transport vositasi).\n\n4. 20キロ — «20 kilometr».\n\n5. 来ます — «keladi».\n\n⚠️ 彼 so'zlashuvda ko'pincha «sevgilisi (yigit)» ma'nosida ishlatiladi, faqat «u» emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>彼<rt>かれ</rt></ruby>は エンジニアです。",
+            translation: "Он — инженер.",
+          },
+          {
+            jp: "<ruby>彼<rt>かれ</rt></ruby>は <ruby>来年<rt>らいねん</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Он поедет в Японию в следующем году.",
+          },
+          {
+            jp: "<ruby>彼<rt>かれ</rt></ruby>は とても やさしい <ruby>人<rt>ひと</rt></ruby>です。",
+            translation: "Он очень добрый человек.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>彼<rt>かれ</rt></ruby>は エンジニアです。",
+            translation: "U — muhandis.",
+          },
+          {
+            jp: "<ruby>彼<rt>かれ</rt></ruby>は <ruby>来年<rt>らいねん</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "U keyingi yil Yaponiyaga boradi.",
+          },
+          {
+            jp: "<ruby>彼<rt>かれ</rt></ruby>は とても やさしい <ruby>人<rt>ひと</rt></ruby>です。",
+            translation: "U juda mehribon odam.",
+          },
+        ],
+      },
+    },
+    {
+      id: 208,
+      lesson: 5,
+      japanese: "<ruby>彼女<rt>かのじょ</rt></ruby>",
+      cleanWord: "彼女",
+      translations: { ru: "она; гёрлфренд", uz: "u (ayol); sevgilisi" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>一人<rt>ひとり</rt></ruby>で <ruby>船<rt>ふね</rt></ruby>で せかいを りょこうしました。",
+          translation: "Она одна объехала мир на корабле.",
+          grammarInfo:
+            "1. 彼女は — «она» (тема).\n\n2. 一人で — «одна, в одиночку».\n\n3. 船で — «на корабле» (средство передвижения).\n\n4. せかいを りょこうしました — «путешествовала по миру» (を указывает маршрут).\n\n⚠️ 彼女 в разговорной речи часто означает «девушка (гёрлфренд)», а не просто «она»!",
+        },
+        uz: {
+          jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>一人<rt>ひとり</rt></ruby>で <ruby>船<rt>ふね</rt></ruby>で せかいを りょこうしました。",
+          translation: "U yolg'iz o'zi kemada dunyo bo'ylab sayohat qildi.",
+          grammarInfo:
+            "1. 彼女は — «u (ayol)» (mavzu).\n\n2. 一人で — «yolg'iz, bir o'zi».\n\n3. 船で — «kemada» (transport vositasi).\n\n4. せかいを りょこうしました — «dunyo bo'ylab sayohat qildi» (を yo'lni bildiradi).\n\n⚠️ 彼女 so'zlashuvda ko'pincha «sevgilisi (qiz)» ma'nosida ishlatiladi, faqat «u» emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は フランスから <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Она приехала из Франции.",
+          },
+          {
+            jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>先月<rt>せんげつ</rt></ruby> <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "Она вернулась в прошлом месяце.",
+          },
+          {
+            jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>先生<rt>せんせい</rt></ruby>です。",
+            translation: "Она — учительница.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は フランスから <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "U Fransiyadan keldi.",
+          },
+          {
+            jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>先月<rt>せんげつ</rt></ruby> <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "U o'tgan oy qaytdi.",
+          },
+          {
+            jp: "<ruby>彼女<rt>かのじょ</rt></ruby>は <ruby>先生<rt>せんせい</rt></ruby>です。",
+            translation: "U — o'qituvchi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 209,
+      lesson: 5,
+      japanese: "<ruby>家族<rt>かぞく</rt></ruby>",
+      cleanWord: "家族",
+      translations: { ru: "семья", uz: "oila" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。みんなの ゆめです。",
+          translation:
+            "В следующем году поеду с семьёй в Японию. Это мечта всех нас.",
+          grammarInfo:
+            "1. 来年 — «в следующем году».\n\n2. 家族と — «с семьёй». Частица と — «вместе с».\n\n3. 日本へ 行きます — «поеду в Японию».\n\n4. みんなの ゆめ — «мечта всех». みんな = «все», ゆめ = «мечта».\n\n💡 Японцы часто путешествуют всей семьёй — это важная традиция укрепления связей.",
+        },
+        uz: {
+          jp: "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。みんなの ゆめです。",
+          translation:
+            "Keyingi yil oilam bilan Yaponiyaga boraman. Bu hammamizning orzuimiz.",
+          grammarInfo:
+            "1. 来年 — «keyingi yil».\n\n2. 家族と — «oila bilan». と yuklatmasi — «bilan».\n\n3. 日本へ 行きます — «Yaponiyaga boraman».\n\n4. みんなの ゆめ — «hammaning orzusi». みんな = «hamma», ゆめ = «orzu».\n\n💡 Yaponlar ko'pincha butun oila bilan sayohat qiladi — bu oilaviy aloqalarni mustahkamlashning muhim an'anasi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>は <ruby>5<rt>ご</rt></ruby><ruby>人<rt>にん</rt></ruby>です。",
+            translation: "В моей семье 5 человек.",
+          },
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "Ездил с семьёй в Киото на синкансэне.",
+          },
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>は ウズベキスタンに います。",
+            translation: "Моя семья — в Узбекистане.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>は <ruby>5<rt>ご</rt></ruby><ruby>人<rt>にん</rt></ruby>です。",
+            translation: "Oilamda 5 kishi.",
+          },
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "Oilam bilan shinkansenda Kiotoga bordim.",
+          },
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>は ウズベキスタンに います。",
+            translation: "Oilam O'zbekistonda.",
+          },
+        ],
+      },
+    },
+    {
+      id: 210,
+      lesson: 5,
+      japanese: "<ruby>先週<rt>せんしゅう</rt></ruby>",
+      cleanWord: "先週",
+      translations: { ru: "прошлая неделя", uz: "o'tgan hafta" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>先週<rt>せんしゅう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と <ruby>甲子園<rt>こうしえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。さいこうでした！",
+          translation:
+            "На прошлой неделе ездил с другом в Косиэн. Было лучше всего!",
+          grammarInfo:
+            "1. 先週 — «на прошлой неделе». Не требует частицы に.\n\n2. 友達と — «с другом».\n\n3. 甲子園へ 行きました — «поехал в Косиэн».\n\n4. さいこうでした — «было лучше всего!» (прошедшее время).\n\n💡 Косиэн — легендарный бейсбольный стадион, где проходит знаменитый школьный чемпионат.",
+        },
+        uz: {
+          jp: "<ruby>先週<rt>せんしゅう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby>と <ruby>甲子園<rt>こうしえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。さいこうでした！",
+          translation:
+            "O'tgan hafta do'stim bilan Koshienga bordim. Eng zo'r edi!",
+          grammarInfo:
+            "1. 先週 — «o'tgan hafta». に yuklatmasi talab qilmaydi.\n\n2. 友達と — «do'st bilan».\n\n3. 甲子園へ 行きました — «Koshienga bordim».\n\n4. さいこうでした — «eng zo'r edi!» (o'tgan zamon).\n\n💡 Koshien — mashhur beysbol stadioni, u yerda maktablar orasidagi chempionat o'tkaziladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby>は いそがしかったです。",
+            translation: "На прошлой неделе был занят.",
+          },
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>から <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "На прошлой неделе вернулся из Японии.",
+          },
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>金曜日<rt>きんようび</rt></ruby>に <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "Приехал в прошлую пятницу.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby>は いそがしかったです。",
+            translation: "O'tgan hafta band edim.",
+          },
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>から <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "O'tgan hafta Yaponiyadan qaytdim.",
+          },
+          {
+            jp: "<ruby>先週<rt>せんしゅう</rt></ruby>の <ruby>金曜日<rt>きんようび</rt></ruby>に <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "O'tgan haftaning juma kuni keldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 211,
+      lesson: 5,
+      japanese: "<ruby>今週<rt>こんしゅう</rt></ruby>",
+      cleanWord: "今週",
+      translations: { ru: "эта неделя", uz: "bu hafta" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>今週<rt>こんしゅう</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby> <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "На этой неделе каждый день езжу в школу на электричке.",
+          grammarInfo:
+            "1. 今週は — «на этой неделе» (тема).\n\n2. 毎日 — «каждый день».\n\n3. 電車で — «на электричке» (средство передвижения).\n\n4. 学校へ 行きます — «еду в школу».\n\n💡 今週 не требует частицы に, так как это относительное время (текущая неделя).",
+        },
+        uz: {
+          jp: "<ruby>今週<rt>こんしゅう</rt></ruby>は <ruby>毎日<rt>まいにち</rt></ruby> <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Bu hafta har kuni poyezdda maktabga boraman.",
+          grammarInfo:
+            "1. 今週は — «bu hafta» (mavzu).\n\n2. 毎日 — «har kun».\n\n3. 電車で — «poyezdda» (transport vositasi).\n\n4. 学校へ 行きます — «maktabga boraman».\n\n💡 今週 に yuklatmasini talab qilmaydi, chunki bu nisbiy vaqt (joriy hafta).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>今週<rt>こんしゅう</rt></ruby>は ひまです。",
+            translation: "На этой неделе свободен.",
+          },
+          {
+            jp: "<ruby>今週<rt>こんしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "В эту субботу приедет друг.",
+          },
+          {
+            jp: "<ruby>今週<rt>こんしゅう</rt></ruby> どこへ <ruby>行<rt>い</rt></ruby>きますか。",
+            translation: "Куда поедете на этой неделе?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>今週<rt>こんしゅう</rt></ruby>は ひまです。",
+            translation: "Bu hafta bo'shman.",
+          },
+          {
+            jp: "<ruby>今週<rt>こんしゅう</rt></ruby>の <ruby>土曜日<rt>どようび</rt></ruby>に <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Bu haftaning shanba kuni do'stim keladi.",
+          },
+          {
+            jp: "<ruby>今週<rt>こんしゅう</rt></ruby> どこへ <ruby>行<rt>い</rt></ruby>きますか。",
+            translation: "Bu hafta qayerga borasiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 212,
+      lesson: 5,
+      japanese: "<ruby>来週<rt>らいしゅう</rt></ruby>",
+      cleanWord: "来週",
+      translations: { ru: "следующая неделя", uz: "keyingi hafta" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "На следующей неделе полечу с семьёй на Хоккайдо.",
+          grammarInfo:
+            "1. 来週 — «на следующей неделе».\n\n2. 家族と — «с семьёй».\n\n3. 飛行機で — «на самолёте».\n\n4. 北海道へ 行きます — «полечу на Хоккайдо».\n\n💡 Полная структура: [время] + [спутник]と + [транспорт]で + [место]へ + 行きます.",
+        },
+        uz: {
+          jp: "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>北海道<rt>ほっかいどう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation:
+            "Keyingi hafta oilam bilan samolyotda Hokkaidoga boraman.",
+          grammarInfo:
+            "1. 来週 — «keyingi hafta».\n\n2. 家族と — «oila bilan».\n\n3. 飛行機で — «samolyotda».\n\n4. 北海道へ 行きます — «Hokkaidoga boraman».\n\n💡 To'liq tuzilma: [vaqt] + [hamroh]と + [transport]で + [joy]へ + 行きます.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby>も いそがしいです。",
+            translation: "На следующей неделе тоже буду занят.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby> <ruby>彼<rt>かれ</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "На следующей неделе он приедет.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>月曜日<rt>げつようび</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь в следующий понедельник.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby>も いそがしいです。",
+            translation: "Keyingi hafta ham band bo'laman.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby> <ruby>彼<rt>かれ</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Keyingi hafta u keladi.",
+          },
+          {
+            jp: "<ruby>来週<rt>らいしゅう</rt></ruby>の <ruby>月曜日<rt>げつようび</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Keyingi haftaning dushanba kuni qaytaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 213,
+      lesson: 5,
+      japanese: "<ruby>先月<rt>せんげつ</rt></ruby>",
+      cleanWord: "先月",
+      translations: { ru: "прошлый месяц", uz: "o'tgan oy" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>彼女<rt>かのじょ</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+          translation:
+            "В прошлом месяце ездил с девушкой в Киото на синкансэне.",
+          grammarInfo:
+            "1. 先月 — «в прошлом месяце».\n\n2. 彼女と — «с девушкой / с ней».\n\n3. 新幹線で — «на синкансэне».\n\n4. 京都へ 行きました — «поехал в Киото» (прошедшее время).\n\n💡 先 = «прошлый»: 先週, 先月 — запомните эту систему!",
+        },
+        uz: {
+          jp: "<ruby>先月<rt>せんげつ</rt></ruby>、<ruby>彼女<rt>かのじょ</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+          translation: "O'tgan oy sevgilim bilan shinkansenda Kiotoga bordim.",
+          grammarInfo:
+            "1. 先月 — «o'tgan oy».\n\n2. 彼女と — «sevgilisi bilan / u bilan».\n\n3. 新幹線で — «shinkansenda».\n\n4. 京都へ 行きました — «Kiotoga bordim» (o'tgan zamon).\n\n💡 先 = «o'tgan»: 先週, 先月 — bu tizimni eslab qoling!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby> くにへ <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "В прошлом месяце вернулся на родину.",
+          },
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby>は あつかったです。",
+            translation: "В прошлом месяце было жарко.",
+          },
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby> <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "В прошлом месяце приехал друг.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby> くにへ <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "O'tgan oy vatanga qaytdim.",
+          },
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby>は あつかったです。",
+            translation: "O'tgan oy issiq edi.",
+          },
+          {
+            jp: "<ruby>先月<rt>せんげつ</rt></ruby> <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ました。",
+            translation: "O'tgan oy do'stim keldi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 214,
+      lesson: 5,
+      japanese: "<ruby>今月<rt>こんげつ</rt></ruby>",
+      cleanWord: "今月",
+      translations: { ru: "этот месяц", uz: "bu oy" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>今月<rt>こんげつ</rt></ruby>は <ruby>3<rt>さん</rt></ruby><ruby>回<rt>かい</rt></ruby> <ruby>東京<rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。いそがしいです。",
+          translation: "В этом месяце поеду в Токио 3 раза. Занят.",
+          grammarInfo:
+            "1. 今月は — «в этом месяце» (тема).\n\n2. 3回（さんかい）— «3 раза» (счётчик для раз).\n\n3. 東京へ 行きます — «поеду в Токио».\n\n4. いそがしいです — «занят».\n\n💡 今 = «текущий»: 今週, 今月, 今年 — одна система!",
+        },
+        uz: {
+          jp: "<ruby>今月<rt>こんげつ</rt></ruby>は <ruby>3<rt>さん</rt></ruby><ruby>回<rt>かい</rt></ruby> <ruby>東京<rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。いそがしいです。",
+          translation: "Bu oy Tokioga 3 marta boraman. Bandman.",
+          grammarInfo:
+            "1. 今月は — «bu oy» (mavzu).\n\n2. 3回（さんかい）— «3 marta» (marta sanash so'zi).\n\n3. 東京へ 行きます — «Tokioga boraman».\n\n4. いそがしいです — «bandman».\n\n💡 今 = «joriy»: 今週, 今月, 今年 — bitta tizim!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>は やすみが ありません。",
+            translation: "В этом месяце нет выходных.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>の <ruby>20日<rt>はつか</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 20-го числа этого месяца.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby> だれが <ruby>来<rt>き</rt></ruby>ますか。",
+            translation: "Кто приедет в этом месяце?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>は やすみが ありません。",
+            translation: "Bu oy dam olish kuni yo'q.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>の <ruby>20日<rt>はつか</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Bu oyning 20-sanasida qaytaman.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby> だれが <ruby>来<rt>き</rt></ruby>ますか。",
+            translation: "Bu oy kim keladi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 215,
+      lesson: 5,
+      japanese: "<ruby>来月<rt>らいげつ</rt></ruby>",
+      cleanWord: "来月",
+      translations: { ru: "следующий месяц", uz: "keyingi oy" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>一人<rt>ひとり</rt></ruby>で <ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。どきどきします。",
+          translation: "В следующем месяце полечу в Японию один. Волнуюсь.",
+          grammarInfo:
+            "1. 来月 — «в следующем месяце».\n\n2. 一人で — «один».\n\n3. 飛行機で — «на самолёте».\n\n4. 日本へ 行きます — «полечу в Японию».\n\n5. どきどきします — «волнуюсь» (ономатопея — звук сердцебиения).\n\n💡 来 = «следующий»: 来週, 来月, 来年!",
+        },
+        uz: {
+          jp: "<ruby>来月<rt>らいげつ</rt></ruby>、<ruby>一人<rt>ひとり</rt></ruby>で <ruby>飛行機<rt>ひこうき</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。どきどきします。",
+          translation:
+            "Keyingi oy yolg'iz o'zim samolyotda Yaponiyaga boraman. Hayajonlanaman.",
+          grammarInfo:
+            "1. 来月 — «keyingi oy».\n\n2. 一人で — «yolg'iz».\n\n3. 飛行機で — «samolyotda».\n\n4. 日本へ 行きます — «Yaponiyaga boraman».\n\n5. どきどきします — «hayajonlanaman» (onomatopeya — yurak urishi tovushi).\n\n💡 来 = «keyingi»: 来週, 来月, 来年!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby> <ruby>彼女<rt>かのじょ</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "В следующем месяце приедет она (девушка).",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>から <ruby>学校<rt>がっこう</rt></ruby>が はじまります。",
+            translation: "Со следующего месяца начинается школа.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>は やすみです。",
+            translation: "В следующем месяце — выходной.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby> <ruby>彼女<rt>かのじょ</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Keyingi oy u (qiz) keladi.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>から <ruby>学校<rt>がっこう</rt></ruby>が はじまります。",
+            translation: "Keyingi oydan maktab boshlanadi.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>は やすみです。",
+            translation: "Keyingi oy dam olish.",
+          },
+        ],
+      },
+    },
+    {
+      id: 216,
+      lesson: 5,
+      japanese: "<ruby>去年<rt>きょねん</rt></ruby>",
+      cleanWord: "去年",
+      translations: { ru: "прошлый год", uz: "o'tgan yil" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>去年<rt>きょねん</rt></ruby>、はじめて <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>人生<rt>じんせい</rt></ruby>で いちばん いい たびでした。",
+          translation:
+            "В прошлом году впервые поехал в Японию. Лучшее путешествие в жизни.",
+          grammarInfo:
+            "1. 去年 — «в прошлом году».\n\n2. はじめて — «впервые».\n\n3. 日本へ 行きました — «поехал в Японию» (прошедшее время).\n\n4. 人生で いちばん いい たび — «лучшее путешествие в жизни».\n\n💡 去年 — единственное слово с 去. В остальных: 先週, 先月 используется 先.",
+        },
+        uz: {
+          jp: "<ruby>去年<rt>きょねん</rt></ruby>、はじめて <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>人生<rt>じんせい</rt></ruby>で いちばん いい たびでした。",
+          translation:
+            "O'tgan yil birinchi marta Yaponiyaga bordim. Hayotimdagi eng yaxshi sayohat edi.",
+          grammarInfo:
+            "1. 去年 — «o'tgan yil».\n\n2. はじめて — «birinchi marta».\n\n3. 日本へ 行きました — «Yaponiyaga bordim» (o'tgan zamon).\n\n4. 人生で いちばん いい たび — «hayotdagi eng yaxshi sayohat».\n\n💡 去年 — 去 bilan yagona so'z. Qolganlarida: 先週, 先月 — 先 ishlatiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>去年<rt>きょねん</rt></ruby>の <ruby>誕生日<rt>たんじょうび</rt></ruby>は たのしかったです。",
+            translation: "День рождения в прошлом году был весёлым.",
+          },
+          {
+            jp: "<ruby>去年<rt>きょねん</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>の べんきょうを はじめました。",
+            translation: "В прошлом году начал изучать японский.",
+          },
+          {
+            jp: "<ruby>去年<rt>きょねん</rt></ruby> <ruby>3<rt>さん</rt></ruby><ruby>回<rt>かい</rt></ruby> <ruby>大阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "В прошлом году ездил в Осаку 3 раза.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>去年<rt>きょねん</rt></ruby>の <ruby>誕生日<rt>たんじょうび</rt></ruby>は たのしかったです。",
+            translation: "O'tgan yilgi tug'ilgan kunim qiziqarli edi.",
+          },
+          {
+            jp: "<ruby>去年<rt>きょねん</rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>の べんきょうを はじめました。",
+            translation: "O'tgan yil yapon tilini o'rganishni boshladim.",
+          },
+          {
+            jp: "<ruby>去年<rt>きょねん</rt></ruby> <ruby>3<rt>さん</rt></ruby><ruby>回<rt>かい</rt></ruby> <ruby>大阪<rt>おおさか</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。",
+            translation: "O'tgan yil Osakaga 3 marta bordim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 217,
+      lesson: 5,
+      japanese: "<ruby>今年<rt>ことし</rt></ruby>",
+      cleanWord: "今年",
+      translations: { ru: "этот год", uz: "bu yil" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>今年<rt>ことし</rt></ruby>、ぜったいに <ruby>日本語<rt>にほんご</rt></ruby>の しけんに うかります！",
+          translation: "В этом году обязательно сдам экзамен по японскому!",
+          grammarInfo:
+            "1. 今年 — «в этом году». Читается ことし, не こんねん!\n\n2. ぜったいに — «обязательно, точно».\n\n3. 日本語の しけん — «экзамен по японскому».\n\n4. うかります — «сдам (экзамен)».\n\n⚠️ Чтение 今年 = ことし — исключение! Не читайте как こんねん.",
+        },
+        uz: {
+          jp: "<ruby>今年<rt>ことし</rt></ruby>、ぜったいに <ruby>日本語<rt>にほんご</rt></ruby>の しけんに うかります！",
+          translation: "Bu yil albatta yapon tili imtihonidan o'taman!",
+          grammarInfo:
+            "1. 今年 — «bu yil». ことし deb o'qiladi, こんねん emas!\n\n2. ぜったいに — «albatta, aniq».\n\n3. 日本語の しけん — «yapon tili imtihoni».\n\n4. うかります — «imtihondan o'taman».\n\n⚠️ 今年 ning o'qilishi = ことし — istisno! こんねん deb o'qimang.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>今年<rt>ことし</rt></ruby>は いい <ruby>年<rt>とし</rt></ruby>です。",
+            translation: "Этот год — хороший.",
+          },
+          {
+            jp: "<ruby>今年<rt>ことし</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。",
+            translation: "В этом году хочу поехать в Японию.",
+          },
+          {
+            jp: "<ruby>今年<rt>ことし</rt></ruby>から <ruby>日本語<rt>にほんご</rt></ruby>を べんきょうします。",
+            translation: "С этого года учу японский.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>今年<rt>ことし</rt></ruby>は いい <ruby>年<rt>とし</rt></ruby>です。",
+            translation: "Bu yil yaxshi yil.",
+          },
+          {
+            jp: "<ruby>今年<rt>ことし</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。",
+            translation: "Bu yil Yaponiyaga bormoqchiman.",
+          },
+          {
+            jp: "<ruby>今年<rt>ことし</rt></ruby>から <ruby>日本語<rt>にほんご</rt></ruby>を べんきょうします。",
+            translation: "Bu yildan yapon tilini o'rganaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 218,
+      lesson: 5,
+      japanese: "<ruby>来年<rt>らいねん</rt></ruby>",
+      cleanWord: "来年",
+      translations: { ru: "следующий год", uz: "keyingi yil" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。もう チケットが あります！",
+          translation:
+            "В следующем году поеду с семьёй в Японию. Билеты уже есть!",
+          grammarInfo:
+            "1. 来年 — «в следующем году».\n\n2. 家族と — «с семьёй».\n\n3. 日本へ 行きます — «поеду в Японию».\n\n4. もう — «уже».\n\n5. チケットが あります — «билеты есть».\n\n💡 来 = «следующий» во всех временных словах: 来週, 来月, 来年!",
+        },
+        uz: {
+          jp: "<ruby>来年<rt>らいねん</rt></ruby>、<ruby>家族<rt>かぞく</rt></ruby>と <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。もう チケットが あります！",
+          translation:
+            "Keyingi yil oilam bilan Yaponiyaga boraman. Chiptalar tayyor!",
+          grammarInfo:
+            "1. 来年 — «keyingi yil».\n\n2. 家族と — «oila bilan».\n\n3. 日本へ 行きます — «Yaponiyaga boraman».\n\n4. もう — «allaqachon».\n\n5. チケットが あります — «chiptalar bor».\n\n💡 来 = «keyingi» barcha vaqt so'zlarida: 来週, 来月, 来年!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>に はいります。",
+            translation: "В следующем году поступлю в университет.",
+          },
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby>は もっと がんばります。",
+            translation: "В следующем году буду стараться ещё больше.",
+          },
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby> また <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Приеду снова в следующем году.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby> <ruby>大学<rt>だいがく</rt></ruby>に はいります。",
+            translation: "Keyingi yil universitetga kiraman.",
+          },
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby>は もっと がんばります。",
+            translation: "Keyingi yil yanada ko'proq harakat qilaman.",
+          },
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby> また <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Keyingi yil yana kelaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 219,
+      lesson: 5,
+      japanese: "<ruby>誕生日<rt>たんじょうび</rt></ruby>",
+      cleanWord: "誕生日",
+      translations: { ru: "день рождения", uz: "tug'ilgan kun" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>は いつですか。—— <ruby>3<rt>さん</rt></ruby><ruby>月<rt>がつ</rt></ruby><ruby>14日<rt>じゅうよっか</rt></ruby>です。ホワイトデーです！",
+          translation: "Когда ваш день рождения? — 14 марта. Это Белый день!",
+          grammarInfo:
+            "1. 誕生日は いつですか — «когда день рождения?» いつ = «когда».\n\n2. 3月14日 — «14 марта». 月 = месяц, 日 = число.\n\n3. ホワイトデー — «Белый день» — японский праздник, когда парни дарят подарки девушкам.\n\n💡 В Японии Белый день (14 марта) — ответный подарок за День святого Валентина!",
+        },
+        uz: {
+          jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>は いつですか。—— <ruby>3<rt>さん</rt></ruby><ruby>月<rt>がつ</rt></ruby><ruby>14日<rt>じゅうよっか</rt></ruby>です。ホワイトデーです！",
+          translation:
+            "Tug'ilgan kuningiz qachon? — 14-mart. Bu Oq kun (White Day)!",
+          grammarInfo:
+            "1. 誕生日は いつですか — «tug'ilgan kun qachon?» いつ = «qachon».\n\n2. 3月14日 — «14-mart». 月 = oy, 日 = sana.\n\n3. ホワイトデー — «Oq kun» — yapon bayrami, yigitlar qizlarga sovg'a beradi.\n\n💡 Yaponiyada Oq kun (14-mart) — Valentin kuniga javob sovg'a!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "おたんじょうび おめでとう ございます！",
+            translation: "С днём рождения!",
+          },
+          {
+            jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>に <ruby>何<rt>なに</rt></ruby>が ほしいですか。",
+            translation: "Что хочешь на день рождения?",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>の <ruby>誕生日<rt>たんじょうび</rt></ruby>は <ruby>来月<rt>らいげつ</rt></ruby>です。",
+            translation: "День рождения друга — в следующем месяце.",
+          },
+        ],
+        uz: [
+          {
+            jp: "おたんじょうび おめでとう ございます！",
+            translation: "Tug'ilgan kuningiz muborak!",
+          },
+          {
+            jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>に <ruby>何<rt>なに</rt></ruby>が ほしいですか。",
+            translation: "Tug'ilgan kuningizga nima xohlaysiz?",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>の <ruby>誕生日<rt>たんじょうび</rt></ruby>は <ruby>来月<rt>らいげつ</rt></ruby>です。",
+            translation: "Do'stimning tug'ilgan kuni keyingi oy.",
+          },
+        ],
+      },
+    },
+    {
+      id: 220,
+      lesson: 5,
+      japanese: "ついたち",
+      cleanWord: "１日",
+      translations: { ru: "1-е число", uz: "1-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>1月<rt>いちがつ</rt></ruby>ついたちは <ruby>日本<rt>にほん</rt></ruby>の おしょうがつです。みんな <ruby>家族<rt>かぞく</rt></ruby>と います。",
+          translation:
+            "1 января — японский Новый год. Все проводят время с семьёй.",
+          grammarInfo:
+            "1. 1月ついたち — «1 января». ついたち = «1-е число» (特別な読み方!).\n\n2. おしょうがつ — «Новый год».\n\n3. みんな — «все».\n\n4. 家族と います — «проводят время с семьёй».\n\n⚠️ Первое число — ついたち, НЕ いちにち! Это исключение, которое нужно просто запомнить.",
+        },
+        uz: {
+          jp: "<ruby>1月<rt>いちがつ</rt></ruby>ついたちは <ruby>日本<rt>にほん</rt></ruby>の おしょうがつです。みんな <ruby>家族<rt>かぞく</rt></ruby>と います。",
+          translation:
+            "1-yanvar — Yaponiya yangi yili. Hamma oilasi bilan birga.",
+          grammarInfo:
+            "1. 1月ついたち — «1-yanvar». ついたち = «1-sana» (maxsus o'qilish!).\n\n2. おしょうがつ — «Yangi yil».\n\n3. みんな — «hamma».\n\n4. 家族と います — «oilasi bilan birga».\n\n⚠️ Birinchi sana — ついたち, いちにち EMAS! Bu istisnoni yodlab qo'ying.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>4月<rt>しがつ</rt></ruby>ついたちから <ruby>学校<rt>がっこう</rt></ruby>です。",
+            translation: "С 1 апреля начинается школа.",
+          },
+          {
+            jp: "ついたちに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Приходите 1-го числа.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の ついたちに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 1-го числа следующего месяца.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>4月<rt>しがつ</rt></ruby>ついたちから <ruby>学校<rt>がっこう</rt></ruby>です。",
+            translation: "1-apreldan maktab boshlanadi.",
+          },
+          {
+            jp: "ついたちに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "1-sanada keling.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の ついたちに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Keyingi oyning 1-sanasida qaytaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 221,
+      lesson: 5,
+      japanese: "ふつか",
+      cleanWord: "２日",
+      translations: { ru: "2-е число", uz: "2-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>1月<rt>いちがつ</rt></ruby>ふつかも やすみです。<ruby>日本<rt>にほん</rt></ruby>の おしょうがつは ながいです。",
+          translation: "2 января тоже выходной. Японский Новый год — длинный.",
+          grammarInfo:
+            "1. 1月ふつか — «2 января».\n\n2. も — «тоже» (1-е тоже выходной, и 2-е тоже).\n\n3. やすみです — «выходной».\n\n4. ながいです — «длинный».\n\n💡 ふつか — от старояпонского счёта. Числа 2-10 имеют особые чтения!",
+        },
+        uz: {
+          jp: "<ruby>1月<rt>いちがつ</rt></ruby>ふつかも やすみです。<ruby>日本<rt>にほん</rt></ruby>の おしょうがつは ながいです。",
+          translation: "2-yanvar ham dam olish kuni. Yaponiya yangi yili uzoq.",
+          grammarInfo:
+            "1. 1月ふつか — «2-yanvar».\n\n2. も — «ham» (1-sana ham dam olish, 2-sana ham).\n\n3. やすみです — «dam olish kuni».\n\n4. ながいです — «uzoq».\n\n💡 ふつか — qadimgi yapon sanoq tizimidan. 2-10 gacha maxsus o'qilishlar bor!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ふつかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Приходите 2-го числа.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の ふつかに <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Поеду 2-го числа следующего месяца.",
+          },
+          {
+            jp: "ふつかから よっかまで やすみです。",
+            translation: "Выходные со 2-го по 4-е.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ふつかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "2-sanada keling.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の ふつかに <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Keyingi oyning 2-sanasida boraman.",
+          },
+          {
+            jp: "ふつかから よっかまで やすみです。",
+            translation: "2-sanadan 4-sanagacha dam olish.",
+          },
+        ],
+      },
+    },
+    {
+      id: 222,
+      lesson: 5,
+      japanese: "みっか",
+      cleanWord: "３日",
+      translations: { ru: "3-е число", uz: "3-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>3月<rt>さんがつ</rt></ruby>みっかは <ruby>日本<rt>にほん</rt></ruby>の ひなまつりです。おんなのこの おまつりです。",
+          translation:
+            "3 марта — праздник Хинамацури в Японии. Это праздник девочек.",
+          grammarInfo:
+            "1. 3月みっか — «3 марта».\n\n2. ひなまつり — «праздник кукол (Хинамацури)».\n\n3. おんなのこ — «девочка».\n\n4. おまつり — «праздник, фестиваль».\n\n💡 В Хинамацури семьи выставляют красивых кукол в традиционных одеждах — для счастья дочерей.",
+        },
+        uz: {
+          jp: "<ruby>3月<rt>さんがつ</rt></ruby>みっかは <ruby>日本<rt>にほん</rt></ruby>の ひなまつりです。おんなのこの おまつりです。",
+          translation:
+            "3-mart — Yaponiyada Xinamatsuri bayrami. Bu qizlar bayrami.",
+          grammarInfo:
+            "1. 3月みっか — «3-mart».\n\n2. ひなまつり — «qo'g'irchoqlar bayrami (Xinamatsuri)».\n\n3. おんなのこ — «qiz bola».\n\n4. おまつり — «bayram, festival».\n\n💡 Xinamatsurida oilalar qizlarining baxtini tilash uchun an'anaviy kiyimdagi chiroyli qo'g'irchoqlarni ko'rgazmaga qo'yadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "みっかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 3-го числа.",
+          },
+          {
+            jp: "みっかから いつかまで やすみです。",
+            translation: "Выходные с 3-го по 5-е.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>の みっかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Приходите 3-го числа этого месяца.",
+          },
+        ],
+        uz: [
+          {
+            jp: "みっかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "3-sanada qaytaman.",
+          },
+          {
+            jp: "みっかから いつかまで やすみです。",
+            translation: "3-sanadan 5-sanagacha dam olish.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>の みっかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Bu oyning 3-sanasida keling.",
+          },
+        ],
+      },
+    },
+    {
+      id: 223,
+      lesson: 5,
+      japanese: "よっか",
+      cleanWord: "４日",
+      translations: { ru: "4-е число", uz: "4-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "よっかに <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+          translation: "4-го числа приедет друг.",
+          grammarInfo:
+            "1. よっか — «4-е число». Исключение: не よんにち!\n\n2. に — частица времени для конкретных дат.\n\n3. 友達が 来ます — «друг приедет». Частица が указывает на субъект.\n\n⚠️ 4-е число = よっか. 4 дня тоже = よっか. Контекст подскажет!",
+        },
+        uz: {
+          jp: "よっかに <ruby>友達<rt>ともだち</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+          translation: "4-sanada do'stim keladi.",
+          grammarInfo:
+            "1. よっか — «4-sana». Istisno: よんにち emas!\n\n2. に — aniq sanalar uchun vaqt yuklatmasi.\n\n3. 友達が 来ます — «do'st keladi». が yuklatmasi subyektni bildiradi.\n\n⚠️ 4-sana = よっか. 4 kun ham = よっか. Kontekstga qarang!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "よっかは <ruby>月曜日<rt>げつようび</rt></ruby>です。",
+            translation: "4-е число — понедельник.",
+          },
+          {
+            jp: "ふつかから よっかまで <ruby>大阪<rt>おおさか</rt></ruby>に います。",
+            translation: "Со 2-го по 4-е буду в Осаке.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の よっかに <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Поеду 4-го следующего месяца.",
+          },
+        ],
+        uz: [
+          {
+            jp: "よっかは <ruby>月曜日<rt>げつようび</rt></ruby>です。",
+            translation: "4-sana — dushanba.",
+          },
+          {
+            jp: "ふつかから よっかまで <ruby>大阪<rt>おおさか</rt></ruby>に います。",
+            translation: "2-sanadan 4-sanagacha Osakada bo'laman.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の よっかに <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Keyingi oyning 4-sanasida boraman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 224,
+      lesson: 5,
+      japanese: "いつか",
+      cleanWord: "５日",
+      translations: { ru: "5-е число", uz: "5-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>5月<rt>ごがつ</rt></ruby>いつかは こどもの <ruby>日<rt>ひ</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>で おおきい おまつりです。",
+          translation: "5 мая — День детей. В Японии это большой праздник.",
+          grammarInfo:
+            "1. 5月いつか — «5 мая». いつか = «5-е число».\n\n2. こどもの 日 — «День детей».\n\n3. おおきい おまつり — «большой праздник».\n\n💡 В День детей вывешивают флаги-карпы (こいのぼり) — символ силы и удачи.",
+        },
+        uz: {
+          jp: "<ruby>5月<rt>ごがつ</rt></ruby>いつかは こどもの <ruby>日<rt>ひ</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>で おおきい おまつりです。",
+          translation: "5-may — Bolalar kuni. Yaponiyada katta bayram.",
+          grammarInfo:
+            "1. 5月いつか — «5-may». いつか = «5-sana».\n\n2. こどもの 日 — «Bolalar kuni».\n\n3. おおきい おまつり — «katta bayram».\n\n💡 Bolalar kunida karp bayroqlari (こいのぼり) osiladi — bu kuch va omad ramzi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "いつかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 5-го числа.",
+          },
+          {
+            jp: "みっかから いつかまで やすみです。",
+            translation: "Выходные с 3-го по 5-е.",
+          },
+          {
+            jp: "いつかは <ruby>金曜日<rt>きんようび</rt></ruby>です。",
+            translation: "5-е число — пятница.",
+          },
+        ],
+        uz: [
+          {
+            jp: "いつかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "5-sanada qaytaman.",
+          },
+          {
+            jp: "みっかから いつかまで やすみです。",
+            translation: "3-sanadan 5-sanagacha dam olish.",
+          },
+          {
+            jp: "いつかは <ruby>金曜日<rt>きんようび</rt></ruby>です。",
+            translation: "5-sana — juma.",
+          },
+        ],
+      },
+    },
+    {
+      id: 225,
+      lesson: 5,
+      japanese: "むいか",
+      cleanWord: "６日",
+      translations: { ru: "6-е число", uz: "6-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "むいかに <ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。たのしみです。",
+          translation: "6-го числа поеду в Осакский замок. Жду с нетерпением.",
+          grammarInfo:
+            "1. むいか — «6-е число».\n\n2. に — частица времени.\n\n3. 大阪城へ 行きます — «поеду в Осакский замок».\n\n4. たのしみです — «жду с нетерпением».\n\n💡 むいか — запомните: む = 6 (как в むっつ).",
+        },
+        uz: {
+          jp: "むいかに <ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。たのしみです。",
+          translation:
+            "6-sanada Osaka qasriga boraman. Intizorlik bilan kutaman.",
+          grammarInfo:
+            "1. むいか — «6-sana».\n\n2. に — vaqt yuklatmasi.\n\n3. 大阪城へ 行きます — «Osaka qasriga boraman».\n\n4. たのしみです — «intizorlik bilan kutaman».\n\n💡 むいか — eslab qoling: む = 6 (むっつ dagi kabi).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "むいかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Приходите 6-го числа.",
+          },
+          {
+            jp: "むいかは <ruby>水曜日<rt>すいようび</rt></ruby>です。",
+            translation: "6-е число — среда.",
+          },
+          {
+            jp: "よっかから むいかまで <ruby>東京<rt>とうきょう</rt></ruby>です。",
+            translation: "С 4-го по 6-е буду в Токио.",
+          },
+        ],
+        uz: [
+          {
+            jp: "むいかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "6-sanada keling.",
+          },
+          {
+            jp: "むいかは <ruby>水曜日<rt>すいようび</rt></ruby>です。",
+            translation: "6-sana — chorshanba.",
+          },
+          {
+            jp: "よっかから むいかまで <ruby>東京<rt>とうきょう</rt></ruby>です。",
+            translation: "4-sanadan 6-sanagacha Tokioda bo'laman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 226,
+      lesson: 5,
+      japanese: "なのか",
+      cleanWord: "７日",
+      translations: { ru: "7-е число", uz: "7-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>7月<rt>しちがつ</rt></ruby>なのかは たなばたです。<ruby>日本<rt>にほん</rt></ruby>の ロマンチックな おまつりです。",
+          translation: "7 июля — Танабата. Это романтичный праздник в Японии.",
+          grammarInfo:
+            "1. 7月なのか — «7 июля». なのか = «7-е число».\n\n2. たなばた — «Танабата» — праздник встречи двух звёзд-влюблённых.\n\n3. ロマンチックな — «романтичный» (な-прилагательное).\n\n💡 В Танабату японцы пишут желания на бумажках и вешают на бамбук!",
+        },
+        uz: {
+          jp: "<ruby>7月<rt>しちがつ</rt></ruby>なのかは たなばたです。<ruby>日本<rt>にほん</rt></ruby>の ロマンチックな おまつりです。",
+          translation: "7-iyul — Tanabata. Bu Yaponiyaning romantik bayrami.",
+          grammarInfo:
+            "1. 7月なのか — «7-iyul». なのか = «7-sana».\n\n2. たなばた — «Tanabata» — ikki oshiq yulduz uchrashishi bayrami.\n\n3. ロマンチックな — «romantik» (な sifati).\n\n💡 Tanabatada yaponlar tilaklarini qog'ozga yozib, bambukka osadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "なのかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 7-го числа.",
+          },
+          {
+            jp: "いつかから なのかまで やすみです。",
+            translation: "Выходные с 5-го по 7-е.",
+          },
+          {
+            jp: "なのかは <ruby>日曜日<rt>にちようび</rt></ruby>です。",
+            translation: "7-е число — воскресенье.",
+          },
+        ],
+        uz: [
+          {
+            jp: "なのかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "7-sanada qaytaman.",
+          },
+          {
+            jp: "いつかから なのかまで やすみです。",
+            translation: "5-sanadan 7-sanagacha dam olish.",
+          },
+          {
+            jp: "なのかは <ruby>日曜日<rt>にちようび</rt></ruby>です。",
+            translation: "7-sana — yakshanba.",
+          },
+        ],
+      },
+    },
+    {
+      id: 227,
+      lesson: 5,
+      japanese: "ようか",
+      cleanWord: "８日",
+      translations: { ru: "8-е число", uz: "8-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "ようかに <ruby>友達<rt>ともだち</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "8-го числа поеду с другом на синкансэне в Киото.",
+          grammarInfo:
+            "1. ようか — «8-е число».\n\n2. 友達と — «с другом».\n\n3. 新幹線で — «на синкансэне».\n\n4. 京都へ 行きます — «поеду в Киото».\n\n💡 ようか — от よう. Не путайте с ようび (день недели)!",
+        },
+        uz: {
+          jp: "ようかに <ruby>友達<rt>ともだち</rt></ruby>と <ruby>新幹線<rt>しんかんせん</rt></ruby>で <ruby>京都<rt>きょうと</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "8-sanada do'stim bilan shinkansenda Kiotoga boraman.",
+          grammarInfo:
+            "1. ようか — «8-sana».\n\n2. 友達と — «do'st bilan».\n\n3. 新幹線で — «shinkansenda».\n\n4. 京都へ 行きます — «Kiotoga boraman».\n\n💡 ようか — よう dan. ようび (hafta kuni) bilan adashtirib yubormang!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ようかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Приходите 8-го числа.",
+          },
+          {
+            jp: "むいかから ようかまで <ruby>大阪<rt>おおさか</rt></ruby>です。",
+            translation: "С 6-го по 8-е буду в Осаке.",
+          },
+          { jp: "ようかは やすみです。", translation: "8-е число — выходной." },
+        ],
+        uz: [
+          {
+            jp: "ようかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "8-sanada keling.",
+          },
+          {
+            jp: "むいかから ようかまで <ruby>大阪<rt>おおさか</rt></ruby>です。",
+            translation: "6-sanadan 8-sanagacha Osakada bo'laman.",
+          },
+          {
+            jp: "ようかは やすみです。",
+            translation: "8-sana — dam olish kuni.",
+          },
+        ],
+      },
+    },
+    {
+      id: 228,
+      lesson: 5,
+      japanese: "ここのか",
+      cleanWord: "９日",
+      translations: { ru: "9-е число", uz: "9-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "ここのかに <ruby>飛行機<rt>ひこうき</rt></ruby>で くにへ <ruby>帰<rt>かえ</rt></ruby>ります。",
+          translation: "9-го числа полечу домой на самолёте.",
+          grammarInfo:
+            "1. ここのか — «9-е число».\n\n2. に — частица времени.\n\n3. 飛行機で — «на самолёте».\n\n4. くにへ 帰ります — «вернусь на родину».\n\n💡 ここのか — самое длинное из особых чтений дат!",
+        },
+        uz: {
+          jp: "ここのかに <ruby>飛行機<rt>ひこうき</rt></ruby>で くにへ <ruby>帰<rt>かえ</rt></ruby>ります。",
+          translation: "9-sanada samolyotda vatanga qaytaman.",
+          grammarInfo:
+            "1. ここのか — «9-sana».\n\n2. に — vaqt yuklatmasi.\n\n3. 飛行機で — «samolyotda».\n\n4. くにへ 帰ります — «vatanga qaytaman».\n\n💡 ここのか — maxsus sana o'qilishlari ichida eng uzuni!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ここのかに <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Приеду 9-го числа.",
+          },
+          {
+            jp: "ここのかは <ruby>木曜日<rt>もくようび</rt></ruby>です。",
+            translation: "9-е число — четверг.",
+          },
+          {
+            jp: "なのかから ここのかまで いません。",
+            translation: "С 7-го по 9-е меня не будет.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ここのかに <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "9-sanada kelaman.",
+          },
+          {
+            jp: "ここのかは <ruby>木曜日<rt>もくようび</rt></ruby>です。",
+            translation: "9-sana — payshanba.",
+          },
+          {
+            jp: "なのかから ここのかまで いません。",
+            translation: "7-sanadan 9-sanagacha bo'lmayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 229,
+      lesson: 5,
+      japanese: "とおか",
+      cleanWord: "１０日",
+      translations: { ru: "10-е число", uz: "10-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "とおかまでに レポートを だしてください。",
+          translation: "Сдайте отчёт до 10-го числа.",
+          grammarInfo:
+            "1. とおか — «10-е число». Последнее из особых чтений (1-10).\n\n2. までに — «до (такого-то срока)». Отличие: まで = «до» (период), までに = «к» (дедлайн).\n\n3. レポートを だしてください — «сдайте отчёт».\n\n💡 После 10-го используется обычный счёт: じゅういちにち, じゅうににち…",
+        },
+        uz: {
+          jp: "とおかまでに レポートを だしてください。",
+          translation: "10-sanagacha hisobotni topshiring.",
+          grammarInfo:
+            "1. とおか — «10-sana». Maxsus o'qilishlarning oxirgisi (1-10).\n\n2. までに — «…gacha (muddat)». Farqi: まで = «gacha» (davr), までに = «gacha» (oxirgi muddat).\n\n3. レポートを だしてください — «hisobotni topshiring».\n\n💡 10-sanadan keyin oddiy sanoq ishlatiladi: じゅういちにち, じゅうににち…",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "とおかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 10-го числа.",
+          },
+          {
+            jp: "ようかから とおかまで やすみです。",
+            translation: "Выходные с 8-го по 10-е.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の とおかに <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Приеду 10-го следующего месяца.",
+          },
+        ],
+        uz: [
+          {
+            jp: "とおかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "10-sanada qaytaman.",
+          },
+          {
+            jp: "ようかから とおかまで やすみです。",
+            translation: "8-sanadan 10-sanagacha dam olish.",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby>の とおかに <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "Keyingi oyning 10-sanasida kelaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 230,
+      lesson: 5,
+      japanese: "じゅうよっか",
+      cleanWord: "１４日",
+      translations: { ru: "14-е число", uz: "14-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>2月<rt>にがつ</rt></ruby>じゅうよっかは バレンタインデーです。<ruby>日本<rt>にほん</rt></ruby>では おんなのこが チョコを あげます。",
+          translation:
+            "14 февраля — День Валентина. В Японии шоколад дарят девушки.",
+          grammarInfo:
+            "1. 2月じゅうよっか — «14 февраля».\n\n2. バレンタインデー — «День Валентина».\n\n3. おんなのこが — «девушки» (субъект действия).\n\n4. チョコを あげます — «дарят шоколад».\n\n💡 В Японии на День Валентина шоколад дарят ДЕВУШКИ парням, а не наоборот!",
+        },
+        uz: {
+          jp: "<ruby>2月<rt>にがつ</rt></ruby>じゅうよっかは バレンタインデーです。<ruby>日本<rt>にほん</rt></ruby>では おんなのこが チョコを あげます。",
+          translation:
+            "14-fevral — Valentin kuni. Yaponiyada shokolad qizlar beradi.",
+          grammarInfo:
+            "1. 2月じゅうよっか — «14-fevral».\n\n2. バレンタインデー — «Valentin kuni».\n\n3. おんなのこが — «qizlar» (harakat subyekti).\n\n4. チョコを あげます — «shokolad beradi».\n\n💡 Yaponiyada Valentin kunida shokoladni QIZLAR yigitlarga beradi, aksincha emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "じゅうよっかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 14-го числа.",
+          },
+          {
+            jp: "じゅうよっかは <ruby>土曜日<rt>どようび</rt></ruby>です。",
+            translation: "14-е число — суббота.",
+          },
+          {
+            jp: "とおかから じゅうよっかまで <ruby>日本<rt>にほん</rt></ruby>に います。",
+            translation: "С 10-го по 14-е буду в Японии.",
+          },
+        ],
+        uz: [
+          {
+            jp: "じゅうよっかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "14-sanada qaytaman.",
+          },
+          {
+            jp: "じゅうよっかは <ruby>土曜日<rt>どようび</rt></ruby>です。",
+            translation: "14-sana — shanba.",
+          },
+          {
+            jp: "とおかから じゅうよっかまで <ruby>日本<rt>にほん</rt></ruby>に います。",
+            translation: "10-sanadan 14-sanagacha Yaponiyada bo'laman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 231,
+      lesson: 5,
+      japanese: "はつか",
+      cleanWord: "２０日",
+      translations: { ru: "20-е число", uz: "20-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "はつかに <ruby>家族<rt>かぞく</rt></ruby>が <ruby>日本<rt>にほん</rt></ruby>から <ruby>来<rt>き</rt></ruby>ます。まちきれません！",
+          translation:
+            "20-го числа семья приедет из Японии. Не могу дождаться!",
+          grammarInfo:
+            "1. はつか — «20-е число». Ещё одно исключение!\n\n2. に — частица времени.\n\n3. 家族が 来ます — «семья приедет».\n\n4. まちきれません — «не могу дождаться» (выражение нетерпения).\n\n⚠️ 20-е число = はつか, НЕ にじゅうにち! Обязательно запомните.",
+        },
+        uz: {
+          jp: "はつかに <ruby>家族<rt>かぞく</rt></ruby>が <ruby>日本<rt>にほん</rt></ruby>から <ruby>来<rt>き</rt></ruby>ます。まちきれません！",
+          translation: "20-sanada oilam Yaponiyadan keladi. Kutolmayapman!",
+          grammarInfo:
+            "1. はつか — «20-sana». Yana bir istisno!\n\n2. に — vaqt yuklatmasi.\n\n3. 家族が 来ます — «oila keladi».\n\n4. まちきれません — «kutolmayapman» (sabrsizlik ifodasi).\n\n⚠️ 20-sana = はつか, にじゅうにち EMAS! Albatta yodlab qo'ying.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "はつかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 20-го числа.",
+          },
+          {
+            jp: "はつかは やすみです。",
+            translation: "20-е число — выходной.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>の はつかに テストが あります。",
+            translation: "20-го числа этого месяца — тест.",
+          },
+        ],
+        uz: [
+          {
+            jp: "はつかに <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "20-sanada qaytaman.",
+          },
+          {
+            jp: "はつかは やすみです。",
+            translation: "20-sana — dam olish kuni.",
+          },
+          {
+            jp: "<ruby>今月<rt>こんげつ</rt></ruby>の はつかに テストが あります。",
+            translation: "Bu oyning 20-sanasida test bor.",
+          },
+        ],
+      },
+    },
+    {
+      id: 232,
+      lesson: 5,
+      japanese: "にじゅうよっか",
+      cleanWord: "２４日",
+      translations: { ru: "24-е число", uz: "24-sana" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>12月<rt>じゅうにがつ</rt></ruby>にじゅうよっかは <ruby>日本<rt>にほん</rt></ruby>の クリスマスイブです。カップルの <ruby>日<rt>ひ</rt></ruby>です。",
+          translation: "24 декабря — Сочельник в Японии. Это день для пар.",
+          grammarInfo:
+            "1. 12月にじゅうよっか — «24 декабря».\n\n2. クリスマスイブ — «Сочельник (канун Рождества)».\n\n3. カップルの 日 — «день пар».\n\n💡 В Японии Рождество — не семейный, а романтический праздник! Пары ходят на свидания.",
+        },
+        uz: {
+          jp: "<ruby>12月<rt>じゅうにがつ</rt></ruby>にじゅうよっかは <ruby>日本<rt>にほん</rt></ruby>の クリスマスイブです。カップルの <ruby>日<rt>ひ</rt></ruby>です。",
+          translation:
+            "24-dekabr — Yaponiyada Rojdestvo arfasi. Bu juftliklar kuni.",
+          grammarInfo:
+            "1. 12月にじゅうよっか — «24-dekabr».\n\n2. クリスマスイブ — «Rojdestvo arfasi».\n\n3. カップルの 日 — «juftliklar kuni».\n\n💡 Yaponiyada Rojdestvo oilaviy emas, romantik bayram! Juftliklar uchrashuvga chiqadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "にじゅうよっかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "Приходите 24-го числа.",
+          },
+          {
+            jp: "にじゅうよっかは <ruby>火曜日<rt>かようび</rt></ruby>です。",
+            translation: "24-е число — вторник.",
+          },
+          {
+            jp: "はつかから にじゅうよっかまで やすみです。",
+            translation: "Выходные с 20-го по 24-е.",
+          },
+        ],
+        uz: [
+          {
+            jp: "にじゅうよっかに <ruby>来<rt>き</rt></ruby>てください。",
+            translation: "24-sanada keling.",
+          },
+          {
+            jp: "にじゅうよっかは <ruby>火曜日<rt>かようび</rt></ruby>です。",
+            translation: "24-sana — seshanba.",
+          },
+          {
+            jp: "はつかから にじゅうよっかまで やすみです。",
+            translation: "20-sanadan 24-sanagacha dam olish.",
+          },
+        ],
+      },
+    },
+    {
+      id: 233,
+      lesson: 5,
+      japanese: "ーにち",
+      cleanWord: "ー日",
+      translations: { ru: "-е число, -дней", uz: "-sana, -kun" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>11日<rt>じゅういちにち</rt></ruby>に <ruby>東京<rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "11-го числа поеду в Токио.",
+          grammarInfo:
+            "1. 11日（じゅういちにち）— «11-е число». После 10-го используется суффикс ーにち.\n\n2. に — частица времени.\n\n3. 東京へ 行きます — «поеду в Токио».\n\n⚠️ Исключения: 14日 = じゅうよっか, 20日 = はつか, 24日 = にじゅうよっか. Остальные — обычные: ーにち.",
+        },
+        uz: {
+          jp: "<ruby>11日<rt>じゅういちにち</rt></ruby>に <ruby>東京<rt>とうきょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "11-sanada Tokioga boraman.",
+          grammarInfo:
+            "1. 11日（じゅういちにち）— «11-sana». 10-sanadan keyin ーにち qo'shimchasi ishlatiladi.\n\n2. に — vaqt yuklatmasi.\n\n3. 東京へ 行きます — «Tokioga boraman».\n\n⚠️ Istisnolar: 14日 = じゅうよっか, 20日 = はつか, 24日 = にじゅうよっか. Qolganlari oddiy: ーにち.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>15日<rt>じゅうごにち</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "Вернусь 15-го числа.",
+          },
+          {
+            jp: "<ruby>3<rt>みっ</rt></ruby><ruby>日<rt>か</rt></ruby> やすみます。",
+            translation: "Возьму выходной на 3 дня.",
+          },
+          {
+            jp: "<ruby>25日<rt>にじゅうごにち</rt></ruby>は クリスマスです。",
+            translation: "25-е число — Рождество.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>15日<rt>じゅうごにち</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>ります。",
+            translation: "15-sanada qaytaman.",
+          },
+          {
+            jp: "<ruby>3<rt>みっ</rt></ruby><ruby>日<rt>か</rt></ruby> やすみます。",
+            translation: "3 kun dam olaman.",
+          },
+          {
+            jp: "<ruby>25日<rt>にじゅうごにち</rt></ruby>は クリスマスです。",
+            translation: "25-sana — Rojdestvo.",
+          },
+        ],
+      },
+    },
+    {
+      id: 234,
+      lesson: 5,
+      japanese: "<ruby>何日<rt>なんにち</rt></ruby>",
+      cleanWord: "何日",
+      translations: {
+        ru: "какое число? сколько дней?",
+        uz: "nechanchi sana? necha kun?",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>は <ruby>何月<rt>なんがつ</rt></ruby> <ruby>何日<rt>なんにち</rt></ruby>ですか。",
+          translation: "Какого числа какого месяца ваш день рождения?",
+          grammarInfo:
+            "1. 誕生日は — «день рождения» (тема).\n\n2. 何月（なんがつ）— «какой месяц?»\n\n3. 何日（なんにち）— «какое число?»\n\n4. ですか — вопросительное окончание.\n\n💡 何月何日 — стандартный вопрос о дате. Запомните как одну фразу!",
+        },
+        uz: {
+          jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>は <ruby>何月<rt>なんがつ</rt></ruby> <ruby>何日<rt>なんにち</rt></ruby>ですか。",
+          translation: "Tug'ilgan kuningiz qaysi oyning nechanchi sanasi?",
+          grammarInfo:
+            "1. 誕生日は — «tug'ilgan kun» (mavzu).\n\n2. 何月（なんがつ）— «qaysi oy?»\n\n3. 何日（なんにち）— «nechanchi sana?»\n\n4. ですか — so'roq shakli.\n\n💡 何月何日 — sana so'rashning standart usuli. Bitta ibora sifatida yodlang!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>何日<rt>なんにち</rt></ruby>に <ruby>来<rt>き</rt></ruby>ますか。",
+            translation: "Какого числа приедете?",
+          },
+          {
+            jp: "<ruby>何日<rt>なんにち</rt></ruby> やすみますか。",
+            translation: "Сколько дней будете отдыхать?",
+          },
+          {
+            jp: "テストは <ruby>何日<rt>なんにち</rt></ruby>ですか。",
+            translation: "Какого числа тест?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>何日<rt>なんにち</rt></ruby>に <ruby>来<rt>き</rt></ruby>ますか。",
+            translation: "Nechanchi sanada kelasiz?",
+          },
+          {
+            jp: "<ruby>何日<rt>なんにち</rt></ruby> やすみますか。",
+            translation: "Necha kun dam olasiz?",
+          },
+          {
+            jp: "テストは <ruby>何日<rt>なんにち</rt></ruby>ですか。",
+            translation: "Test nechanchi sanada?",
+          },
+        ],
+      },
+    },
+    {
+      id: 235,
+      lesson: 5,
+      japanese: "<ruby>歩<rt>ある</rt></ruby>いて",
+      cleanWord: "歩いて",
+      translations: { ru: "пешком", uz: "piyoda" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>駅<rt>えき</rt></ruby>から <ruby>歩<rt>ある</rt></ruby>いて <ruby>5<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>です。ちかいですよ。",
+          translation: "От станции 5 минут пешком. Близко!",
+          grammarInfo:
+            "1. 駅から — «от станции».\n\n2. 歩いて — «пешком» (て-форма глагола 歩く, используется как наречие).\n\n3. 5分です — «5 минут».\n\n4. ちかいですよ — «близко!» Частица よ добавляет уверенность.\n\n💡 歩いて используется как наречие «пешком», хотя это форма глагола «ходить».",
+        },
+        uz: {
+          jp: "<ruby>駅<rt>えき</rt></ruby>から <ruby>歩<rt>ある</rt></ruby>いて <ruby>5<rt>ご</rt></ruby><ruby>分<rt>ふん</rt></ruby>です。ちかいですよ。",
+          translation: "Bekatdan piyoda 5 daqiqa. Yaqin!",
+          grammarInfo:
+            "1. 駅から — «bekatdan».\n\n2. 歩いて — «piyoda» (歩く fe'lining て shakli, ravish sifatida ishlatiladi).\n\n3. 5分です — «5 daqiqa».\n\n4. ちかいですよ — «yaqin!» よ yuklatmasi ishonchni qo'shadi.\n\n💡 歩いて «piyoda» ma'nosida ravish sifatida ishlatiladi, garchi bu fe'l shakli bo'lsa ham.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Иду в школу пешком.",
+          },
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>30<rt>さんじゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby>です。",
+            translation: "Пешком 30 минут.",
+          },
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "Вернулся пешком.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>学校<rt>がっこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Maktabga piyoda boraman.",
+          },
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>30<rt>さんじゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby>です。",
+            translation: "Piyoda 30 daqiqa.",
+          },
+          {
+            jp: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "Piyoda qaytdim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 236,
+      lesson: 5,
+      japanese: "<ruby>一人<rt>ひとり</rt></ruby>で",
+      cleanWord: "一人で",
+      translations: { ru: "один, в одиночку", uz: "bir o'zi, yolg'iz" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>一人<rt>ひとり</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>の いざかやに はいりました。ドキドキしました。",
+          translation: "Один зашёл в японскую идзакаю. Сердце колотилось.",
+          grammarInfo:
+            "1. 一人で — «один, в одиночку». で здесь часть наречия.\n\n2. いざかや — «идзакая» (японский паб/бар).\n\n3. はいりました — «зашёл» (прошедшее время).\n\n4. ドキドキしました — «сердце колотилось» (ономатопея).\n\n💡 Идзакая — особое место в японской культуре, где после работы отдыхают с коллегами.",
+        },
+        uz: {
+          jp: "<ruby>一人<rt>ひとり</rt></ruby>で <ruby>日本<rt>にほん</rt></ruby>の いざかやに はいりました。ドキドキしました。",
+          translation:
+            "Yolg'iz o'zim yapon izakayasiga kirdim. Yuragim gupillab urdi.",
+          grammarInfo:
+            "1. 一人で — «yolg'iz, bir o'zi». で bu yerda ravish qismi.\n\n2. いざかや — «izakaya» (yapon pub/bari).\n\n3. はいりました — «kirdim» (o'tgan zamon).\n\n4. ドキドキしました — «yuragim gupillab urdi» (onomatopeya).\n\n💡 Izakaya — yapon madaniyatidagi maxsus joy, ishdan keyin hamkasblar bilan dam olishadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>一人<rt>ひとり</rt></ruby>で <ruby>来<rt>き</rt></ruby>ましたか。",
+            translation: "Вы пришли один?",
+          },
+          {
+            jp: "<ruby>一人<rt>ひとり</rt></ruby>で <ruby>飛行機<rt>ひこうき</rt></ruby>に のりました。",
+            translation: "Один сел на самолёт.",
+          },
+          {
+            jp: "<ruby>一人<rt>ひとり</rt></ruby>で たべます。",
+            translation: "Ем один.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>一人<rt>ひとり</rt></ruby>で <ruby>来<rt>き</rt></ruby>ましたか。",
+            translation: "Yolg'iz keldingizmi?",
+          },
+          {
+            jp: "<ruby>一人<rt>ひとり</rt></ruby>で <ruby>飛行機<rt>ひこうき</rt></ruby>に のりました。",
+            translation: "Yolg'iz samolyotga mindim.",
+          },
+          {
+            jp: "<ruby>一人<rt>ひとり</rt></ruby>で たべます。",
+            translation: "Yolg'iz ovqatlanaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 237,
+      lesson: 5,
+      japanese: "いつ",
+      cleanWord: "いつ",
+      translations: { ru: "когда", uz: "qachon" },
+      exampleSentences: {
+        ru: {
+          jp: "いつ <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。—— <ruby>来年<rt>らいねん</rt></ruby>の <ruby>3月<rt>さんがつ</rt></ruby>です。",
+          translation: "Когда поедете в Японию? — В марте следующего года.",
+          grammarInfo:
+            "1. いつ — «когда». Вопросительное слово, не требует частицы に.\n\n2. 日本へ 行きますか — «поедете в Японию?»\n\n3. 来年の 3月 — «март следующего года».\n\n💡 いつ ставится в начале предложения или на месте, где стояло бы обстоятельство времени.",
+        },
+        uz: {
+          jp: "いつ <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか。—— <ruby>来年<rt>らいねん</rt></ruby>の <ruby>3月<rt>さんがつ</rt></ruby>です。",
+          translation:
+            "Qachon Yaponiyaga borasiz? — Keyingi yilning mart oyida.",
+          grammarInfo:
+            "1. いつ — «qachon». So'roq so'zi, に yuklatmasi talab qilmaydi.\n\n2. 日本へ 行きますか — «Yaponiyaga borasizmi?»\n\n3. 来年の 3月 — «keyingi yilning mart oyi».\n\n💡 いつ gap boshida yoki vaqt so'zi o'rnida qo'yiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "いつ <ruby>帰<rt>かえ</rt></ruby>りますか。",
+            translation: "Когда вернётесь?",
+          },
+          {
+            jp: "いつ <ruby>来<rt>き</rt></ruby>ましたか。",
+            translation: "Когда приехали?",
+          },
+          {
+            jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>は いつですか。",
+            translation: "Когда день рождения?",
+          },
+        ],
+        uz: [
+          {
+            jp: "いつ <ruby>帰<rt>かえ</rt></ruby>りますか。",
+            translation: "Qachon qaytasiz?",
+          },
+          {
+            jp: "いつ <ruby>来<rt>き</rt></ruby>ましたか。",
+            translation: "Qachon keldingiz?",
+          },
+          {
+            jp: "<ruby>誕生日<rt>たんじょうび</rt></ruby>は いつですか。",
+            translation: "Tug'ilgan kun qachon?",
+          },
+        ],
+      },
+    },
+    {
+      id: 238,
+      lesson: 5,
+      japanese: "<ruby>何年<rt>なんねん</rt></ruby>",
+      cleanWord: "何年",
+      translations: { ru: "какой год?", uz: "qaysi yil?" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>何年<rt>なんねん</rt></ruby>に <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>き</rt></ruby>ましたか。—— <ruby>2024<rt>にせんにじゅうよ</rt></ruby><ruby>年<rt>ねん</rt></ruby>です。",
+          translation: "В каком году приехали в Японию? — В 2024-м.",
+          grammarInfo:
+            "1. 何年に — «в каком году?» 何 = «какой/сколько», 年 = «год».\n\n2. 日本へ 来ましたか — «приехали в Японию?»\n\n3. 2024年です — «в 2024 году».\n\n💡 В японском используется также японское летоисчисление (令和 и т.д.).",
+        },
+        uz: {
+          jp: "<ruby>何年<rt>なんねん</rt></ruby>に <ruby>日本<rt>にほん</rt></ruby>へ <ruby>来<rt>き</rt></ruby>ましたか。—— <ruby>2024<rt>にせんにじゅうよ</rt></ruby><ruby>年<rt>ねん</rt></ruby>です。",
+          translation: "Qaysi yili Yaponiyaga keldingiz? — 2024-yilda.",
+          grammarInfo:
+            "1. 何年に — «qaysi yilda?» 何 = «qaysi/necha», 年 = «yil».\n\n2. 日本へ 来ましたか — «Yaponiyaga keldingizmi?»\n\n3. 2024年です — «2024-yilda».\n\n💡 Yaponiyada yapon yil tizimi ham ishlatiladi (令和 va hokazo).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>何年<rt>なんねん</rt></ruby> べんきょうしましたか。",
+            translation: "Сколько лет учились?",
+          },
+          {
+            jp: "<ruby>何年<rt>なんねん</rt></ruby>に うまれましたか。",
+            translation: "В каком году родились?",
+          },
+          {
+            jp: "<ruby>何年<rt>なんねん</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>に いますか。",
+            translation: "Сколько лет живёте в Японии?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>何年<rt>なんねん</rt></ruby> べんきょうしましたか。",
+            translation: "Necha yil o'qidingiz?",
+          },
+          {
+            jp: "<ruby>何年<rt>なんねん</rt></ruby>に うまれましたか。",
+            translation: "Qaysi yilda tug'ildingiz?",
+          },
+          {
+            jp: "<ruby>何年<rt>なんねん</rt></ruby> <ruby>日本<rt>にほん</rt></ruby>に いますか。",
+            translation: "Necha yil Yaponiyada yashaysiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 239,
+      lesson: 5,
+      japanese: "<ruby>何月<rt>なんがつ</rt></ruby>",
+      cleanWord: "何月",
+      translations: { ru: "какой месяц?", uz: "qaysi oy?" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の さくらは <ruby>何月<rt>なんがつ</rt></ruby>ですか。—— <ruby>3月<rt>さんがつ</rt></ruby>から <ruby>4月<rt>しがつ</rt></ruby>です。",
+          translation:
+            "В каком месяце цветёт сакура в Японии? — С марта по апрель.",
+          grammarInfo:
+            "1. さくら — «сакура (цветы вишни)».\n\n2. 何月ですか — «в каком месяце?»\n\n3. 3月から 4月です — «с марта по апрель».\n\n💡 Сезон сакуры — главное событие года в Японии. Японцы устраивают ханами — пикники под цветущими деревьями.",
+        },
+        uz: {
+          jp: "<ruby>日本<rt>にほん</rt></ruby>の さくらは <ruby>何月<rt>なんがつ</rt></ruby>ですか。—— <ruby>3月<rt>さんがつ</rt></ruby>から <ruby>4月<rt>しがつ</rt></ruby>です。",
+          translation:
+            "Yaponiyada sakura qaysi oyda gulaydi? — Martdan aprelgacha.",
+          grammarInfo:
+            "1. さくら — «sakura (olcha gullari)».\n\n2. 何月ですか — «qaysi oyda?»\n\n3. 3月から 4月です — «martdan aprelgacha».\n\n💡 Sakura mavsumi — Yaponiyada yildagi eng muhim voqea. Yaponlar xanami — gullaydigan daraxtlar ostida piknik qiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>何月<rt>なんがつ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りますか。",
+            translation: "В каком месяце вернётесь?",
+          },
+          {
+            jp: "<ruby>何月<rt>なんがつ</rt></ruby>が すきですか。",
+            translation: "Какой месяц вам нравится?",
+          },
+          {
+            jp: "テストは <ruby>何月<rt>なんがつ</rt></ruby>ですか。",
+            translation: "В каком месяце тест?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>何月<rt>なんがつ</rt></ruby>に <ruby>帰<rt>かえ</rt></ruby>りますか。",
+            translation: "Qaysi oyda qaytasiz?",
+          },
+          {
+            jp: "<ruby>何月<rt>なんがつ</rt></ruby>が すきですか。",
+            translation: "Qaysi oyni yoqtirasiz?",
+          },
+          {
+            jp: "テストは <ruby>何月<rt>なんがつ</rt></ruby>ですか。",
+            translation: "Test qaysi oyda?",
+          },
+        ],
+      },
+    },
+    {
+      id: 240,
+      lesson: 5,
+      japanese: "<ruby>次<rt>つぎ</rt></ruby>の",
+      cleanWord: "次の",
+      translations: { ru: "следующий", uz: "keyingi" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は <ruby>3<rt>さん</rt></ruby><ruby>分<rt>ぷん</rt></ruby><ruby>後<rt>ご</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>は すごいですね。",
+          translation:
+            "Следующий поезд — через 3 минуты. Япония удивительна, правда?",
+          grammarInfo:
+            "1. 次の — «следующий». Всегда используется с の перед существительным.\n\n2. 電車 — «поезд».\n\n3. 3分後（さんぷんご）— «через 3 минуты».\n\n💡 В Японии поезда ходят каждые 2-3 минуты в час пик!",
+        },
+        uz: {
+          jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は <ruby>3<rt>さん</rt></ruby><ruby>分<rt>ぷん</rt></ruby><ruby>後<rt>ご</rt></ruby>です。<ruby>日本<rt>にほん</rt></ruby>は すごいですね。",
+          translation:
+            "Keyingi poyezd 3 daqiqadan keyin. Yaponiya ajoyib, shunday emasmi?",
+          grammarInfo:
+            "1. 次の — «keyingi». Har doim otdan oldin の bilan ishlatiladi.\n\n2. 電車 — «poyezd».\n\n3. 3分後（さんぷんご）— «3 daqiqadan keyin».\n\n💡 Yaponiyada poyezdlar rush hoursda har 2-3 daqiqada keladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の バスは いつですか。",
+            translation: "Когда следующий автобус?",
+          },
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>駅<rt>えき</rt></ruby>で おります。",
+            translation: "Выйду на следующей станции.",
+          },
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>に のります。",
+            translation: "Сяду на следующий поезд.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の バスは いつですか。",
+            translation: "Keyingi avtobus qachon?",
+          },
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>駅<rt>えき</rt></ruby>で おります。",
+            translation: "Keyingi bekatda tushaman.",
+          },
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>に のります。",
+            translation: "Keyingi poyezdga minaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 241,
+      lesson: 5,
+      japanese: "<ruby>普通<rt>ふつう</rt></ruby>",
+      cleanWord: "普通",
+      translations: { ru: "обычный поезд", uz: "oddiy poyezd" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>普通<rt>ふつう</rt></ruby>は やすいですが、おそいです。<ruby>急行<rt>きゅうこう</rt></ruby>に しましょう。",
+          translation:
+            "Обычный поезд дешёвый, но медленный. Давайте поедем на скором.",
+          grammarInfo:
+            "1. 普通は — «обычный поезд» (тема).\n\n2. やすいですが — «дешёвый, но…». が = «но».\n\n3. おそいです — «медленный».\n\n4. 急行に しましょう — «давайте выберем скорый».\n\n💡 普通 останавливается на каждой станции. 急行 — только на крупных.",
+        },
+        uz: {
+          jp: "<ruby>普通<rt>ふつう</rt></ruby>は やすいですが、おそいです。<ruby>急行<rt>きゅうこう</rt></ruby>に しましょう。",
+          translation: "Oddiy poyezd arzon, lekin sekin. Tez poyezdga minamiz.",
+          grammarInfo:
+            "1. 普通は — «oddiy poyezd» (mavzu).\n\n2. やすいですが — «arzon, lekin…». が = «lekin».\n\n3. おそいです — «sekin».\n\n4. 急行に しましょう — «tez poyezdni tanlaymiz».\n\n💡 普通 har bir bekatda to'xtaydi. 急行 — faqat katta bekatlarda.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>普通<rt>ふつう</rt></ruby>は <ruby>1<rt>いち</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。",
+            translation: "Обычный поезд — платформа 1.",
+          },
+          {
+            jp: "<ruby>普通<rt>ふつう</rt></ruby>で <ruby>行<rt>い</rt></ruby>きましょう。",
+            translation: "Давайте поедем на обычном.",
+          },
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>普通<rt>ふつう</rt></ruby>は <ruby>10<rt>じゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby><ruby>後<rt>ご</rt></ruby>です。",
+            translation: "Следующий обычный — через 10 минут.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>普通<rt>ふつう</rt></ruby>は <ruby>1<rt>いち</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。",
+            translation: "Oddiy poyezd — 1-platforma.",
+          },
+          {
+            jp: "<ruby>普通<rt>ふつう</rt></ruby>で <ruby>行<rt>い</rt></ruby>きましょう。",
+            translation: "Oddiy poyezdda boramiz.",
+          },
+          {
+            jp: "<ruby>次<rt>つぎ</rt></ruby>の <ruby>普通<rt>ふつう</rt></ruby>は <ruby>10<rt>じゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby><ruby>後<rt>ご</rt></ruby>です。",
+            translation: "Keyingi oddiy poyezd 10 daqiqadan keyin.",
+          },
+        ],
+      },
+    },
+    {
+      id: 242,
+      lesson: 5,
+      japanese: "<ruby>急行<rt>きゅうこう</rt></ruby>",
+      cleanWord: "急行",
+      translations: { ru: "скорый поезд", uz: "tez poyezd" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>急行<rt>きゅうこう</rt></ruby>は この <ruby>駅<rt>えき</rt></ruby>に とまりません。<ruby>次<rt>つぎ</rt></ruby>の <ruby>駅<rt>えき</rt></ruby>まで <ruby>行<rt>い</rt></ruby>ってください。",
+          translation:
+            "Скорый поезд не останавливается на этой станции. Идите до следующей.",
+          grammarInfo:
+            "1. 急行は — «скорый поезд» (тема).\n\n2. この 駅に — «на этой станции».\n\n3. とまりません — «не останавливается».\n\n4. 次の 駅まで — «до следующей станции».\n\n⚠️ Проверяйте, останавливается ли急行 на вашей станции — можно уехать мимо!",
+        },
+        uz: {
+          jp: "<ruby>急行<rt>きゅうこう</rt></ruby>は この <ruby>駅<rt>えき</rt></ruby>に とまりません。<ruby>次<rt>つぎ</rt></ruby>の <ruby>駅<rt>えき</rt></ruby>まで <ruby>行<rt>い</rt></ruby>ってください。",
+          translation:
+            "Tez poyezd bu bekatda to'xtamaydi. Keyingi bekatga boring.",
+          grammarInfo:
+            "1. 急行は — «tez poyezd» (mavzu).\n\n2. この 駅に — «bu bekatda».\n\n3. とまりません — «to'xtamaydi».\n\n4. 次の 駅まで — «keyingi bekatgacha».\n\n⚠️ 急行 sizning bekatda to'xtashini tekshiring — aks holda o'tib ketishi mumkin!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>急行<rt>きゅうこう</rt></ruby>は <ruby>3<rt>さん</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。",
+            translation: "Скорый поезд — платформа 3.",
+          },
+          {
+            jp: "<ruby>急行<rt>きゅうこう</rt></ruby>で <ruby>30<rt>さんじゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby>です。",
+            translation: "На скором — 30 минут.",
+          },
+          {
+            jp: "<ruby>急行<rt>きゅうこう</rt></ruby>に のりましょう。",
+            translation: "Давайте сядем на скорый.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>急行<rt>きゅうこう</rt></ruby>は <ruby>3<rt>さん</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。",
+            translation: "Tez poyezd — 3-platforma.",
+          },
+          {
+            jp: "<ruby>急行<rt>きゅうこう</rt></ruby>で <ruby>30<rt>さんじゅっ</rt></ruby><ruby>分<rt>ぷん</rt></ruby>です。",
+            translation: "Tez poyezdda 30 daqiqa.",
+          },
+          {
+            jp: "<ruby>急行<rt>きゅうこう</rt></ruby>に のりましょう。",
+            translation: "Tez poyezdga minamiz.",
+          },
+        ],
+      },
+    },
+    {
+      id: 243,
+      lesson: 5,
+      japanese: "<ruby>特急<rt>とっきゅう</rt></ruby>",
+      cleanWord: "特急",
+      translations: { ru: "поезд-экспресс", uz: "ekspress poyezd" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>特急<rt>とっきゅう</rt></ruby>は はやいですが、たかいです。でも、じかんが ありません。",
+          translation: "Экспресс быстрый, но дорогой. Но времени нет.",
+          grammarInfo:
+            "1. 特急は — «экспресс» (тема).\n\n2. はやいですが — «быстрый, но…».\n\n3. たかいです — «дорогой».\n\n4. じかんが ありません — «времени нет».\n\n💡 Иерархия поездов: 普通 < 急行 < 特急 < 新幹線 (по скорости и цене).",
+        },
+        uz: {
+          jp: "<ruby>特急<rt>とっきゅう</rt></ruby>は はやいですが、たかいです。でも、じかんが ありません。",
+          translation: "Ekspress tez, lekin qimmat. Lekin vaqtim yo'q.",
+          grammarInfo:
+            "1. 特急は — «ekspress» (mavzu).\n\n2. はやいですが — «tez, lekin…».\n\n3. たかいです — «qimmat».\n\n4. じかんが ありません — «vaqt yo'q».\n\n💡 Poyezdlar tartibi: 普通 < 急行 < 特急 < 新幹線 (tezlik va narx bo'yicha).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>特急<rt>とっきゅう</rt></ruby>は <ruby>2<rt>に</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。",
+            translation: "Экспресс — платформа 2.",
+          },
+          {
+            jp: "<ruby>特急<rt>とっきゅう</rt></ruby>で <ruby>1<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>です。",
+            translation: "На экспрессе — 1 час.",
+          },
+          {
+            jp: "<ruby>特急<rt>とっきゅう</rt></ruby>の きっぷを ください。",
+            translation: "Билет на экспресс, пожалуйста.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>特急<rt>とっきゅう</rt></ruby>は <ruby>2<rt>に</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。",
+            translation: "Ekspress — 2-platforma.",
+          },
+          {
+            jp: "<ruby>特急<rt>とっきゅう</rt></ruby>で <ruby>1<rt>いち</rt></ruby><ruby>時間<rt>じかん</rt></ruby>です。",
+            translation: "Ekspressda 1 soat.",
+          },
+          {
+            jp: "<ruby>特急<rt>とっきゅう</rt></ruby>の きっぷを ください。",
+            translation: "Ekspress chiptasini bering.",
+          },
+        ],
+      },
+    },
+    {
+      id: 244,
+      lesson: 5,
+      japanese: "ー<ruby>番線<rt>ばんせん</rt></ruby>",
+      cleanWord: "ー番線",
+      translations: { ru: "платформа №", uz: "-platforma" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>は <ruby>5<rt>ご</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。おいそぎください。",
+          translation: "Синкансэн — платформа 5. Поторопитесь.",
+          grammarInfo:
+            "1. 新幹線は — «синкансэн» (тема).\n\n2. 5番線です — «платформа 5». 番 = «номер», 線 = «линия/путь».\n\n3. おいそぎください — «пожалуйста, поторопитесь».\n\n💡 На японских станциях номера платформ объявляют по громкой связи — слушайте внимательно!",
+        },
+        uz: {
+          jp: "<ruby>新幹線<rt>しんかんせん</rt></ruby>は <ruby>5<rt>ご</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>です。おいそぎください。",
+          translation: "Shinkansen — 5-platforma. Shoshiling.",
+          grammarInfo:
+            "1. 新幹線は — «shinkansen» (mavzu).\n\n2. 5番線です — «5-platforma». 番 = «raqam», 線 = «liniya/yo'l».\n\n3. おいそぎください — «iltimos, shoshiling».\n\n💡 Yaponiya bekatlarida platforma raqamlari ovoz kuchaytirgich orqali e'lon qilinadi — diqqat bilan tinglang!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>1<rt>いち</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>に <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "На платформу 1 прибывает поезд.",
+          },
+          {
+            jp: "<ruby>何<rt>なん</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>ですか。",
+            translation: "Какая платформа?",
+          },
+          {
+            jp: "<ruby>3<rt>さん</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってください。",
+            translation: "Идите на платформу 3.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>1<rt>いち</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>に <ruby>電車<rt>でんしゃ</rt></ruby>が <ruby>来<rt>き</rt></ruby>ます。",
+            translation: "1-platformaga poyezd keladi.",
+          },
+          {
+            jp: "<ruby>何<rt>なん</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>ですか。",
+            translation: "Nechanchi platforma?",
+          },
+          {
+            jp: "<ruby>3<rt>さん</rt></ruby><ruby>番線<rt>ばんせん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>ってください。",
+            translation: "3-platformaga boring.",
+          },
+        ],
+      },
+    },
+    {
+      id: 245,
+      lesson: 5,
+      japanese: "そうですね。",
+      cleanWord: "そうですね。",
+      translations: {
+        ru: "Да, это так. / Да, вы правы.",
+        uz: "Ha, shunday. / Ha, to'g'ri.",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "A:「<ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は すごいですね。」B:「そうですね。」",
+          translation:
+            "A: «Японские поезда — потрясающие, правда?» B: «Да, это так.»",
+          grammarInfo:
+            "1. そう — «так, таким образом».\n\n2. ですね — вежливая форма + частица ね (согласие).\n\n3. Используется для выражения согласия с собеседником.\n\n💡 そうですね также используется как пауза для размышления: «Ну, давайте подумаем…»",
+        },
+        uz: {
+          jp: "A:「<ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>は すごいですね。」B:「そうですね。」",
+          translation:
+            "A: «Yaponiya poyezdlari ajoyib, to'g'rimi?» B: «Ha, shunday.»",
+          grammarInfo:
+            "1. そう — «shunday, shu tarzda».\n\n2. ですね — hurmatli shakl + ね yuklatmasi (rozilik).\n\n3. Suhbatdoshga rozilik bildirish uchun ishlatiladi.\n\n💡 そうですね «o'ylab ko'raylik...» ma'nosida pauza sifatida ham ishlatiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "A:「<ruby>今日<rt>きょう</rt></ruby>は あついですね。」B:「そうですね。」",
+            translation: "A: «Сегодня жарко, правда?» B: «Да, так и есть.»",
+          },
+          {
+            jp: "A:「この スーパーは やすいですね。」B:「そうですね。」",
+            translation:
+              "A: «Этот супермаркет дешёвый, правда?» B: «Да, правда.»",
+          },
+          {
+            jp: "A:「<ruby>日本語<rt>にほんご</rt></ruby>は むずかしいですね。」B:「そうですね。」",
+            translation: "A: «Японский сложный, правда?» B: «Да, согласен.»",
+          },
+        ],
+        uz: [
+          {
+            jp: "A:「<ruby>今日<rt>きょう</rt></ruby>は あついですね。」B:「そうですね。」",
+            translation: "A: «Bugun issiq, shunday emasmi?» B: «Ha, shunday.»",
+          },
+          {
+            jp: "A:「この スーパーは やすいですね。」B:「そうですね。」",
+            translation:
+              "A: «Bu supermarket arzon, to'g'rimi?» B: «Ha, to'g'ri.»",
+          },
+          {
+            jp: "A:「<ruby>日本語<rt>にほんご</rt></ruby>は むずかしいですね。」B:「そうですね。」",
+            translation:
+              "A: «Yapon tili qiyin, shunday emasmi?» B: «Ha, roziman.»",
+          },
+        ],
+      },
+    },
+    {
+      id: 246,
+      lesson: 5,
+      japanese: "どうも ありがとう ございました。",
+      cleanWord: "どうもありがとうございました。",
+      translations: { ru: "Большое спасибо.", uz: "Katta rahmat." },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>駅<rt>えき</rt></ruby>まで おしえてくれました。どうも ありがとう ございました。",
+          translation: "Вы показали дорогу до станции. Большое спасибо.",
+          grammarInfo:
+            "1. 駅まで — «до станции».\n\n2. おしえてくれました — «(мне) показали / объяснили».\n\n3. どうも ありがとう ございました — «большое спасибо» (прошедшее время, за уже сделанное).\n\n💡 ございました (прошедшее) — благодарность за то, что уже произошло. ございます (настоящее) — за то, что происходит сейчас.",
+        },
+        uz: {
+          jp: "<ruby>駅<rt>えき</rt></ruby>まで おしえてくれました。どうも ありがとう ございました。",
+          translation: "Bekatgacha yo'lni ko'rsatdingiz. Katta rahmat.",
+          grammarInfo:
+            "1. 駅まで — «bekatgacha».\n\n2. おしえてくれました — «(menga) ko'rsatdi / tushuntirdi».\n\n3. どうも ありがとう ございました — «katta rahmat» (o'tgan zamon, allaqachon qilingan ish uchun).\n\n💡 ございました (o'tgan zamon) — allaqachon bo'lgan narsa uchun minnatdorchilik. ございます (hozirgi zamon) — hozir bo'layotgan narsa uchun.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>、どうも ありがとう ございました。",
+            translation: "Учитель, большое спасибо.",
+          },
+          {
+            jp: "きのうは どうも ありがとう ございました。",
+            translation: "Спасибо большое за вчера.",
+          },
+          {
+            jp: "<ruby>今日<rt>きょう</rt></ruby>は どうも ありがとう ございました。たのしかったです。",
+            translation: "Большое спасибо за сегодня. Было весело.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>、どうも ありがとう ございました。",
+            translation: "Sensei, katta rahmat.",
+          },
+          {
+            jp: "きのうは どうも ありがとう ございました。",
+            translation: "Kecha uchun katta rahmat.",
+          },
+          {
+            jp: "<ruby>今日<rt>きょう</rt></ruby>は どうも ありがとう ございました。たのしかったです。",
+            translation: "Bugun uchun katta rahmat. Qiziqarli edi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 247,
+      lesson: 5,
+      japanese: "どう いたしまして。",
+      cleanWord: "どういたしまして。",
+      translations: { ru: "Не за что.", uz: "Arzimaydi." },
+      exampleSentences: {
+        ru: {
+          jp: "A:「どうも ありがとう ございました。」B:「いいえ、どう いたしまして。」",
+          translation: "A: «Большое спасибо.» B: «Нет-нет, не за что.»",
+          grammarInfo:
+            "1. どうも ありがとう ございました — «большое спасибо» (за прошлое действие).\n\n2. いいえ — «нет-нет» (скромный отказ от похвалы).\n\n3. どう いたしまして — «не за что, пожалуйста».\n\n💡 Японцы часто добавляют いいえ перед どういたしまして — это проявление скромности, важной черты японской культуры.",
+        },
+        uz: {
+          jp: "A:「どうも ありがとう ございました。」B:「いいえ、どう いたしまして。」",
+          translation: "A: «Katta rahmat.» B: «Yo'q-yo'q, arzimaydi.»",
+          grammarInfo:
+            "1. どうも ありがとう ございました — «katta rahmat» (o'tgan harakat uchun).\n\n2. いいえ — «yo'q-yo'q» (kamtarona rad etish).\n\n3. どう いたしまして — «arzimaydi, hech gap emas».\n\n💡 Yaponlar ko'pincha どういたしまして oldidan いいえ qo'shadi — bu yapon madaniyatidagi kamtarlikning muhim belgisi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "A:「ありがとうございます。」B:「どう いたしまして。」",
+            translation: "A: «Спасибо.» B: «Не за что.»",
+          },
+          {
+            jp: "A:「たすかりました。ありがとう。」B:「どう いたしまして。」",
+            translation: "A: «Вы меня выручили. Спасибо.» B: «Не за что.»",
+          },
+          {
+            jp: "A:「おみやげ、ありがとう！」B:「どう いたしまして。」",
+            translation: "A: «Спасибо за сувенир!» B: «Не за что.»",
+          },
+        ],
+        uz: [
+          {
+            jp: "A:「ありがとうございます。」B:「どう いたしまして。」",
+            translation: "A: «Rahmat.» B: «Arzimaydi.»",
+          },
+          {
+            jp: "A:「たすかりました。ありがとう。」B:「どう いたしまして。」",
+            translation: "A: «Yordamingiz tegdi. Rahmat.» B: «Arzimaydi.»",
+          },
+          {
+            jp: "A:「おみやげ、ありがとう！」B:「どう いたしまして。」",
+            translation: "A: «Sovg'a uchun rahmat!» B: «Arzimaydi.»",
+          },
+        ],
+      },
+    },
+    {
+      id: 248,
+      lesson: 5,
+      japanese: "<ruby>甲子園<rt>こうしえん</rt></ruby>",
+      cleanWord: "甲子園",
+      translations: { ru: "Косиэн", uz: "Koshien" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>去年<rt>きょねん</rt></ruby> <ruby>友達<rt>ともだち</rt></ruby>と <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>甲子園<rt>こうしえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>5万人<rt>ごまんにん</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が いました！",
+          translation:
+            "В прошлом году ездил с другом на поезде в Косиэн. Там было 50 000 человек!",
+          grammarInfo:
+            "1. 去年 — «в прошлом году».\n\n2. 友達と — «с другом».\n\n3. 電車で — «на поезде».\n\n4. 甲子園へ 行きました — «поехал в Косиэн».\n\n5. 5万人の 人が いました — «было 50 000 человек».\n\n💡 Косиэн — легендарный бейсбольный стадион рядом с Осакой. Каждое лето здесь проходит чемпионат школьных команд — вся Япония смотрит!",
+        },
+        uz: {
+          jp: "<ruby>去年<rt>きょねん</rt></ruby> <ruby>友達<rt>ともだち</rt></ruby>と <ruby>電車<rt>でんしゃ</rt></ruby>で <ruby>甲子園<rt>こうしえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きました。<ruby>5万人<rt>ごまんにん</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が いました！",
+          translation:
+            "O'tgan yil do'stim bilan poyezdda Koshienga bordim. U yerda 50 000 kishi bor edi!",
+          grammarInfo:
+            "1. 去年 — «o'tgan yil».\n\n2. 友達と — «do'st bilan».\n\n3. 電車で — «poyezdda».\n\n4. 甲子園へ 行きました — «Koshienga bordim».\n\n5. 5万人の 人が いました — «50 000 kishi bor edi».\n\n💡 Koshien — Osaka yaqinidagi afsonaviy beysbol stadioni. Har yozda maktab jamoalari chempionati bo'ladi — butun Yaponiya tomosha qiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>甲子園<rt>こうしえん</rt></ruby>は <ruby>大阪<rt>おおさか</rt></ruby>の ちかくです。",
+            translation: "Косиэн — рядом с Осакой.",
+          },
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby> <ruby>甲子園<rt>こうしえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。",
+            translation: "В следующем году хочу поехать в Косиэн.",
+          },
+          {
+            jp: "<ruby>甲子園<rt>こうしえん</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>で いちばん ゆうめいな スタジアムです。",
+            translation: "Косиэн — самый знаменитый стадион в Японии.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>甲子園<rt>こうしえん</rt></ruby>は <ruby>大阪<rt>おおさか</rt></ruby>の ちかくです。",
+            translation: "Koshien Osakaning yonida.",
+          },
+          {
+            jp: "<ruby>来年<rt>らいねん</rt></ruby> <ruby>甲子園<rt>こうしえん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きたいです。",
+            translation: "Keyingi yil Koshienga bormoqchiman.",
+          },
+          {
+            jp: "<ruby>甲子園<rt>こうしえん</rt></ruby>は <ruby>日本<rt>にほん</rt></ruby>で いちばん ゆうめいな スタジアムです。",
+            translation: "Koshien — Yaponiyaning eng mashhur stadioni.",
+          },
+        ],
+      },
+    },
+    {
+      id: 249,
+      lesson: 5,
+      japanese: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>",
+      cleanWord: "大阪城",
+      translations: { ru: "Осакский замок", uz: "Osaka qasri" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>一人<rt>ひとり</rt></ruby>で <ruby>歩<rt>ある</rt></ruby>いて <ruby>行<rt>い</rt></ruby>きました。おおきくて、すごかったです。",
+          translation:
+            "Пошёл в Осакский замок один пешком. Он был огромным и потрясающим.",
+          grammarInfo:
+            "1. 大阪城へ — «в Осакский замок». へ — направление.\n\n2. 一人で — «один».\n\n3. 歩いて — «пешком».\n\n4. 行きました — «пошёл» (прошедшее время).\n\n5. おおきくて、すごかったです — «был большим и потрясающим». ～くて соединяет два い-прилагательных.\n\n💡 Осакский замок был построен в 1583 году. Это один из самых знаменитых замков Японии — символ могущества Тоётоми Хидэёси.",
+        },
+        uz: {
+          jp: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>一人<rt>ひとり</rt></ruby>で <ruby>歩<rt>ある</rt></ruby>いて <ruby>行<rt>い</rt></ruby>きました。おおきくて、すごかったです。",
+          translation:
+            "Osaka qasriga yolg'iz piyoda bordim. Katta va hayratlanarli edi.",
+          grammarInfo:
+            "1. 大阪城へ — «Osaka qasriga». へ — yo'nalish.\n\n2. 一人で — «yolg'iz».\n\n3. 歩いて — «piyoda».\n\n4. 行きました — «bordim» (o'tgan zamon).\n\n5. おおきくて、すごかったです — «katta va hayratlanarli edi». ～くて ikkita い sifatni bog'laydi.\n\n💡 Osaka qasri 1583-yilda qurilgan. Bu Yaponiyaning eng mashhur qasrlaridan biri — Toyotomi Xideyoshining qudratini ramziy bildiradi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>は きれいですね。",
+            translation: "Осакский замок красивый, правда?",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby> <ruby>家族<rt>かぞく</rt></ruby>と <ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "В следующем месяце поеду с семьёй в Осакский замок.",
+          },
+          {
+            jp: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>の さくらは とても きれいです。",
+            translation: "Сакура у Осакского замка — очень красивая.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>は きれいですね。",
+            translation: "Osaka qasri chiroyli, shunday emasmi?",
+          },
+          {
+            jp: "<ruby>来月<rt>らいげつ</rt></ruby> <ruby>家族<rt>かぞく</rt></ruby>と <ruby>大阪城<rt>おおさかじょう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Keyingi oy oilam bilan Osaka qasriga boraman.",
+          },
+          {
+            jp: "<ruby>大阪城<rt>おおさかじょう</rt></ruby>の さくらは とても きれいです。",
+            translation: "Osaka qasridagi sakura juda chiroyli.",
+          },
+        ],
+      },
+    },
+    {
+      id: 250,
+      lesson: 6,
+      japanese: "<ruby>食<rt>た</rt></ruby>べます",
+      cleanWord: "食べます",
+      translations: { ru: "есть, кушать", uz: "yemoq, ovqatlanmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "わたしの <ruby>友達<rt>ともだち</rt></ruby>は わたしの <ruby>宿題<rt>しゅくだい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。",
+          translation: "Мой друг съел мое домашнее задание.",
+          grammarInfo:
+            "1. は — маркер темы.\n2. を — частица винительного падежа (кого/что).\n3. 食べました — прошедшее время глагола.\n\n💡 Если ваша собака не съела домашку, можно свалить вину на друга!",
+        },
+        uz: {
+          jp: "わたしの <ruby>友達<rt>ともだち</rt></ruby>は わたしの <ruby>宿題<rt>しゅくだい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。",
+          translation: "Mening do'stim uy vazifamni yeb qo'ydi.",
+          grammarInfo:
+            "1. は — gap mavzusini bildiruvchi yuklama.\n2. を — tushum kelishigi (harakat obyektini bildiradi).\n3. 食べました — o'tgan zamon shakli.\n\n💡 Agar itingiz uy vazifangizni yeb qo'ymasa, aybni do'stingizga to'nkashingiz mumkin!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я каждый день ем мясо.",
+          },
+          {
+            jp: "いっしょに パンを <ruby>食<rt>た</rt></ruby>べませんか。",
+            translation: "Не поесть ли нам хлеба вместе?",
+          },
+          {
+            jp: "きのう、<ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+            translation: "Что вы вчера ели?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Men har kuni go'sht yeyman.",
+          },
+          {
+            jp: "いっしょに パンを <ruby>食<rt>た</rt></ruby>べませんか。",
+            translation: "Birgalikda non yemaymizmi?",
+          },
+          {
+            jp: "きのう、<ruby>何<rt>なに</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+            translation: "Kecha nima yedingiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 251,
+      lesson: 6,
+      japanese: "<ruby>飲<rt>の</rt></ruby>みます",
+      cleanWord: "飲みます",
+      translations: { ru: "пить", uz: "ichmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "あの <ruby>医者<rt>いしゃ</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "Тот врач каждое утро пьет саке.",
+          grammarInfo:
+            "1. 毎朝 — каждое утро. После слов, обозначающих регулярное время, частица に не ставится.\n2. を — указывает на то, что именно мы пьем.\n\n⚠️ Не лучшее начало дня для врача!",
+        },
+        uz: {
+          jp: "あの <ruby>医者<rt>いしゃ</rt></ruby>は <ruby>毎朝<rt>まいあさ</rt></ruby> お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "Anavi shifokor har tong sake ichadi.",
+          grammarInfo:
+            "1. 毎朝 — har tong. Muntazam vaqtni bildiruvchi so'zlardan keyin に qo'yilmaydi.\n2. を — ichilayotgan narsani ko'rsatadi.\n\n⚠️ Shifokor uchun kunning eng yaxshi ibtidosi emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Я пью воду.",
+          },
+          {
+            jp: "きのう お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました。",
+            translation: "Вчера я пил алкоголь.",
+          },
+          {
+            jp: "なにも <ruby>飲<rt>の</rt></ruby>みませんでした。",
+            translation: "Я ничего не пил.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Suv ichaman.",
+          },
+          {
+            jp: "きのう お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました。",
+            translation: "Kecha spirtli ichimlik ichdim.",
+          },
+          {
+            jp: "なにも <ruby>飲<rt>の</rt></ruby>みませんでした。",
+            translation: "Hech narsa ichmadim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 252,
+      lesson: 6,
+      japanese: "<ruby>吸<rt>す</rt></ruby>います",
+      cleanWord: "吸います",
+      translations: { ru: "курить", uz: "chekmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "あの <ruby>先生<rt>せんせい</rt></ruby>は <ruby>教室<rt>きょうしつ</rt></ruby>で たばこを <ruby>吸<rt>す</rt></ruby>いますか。",
+          translation: "Тот учитель курит сигареты в классе?!",
+          grammarInfo:
+            "1. で — место активного действия (в классе).\n2. か — частица вопроса, здесь выражающая шок.\n\n💡 吸います буквально переводится как «втягивать/вдыхать».",
+        },
+        uz: {
+          jp: "あの <ruby>先生<rt>せんせい</rt></ruby>は <ruby>教室<rt>きょうしつ</rt></ruby>で たばこを <ruby>吸<rt>す</rt></ruby>いますか。",
+          translation: "Anavi o'qituvchi sinfxonada sigaret chekadimi?!",
+          grammarInfo:
+            "1. で — harakat bajarilgan joy (sinfxonada).\n2. か — so'roq yuklamasi, bu yerda hayratni bildiryapti.\n\n💡 吸います so'zma-so'z «ichiga tortmoq» degan ma'noni anglatadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は たばこを <ruby>吸<rt>す</rt></ruby>います。",
+            translation: "Тот человек курит.",
+          },
+          {
+            jp: "どこで たばこを <ruby>吸<rt>す</rt></ruby>いますか。",
+            translation: "Где вы курите?",
+          },
+          {
+            jp: "たばこを <ruby>吸<rt>す</rt></ruby>いません。",
+            translation: "Я не курю.",
+          },
+        ],
+        uz: [
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は たばこを <ruby>吸<rt>す</rt></ruby>います。",
+            translation: "Anavi odam chekadi.",
+          },
+          {
+            jp: "どこで たばこを <ruby>吸<rt>す</rt></ruby>いますか。",
+            translation: "Qayerda chekasiz?",
+          },
+          {
+            jp: "たばこを <ruby>吸<rt>す</rt></ruby>いません。",
+            translation: "Men chekmayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 253,
+      lesson: 6,
+      japanese: "<ruby>見<rt>み</rt></ruby>ます",
+      cleanWord: "見ます",
+      translations: { ru: "смотреть", uz: "ko‘rmoq, tomosha qilmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>一人<rt>ひとり</rt></ruby>で <ruby>先生<rt>せんせい</rt></ruby>の ビデオを <ruby>見<rt>み</rt></ruby>ました。",
+          translation: "Вчера я смотрел видео с учителем в полном одиночестве.",
+          grammarInfo:
+            "1. 一人で — в одиночку, без никого (исключение, без частицы と).\n2. 先生のビデオ — видео учителя.\n\n💡 Звучит как-то очень подозрительно...",
+        },
+        uz: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>一人<rt>ひとり</rt></ruby>で <ruby>先生<rt>せんせい</rt></ruby>の ビデオを <ruby>見<rt>み</rt></ruby>ました。",
+          translation:
+            "Kecha o'qituvchining videosini yolg'iz o'zim tomosha qildim.",
+          grammarInfo:
+            "1. 一人で — yolg'iz o'zim (istisno, と yuklamasisiz keladi).\n2. 先生のビデオ — o'qituvchining videosi.\n\n💡 Nimagadir juda shubhali eshitiladi...",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>毎晩<rt>まいばん</rt></ruby> ビデオを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Каждый вечер я смотрю видео.",
+          },
+          {
+            jp: "なにを <ruby>見<rt>み</rt></ruby>ましたか。",
+            translation: "Что вы смотрели/видели?",
+          },
+          {
+            jp: "テレビを <ruby>見<rt>み</rt></ruby>ません。",
+            translation: "Я не смотрю телевизор.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>毎晩<rt>まいばん</rt></ruby> ビデオを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Har oqshom video ko'raman.",
+          },
+          {
+            jp: "なにを <ruby>見<rt>み</rt></ruby>ましたか。",
+            translation: "Nima ko'rdingiz?",
+          },
+          {
+            jp: "テレビを <ruby>見<rt>み</rt></ruby>ません。",
+            translation: "Televizor ko'rmayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 254,
+      lesson: 6,
+      japanese: "<ruby>聞<rt>き</rt></ruby>きます",
+      cleanWord: "聞きます",
+      translations: { ru: "слушать", uz: "eshitmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>夜<rt>よる</rt></ruby> １２<ruby>時<rt>じ</rt></ruby>に トイレで ラジオを <ruby>聞<rt>き</rt></ruby>きました。",
+          translation: "В 12 часов ночи я слушал радио в туалете.",
+          grammarInfo:
+            "1. １２時に — точное время с частицей に.\n2. で — место действия.\n\n💡 Этот глагол в будущем будет переводиться еще и как «спрашивать».",
+        },
+        uz: {
+          jp: "<ruby>夜<rt>よる</rt></ruby> １２<ruby>時<rt>じ</rt></ruby>に トイレで ラジオを <ruby>聞<rt>き</rt></ruby>きました。",
+          translation: "Kechasi soat 12 da hojatxonada radio eshitdim.",
+          grammarInfo:
+            "1. １２時に — に yuklamasi bilan aniq vaqt.\n2. で — harakat joyi.\n\n💡 Bu fe'l kelajakda «so'ramoq» deb ham tarjima qilinishini o'rganasiz.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ラジオを <ruby>聞<rt>き</rt></ruby>きます。",
+            translation: "Я слушаю радио.",
+          },
+          {
+            jp: "きのう なにを <ruby>聞<rt>き</rt></ruby>きましたか。",
+            translation: "Что вы слушали вчера?",
+          },
+          {
+            jp: "<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きませんか。",
+            translation: "Не послушать ли нам музыку?",
+          },
+        ],
+        uz: [
+          {
+            jp: "ラジオを <ruby>聞<rt>き</rt></ruby>きます。",
+            translation: "Radio eshitaman.",
+          },
+          {
+            jp: "きのう なにを <ruby>聞<rt>き</rt></ruby>きましたか。",
+            translation: "Kecha nima eshitdingiz?",
+          },
+          {
+            jp: "<ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聞<rt>き</rt></ruby>きませんか。",
+            translation: "Musiqa eshitmaymizmi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 255,
+      lesson: 6,
+      japanese: "<ruby>読<rt>よ</rt></ruby>みます",
+      cleanWord: "読みます",
+      translations: { ru: "читать", uz: "o'qimoq" },
+      exampleSentences: {
+        ru: {
+          jp: "いっしょに <ruby>先生<rt>せんせい</rt></ruby>の <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みませんか。",
+          translation: "Не почитать ли нам вместе письмо учителя?",
+          grammarInfo:
+            "1. いっしょに — вместе.\n2. ませんか — вежливое приглашение.\n\n💡 Читать чужие письма плохо, но практика японского важнее!",
+        },
+        uz: {
+          jp: "いっしょに <ruby>先生<rt>せんせい</rt></ruby>の <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みませんか。",
+          translation: "O'qituvchining maktubini birga o'qimaymizmi?",
+          grammarInfo:
+            "1. いっしょに — birgalikda.\n2. ませんか — taklif formasi.\n\n💡 Birovning xatini o'qish yomon, ammo yapon tilini mashq qilish muhimroq!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
+            translation: "Я читаю книгу.",
+          },
+          {
+            jp: "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
+            translation: "Каждое утро я читаю газету.",
+          },
+          {
+            jp: "レポートを <ruby>読<rt>よ</rt></ruby>みましょう。",
+            translation: "Давайте прочитаем отчет.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
+            translation: "Kitob o'qiyman.",
+          },
+          {
+            jp: "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>新聞<rt>しんぶん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
+            translation: "Har tong gazeta o'qiyman.",
+          },
+          {
+            jp: "レポートを <ruby>読<rt>よ</rt></ruby>みましょう。",
+            translation: "Hisobotni o'qiylik.",
+          },
+        ],
+      },
+    },
+    {
+      id: 256,
+      lesson: 6,
+      japanese: "<ruby>書<rt>か</rt></ruby>きます",
+      cleanWord: "書きます",
+      translations: { ru: "писать, рисовать", uz: "yozmoq, chizmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby> <ruby>私<rt>わたし</rt></ruby>の <ruby>車<rt>くるま</rt></ruby>に <ruby>名前<rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きましたね。",
+          translation: "Вчера ты написал свое имя на моей машине, да?",
+          grammarInfo:
+            "1. 車に — на машине (частица に указывает место, куда направлено действие).\n2. ね — частица поиска согласия («да?», «ведь так?»).\n\n⚠️ После такого придется покупать новую машину.",
+        },
+        uz: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby> <ruby>私<rt>わたし</rt></ruby>の <ruby>車<rt>くるま</rt></ruby>に <ruby>名前<rt>なまえ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きましたね。",
+          translation: "Kecha mening mashinamga ismingizni yozdingiz-a?",
+          grammarInfo:
+            "1. 車に — mashinaga (に yuklamasi harakat yo'naltirilgan sirtni bildiradi).\n2. ね — tasdiq so'rash yuklamasi («shundaymi?», «-a?»).\n\n⚠️ Bunday holatdan keyin yangi mashina sotib olishga to'g'ri keladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу письмо.",
+          },
+          {
+            jp: "レポートを <ruby>書<rt>か</rt></ruby>きません。",
+            translation: "Я не пишу отчет.",
+          },
+          {
+            jp: "ここで <ruby>書<rt>か</rt></ruby>いて ください。",
+            translation: "Пожалуйста, напишите здесь.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Xat yozaman.",
+          },
+          {
+            jp: "レポートを <ruby>書<rt>か</rt></ruby>きません。",
+            translation: "Hisobot yozmayman.",
+          },
+          {
+            jp: "ここで <ruby>書<rt>か</rt></ruby>いて ください。",
+            translation: "Bu yerga yozing, iltimos.",
+          },
+        ],
+      },
+    },
+    {
+      id: 257,
+      lesson: 6,
+      japanese: "<ruby>買<rt>か</rt></ruby>います",
+      cleanWord: "買います",
+      translations: { ru: "покупать", uz: "sotib olmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>明日<rt>あした</rt></ruby> スーパーで <ruby>友達<rt>ともだち</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+          translation: "Завтра в супермаркете я куплю себе друга.",
+          grammarInfo:
+            "1. スーパーで — в супермаркете (место действия).\n2. を — объект покупки.\n\n💡 В Японии действительно можно арендовать «друга» на один день в специальных агентствах.",
+        },
+        uz: {
+          jp: "<ruby>明日<rt>あした</rt></ruby> スーパーで <ruby>友達<rt>ともだち</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+          translation: "Ertaga supermarketdan do'st sotib olaman.",
+          grammarInfo:
+            "1. スーパーで — supermarketda (harakat joyi).\n2. を — xarid obyekti.\n\n💡 Yaponiyada chindan ham maxsus xizmatlar orqali bir kunga «do'st» ijaraga olishingiz mumkin.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "なにを <ruby>買<rt>か</rt></ruby>いますか。",
+            translation: "Что вы купите?",
+          },
+          {
+            jp: "パンと <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил хлеб и молоко.",
+          },
+          {
+            jp: "ここで <ruby>靴<rt>くつ</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я покупаю обувь здесь.",
+          },
+        ],
+        uz: [
+          {
+            jp: "なにを <ruby>買<rt>か</rt></ruby>いますか。",
+            translation: "Nima sotib olasiz?",
+          },
+          {
+            jp: "パンと <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Non va sut sotib oldim.",
+          },
+          {
+            jp: "ここで <ruby>靴<rt>くつ</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Bu yerda poyabzal sotib olaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 258,
+      lesson: 6,
+      japanese: "<ruby>撮<rt>と</rt></ruby>ります",
+      cleanWord: "撮ります",
+      translations: { ru: "фотографировать", uz: "suratga olmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で わたしの <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましたか。",
+          translation: "Вы сфотографировали меня в банке?",
+          grammarInfo:
+            "1. 銀行で — место действия.\n2. 私の写真 — мое фото.\n\n💡 Глагол 撮ります используется только для фото и видео. А фотографировать в банках запрещено!",
+        },
+        uz: {
+          jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で わたしの <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましたか。",
+          translation: "Meni bankda rasmga oldingizmi?",
+          grammarInfo:
+            "1. 銀行で — harakat joyi.\n2. 私の写真 — mening rasmim.\n\n💡 撮ります fe'li faqat rasm yoki video olish uchun ishlatiladi. Banklarda esa rasmga olish taqiqlangan!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ります。",
+            translation: "Я делаю фотографию.",
+          },
+          {
+            jp: "どこで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましたか。",
+            translation: "Где вы сфотографировали?",
+          },
+          {
+            jp: "わたしの <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りませんか。",
+            translation: "Не сфотографируете ли вы меня?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ります。",
+            translation: "Suratga olyapman.",
+          },
+          {
+            jp: "どこで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましたか。",
+            translation: "Qayerda rasmga tushirdingiz?",
+          },
+          {
+            jp: "わたしの <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りませんか。",
+            translation: "Meni rasmga olmaysizmi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 259,
+      lesson: 6,
+      japanese: "します",
+      cleanWord: "します",
+      translations: { ru: "делать", uz: "qilmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>明日<rt>あした</rt></ruby>は <ruby>何<rt>なに</rt></ruby>も しません。",
+          translation: "Завтра я не буду делать абсолютно ничего.",
+          grammarInfo:
+            "1. 何も — ничего.\n2. しません — отрицательная форма (не делаю / не буду делать).\n\n💡 Глагол します — самый универсальный. С ним можно играть в спорт, делать домашку и проводить вечеринки.",
+        },
+        uz: {
+          jp: "<ruby>明日<rt>あした</rt></ruby>は <ruby>何<rt>なに</rt></ruby>も しません。",
+          translation: "Ertaga men umuman hech narsa qilmayman.",
+          grammarInfo:
+            "1. 何も — hech narsa.\n2. しません — inkor shakli (qilmayman).\n\n💡 します eng universal fe'ldir. U bilan sport o'ynash, uy vazifasini qilish va ziyofat o'tkazish mumkin.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "テニスを します。", translation: "Я играю в теннис." },
+          {
+            jp: "きのう なにを しましたか。",
+            translation: "Что вы делали вчера?",
+          },
+          {
+            jp: "<ruby>宿題<rt>しゅくだい</rt></ruby>を しましょう。",
+            translation: "Давайте делать домашнее задание.",
+          },
+        ],
+        uz: [
+          { jp: "テニスを します。", translation: "Tennis o'ynayman." },
+          {
+            jp: "きのう なにを しましたか。",
+            translation: "Kecha nima qildingiz?",
+          },
+          {
+            jp: "<ruby>宿題<rt>しゅくだい</rt></ruby>を しましょう。",
+            translation: "Uy vazifasini bajaraylik.",
+          },
+        ],
+      },
+    },
+    {
+      id: 260,
+      lesson: 6,
+      japanese: "<ruby>会<rt>あ</rt></ruby>います",
+      cleanWord: "会います",
+      translations: { ru: "встречать(ся)", uz: "ko'rishmoq, uchrashmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>明日<rt>あした</rt></ruby> <ruby>駅<rt>えき</rt></ruby>で <ruby>彼女<rt>かのじょ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。",
+          translation: "Завтра на станции я встречусь с ней.",
+          grammarInfo:
+            "1. 駅で — место встречи.\n2. 彼女に — с ней.\n\n⚠️ Встречаться с кем-то всегда требует частицы に, а не と или を!",
+        },
+        uz: {
+          jp: "<ruby>明日<rt>あした</rt></ruby> <ruby>駅<rt>えき</rt></ruby>で <ruby>彼女<rt>かのじょ</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。",
+          translation: "Ertaga bekatda u (qiz) bilan uchrashaman.",
+          grammarInfo:
+            "1. 駅で — uchrashuv joyi.\n2. 彼女に — u bilan.\n\n⚠️ Kim bilandir uchrashish har doim と yoki を emas, に yuklamasini talab qiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。",
+            translation: "Я встречаюсь с другом.",
+          },
+          {
+            jp: "どこで <ruby>先生<rt>せんせい</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いましたか。",
+            translation: "Где вы встретили учителя?",
+          },
+          {
+            jp: "あした だれに <ruby>会<rt>あ</rt></ruby>いますか。",
+            translation: "С кем вы завтра встречаетесь?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>会<rt>あ</rt></ruby>います。",
+            translation: "Do'stim bilan uchrashaman.",
+          },
+          {
+            jp: "どこで <ruby>先生<rt>せんせい</rt></ruby>に <ruby>会<rt>あ</rt></ruby>いましたか。",
+            translation: "O'qituvchi bilan qayerda ko'rishdingiz?",
+          },
+          {
+            jp: "あした だれに <ruby>会<rt>あ</rt></ruby>いますか。",
+            translation: "Ertaga kim bilan uchrashasiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 261,
+      lesson: 6,
+      japanese: "ご<ruby>飯<rt>はん</rt></ruby>",
+      cleanWord: "ご飯",
+      translations: { ru: "еда, варёный рис", uz: "ovqat, pishirilgan guruch" },
+      exampleSentences: {
+        ru: {
+          jp: "これは わたしの ご<ruby>飯<rt>はん</rt></ruby>では ありません。<ruby>先生<rt>せんせい</rt></ruby>の です。",
+          translation: "Это не моя еда. Она принадлежит учителю.",
+          grammarInfo:
+            "1. ではありません — вежливое отрицание (не является).\n2. 先生の (です) — принадлежит учителю (существительное опущено).\n\n💡 ご飯 означает и варёный рис, и приём пищи вообще.",
+        },
+        uz: {
+          jp: "これは わたしの ご<ruby>飯<rt>はん</rt></ruby>では ありません。<ruby>先生<rt>せんせい</rt></ruby>の です。",
+          translation: "Bu mening ovqatim emas. Bu o'qituvchining ovqati.",
+          grammarInfo:
+            "1. ではありません — xushmuomala inkor (emas).\n2. 先生の (です) — o'qituvchiga tegishli (ot tushirib qoldirilgan).\n\n💡 ご飯 pishirilgan guruchni ham, umuman ovqatni ham anglatadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я ем (рис/еду).",
+          },
+          {
+            jp: "おいしい ご<ruby>飯<rt>はん</rt></ruby>ですね。",
+            translation: "Вкусная еда, не так ли?",
+          },
+          {
+            jp: "ご<ruby>飯<rt>はん</rt></ruby>は どこですか。",
+            translation: "Где еда?",
+          },
+        ],
+        uz: [
+          {
+            jp: "ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Ovqat (guruch) yeyman.",
+          },
+          {
+            jp: "おいしい ご<ruby>飯<rt>はん</rt></ruby>ですね。",
+            translation: "Mazali ovqat ekan-a?",
+          },
+          {
+            jp: "ご<ruby>飯<rt>はん</rt></ruby>は どこですか。",
+            translation: "Ovqat qayerda?",
+          },
+        ],
+      },
+    },
+    {
+      id: 262,
+      lesson: 6,
+      japanese: "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>",
+      cleanWord: "朝ご飯",
+      translations: { ru: "завтрак", uz: "nonushta" },
+      exampleSentences: {
+        ru: {
+          jp: "わたしの <ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は いつも ビールと コーヒーです。",
+          translation: "Мой завтрак — это всегда пиво и кофе.",
+          grammarInfo:
+            "1. 朝ご飯は — тема предложения.\n2. と — союз «и».\n\n💡 Завтрак сильного и независимого сотрудника!",
+        },
+        uz: {
+          jp: "わたしの <ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は いつも ビールと コーヒーです。",
+          translation: "Mening nonushtam doim pivo va qahvadan iborat.",
+          grammarInfo:
+            "1. 朝ご飯は — gapning mavzusi.\n2. と — «va» bog'lovchisi.\n\n💡 Kuchli va mustaqil xodimning nonushtasi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+            translation: "Вы позавтракали?",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は パンです。",
+            translation: "На завтрак — хлеб.",
+          },
+          {
+            jp: "いつも <ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べません。",
+            translation: "Я обычно не завтракаю.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+            translation: "Nonushta qildingizmi?",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は パンです。",
+            translation: "Nonushtaga non yeyman.",
+          },
+          {
+            jp: "いつも <ruby>朝<rt>あさ</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べません。",
+            translation: "Odatda nonushta qilmayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 263,
+      lesson: 6,
+      japanese: "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>",
+      cleanWord: "昼ご飯",
+      translations: { ru: "обед", uz: "tushlik" },
+      exampleSentences: {
+        ru: {
+          jp: "いつも ひとりで トイレで <ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Я всегда обедаю один в туалете.",
+          grammarInfo:
+            "1. ひとりで — один, в одиночку.\n2. トイレで — в туалете (место действия).\n\n💡 В Японии даже есть термин '便所飯' (бендзё-меши) — обед в туалетной кабинке, когда человеку не с кем поесть.",
+        },
+        uz: {
+          jp: "いつも ひとりで トイレで <ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Har doim yolg'iz o'zim hojatxonada tushlik qilaman.",
+          grammarInfo:
+            "1. ひとりで — yolg'iz, bir o'zim.\n2. トイレで — hojatxonada (harakat joyi).\n\n💡 Yaponiyada hatto '便所飯' (benjo-meshi) degan atama bor — sherigi yo'q odamning hojatxona kabinasida ovqatlanishi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましょう。",
+            translation: "Давайте пообедаем.",
+          },
+          {
+            jp: "１２<ruby>時<rt>じ</rt></ruby>に <ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я обедаю в 12 часов.",
+          },
+          {
+            jp: "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は なにですか。",
+            translation: "Что на обед?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましょう。",
+            translation: "Tushlik qilaylik.",
+          },
+          {
+            jp: "１２<ruby>時<rt>じ</rt></ruby>に <ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Soat 12 da tushlik qilaman.",
+          },
+          {
+            jp: "<ruby>昼<rt>ひる</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は なにですか。",
+            translation: "Tushlikka nima bor?",
+          },
+        ],
+      },
+    },
+    {
+      id: 264,
+      lesson: 6,
+      japanese: "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>",
+      cleanWord: "晩ご飯",
+      translations: { ru: "ужин", uz: "kechki ovqat" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>今日<rt>きょう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は ありません。",
+          translation: "Сегодня ужина не будет.",
+          grammarInfo:
+            "1. 今日の — сегодняшний.\n2. ありません — означает «не имеется» / «не будет».\n\n⚠️ Если вы плохо себя ведёте, 今日の晩ご飯はありません (сегодня без ужина)!",
+        },
+        uz: {
+          jp: "<ruby>今日<rt>きょう</rt></ruby>の <ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は ありません。",
+          translation: "Bugun kechki ovqat bo'lmaydi.",
+          grammarInfo:
+            "1. 今日の — bugungi.\n2. ありません — «mavjud emas» / «yo'q» degan ma'noni bildiradi.\n\n⚠️ Agar yomon xulqli bo'lsangiz, 今日の晩ご飯はありません (bugun kechki ovqatsiz)!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は <ruby>肉<rt>にく</rt></ruby>です。",
+            translation: "На ужин — мясо.",
+          },
+          {
+            jp: "きのうの <ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は おいしかったです。",
+            translation: "Вчерашний ужин был вкусным.",
+          },
+          {
+            jp: "レストランで <ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。",
+            translation: "Я поужинал в ресторане.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は <ruby>肉<rt>にく</rt></ruby>です。",
+            translation: "Kechki ovqatga go'sht yeyman.",
+          },
+          {
+            jp: "きのうの <ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>は おいしかったです。",
+            translation: "Kecha kechki ovqat mazali bo'ldi.",
+          },
+          {
+            jp: "レストランで <ruby>晩<rt>ばん</rt></ruby>ご<ruby>飯<rt>はん</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。",
+            translation: "Restoranda kechki ovqat yedim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 265,
+      lesson: 6,
+      japanese: "パン",
+      cleanWord: "パン",
+      translations: { ru: "хлеб", uz: "non" },
+      exampleSentences: {
+        ru: {
+          jp: "この パンは １００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+          translation: "Этот хлеб стоит миллион иен.",
+          grammarInfo:
+            "1. この — этот (ставится перед существительным).\n2. １００万円です — указание цены.\n\n💡 Слово パン пришло в японский язык из португальского (pão) в 16 веке!",
+        },
+        uz: {
+          jp: "この パンは １００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+          translation: "Bu non bir million iyen turadi.",
+          grammarInfo:
+            "1. この — bu (otdan oldin keladi).\n2. １００万円です — narxni ko'rsatish.\n\n💡 パン so'zi yapon tiliga 16-asrda portugal tilidan (pão) kirib kelgan!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "パンを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я покупаю хлеб.",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby> パンを <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Утром я ем хлеб.",
+          },
+          { jp: "フランスの パンです。", translation: "Это французский хлеб." },
+        ],
+        uz: [
+          {
+            jp: "パンを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Non sotib olaman.",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby> パンを <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Ertalab non yeyman.",
+          },
+          { jp: "フランスの パンです。", translation: "Bu fransuz noni." },
+        ],
+      },
+    },
+    {
+      id: 266,
+      lesson: 6,
+      japanese: "<ruby>卵<rt>たまご</rt></ruby>",
+      cleanWord: "卵",
+      translations: { ru: "яйцо", uz: "tuxum" },
+      exampleSentences: {
+        ru: {
+          jp: "あの <ruby>人<rt>ひと</rt></ruby>は わたしの <ruby>卵<rt>たまご</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。",
+          translation: "Тот человек съел мое яйцо.",
+          grammarInfo:
+            "1. あの人 — вон тот человек.\n2. を — винительный падеж.\n\n💡 Когда речь идет о последней еде в холодильнике, случаются и такие драмы.",
+        },
+        uz: {
+          jp: "あの <ruby>人<rt>ひと</rt></ruby>は わたしの <ruby>卵<rt>たまご</rt></ruby>を <ruby>食<rt>た</rt></ruby>べました。",
+          translation: "Anavi odam mening tuxumimni yeb qo'ydi.",
+          grammarInfo:
+            "1. あの人 — anavi odam.\n2. を — tushum kelishigi.\n\n💡 Muzlatgichdagi oxirgi ovqat haqida gap ketganda, shunday dramalar bo'lib turadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>卵<rt>たまご</rt></ruby>を <ruby>食<rt>た</rt></ruby>べますか。",
+            translation: "Вы едите яйца?",
+          },
+          {
+            jp: "<ruby>卵<rt>たまご</rt></ruby>と <ruby>肉<rt>にく</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил яйца и мясо.",
+          },
+          {
+            jp: "わたしの <ruby>卵<rt>たまご</rt></ruby>です。",
+            translation: "Это мое яйцо.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>卵<rt>たまご</rt></ruby>を <ruby>食<rt>た</rt></ruby>べますか。",
+            translation: "Tuxum yeysizmi?",
+          },
+          {
+            jp: "<ruby>卵<rt>たまご</rt></ruby>と <ruby>肉<rt>にく</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Tuxum va go'sht sotib oldim.",
+          },
+          {
+            jp: "わたしの <ruby>卵<rt>たまご</rt></ruby>です。",
+            translation: "Bu mening tuxumim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 267,
+      lesson: 6,
+      japanese: "<ruby>肉<rt>にく</rt></ruby>",
+      cleanWord: "肉",
+      translations: { ru: "мясо", uz: "go'sht" },
+      exampleSentences: {
+        ru: {
+          jp: "わたしは <ruby>野菜<rt>やさい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べません。<ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Я не ем овощи. Я ем мясо.",
+          grammarInfo:
+            "1. 食べません — отрицание настоящего времени.\n2. 食べます — утверждение.\n\n💡 Фраза настоящего хищника.",
+        },
+        uz: {
+          jp: "わたしは <ruby>野菜<rt>やさい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べません。<ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Men sabzavot yemayman. Go'sht yeyman.",
+          grammarInfo:
+            "1. 食べません — hozirgi zamon inkor shakli.\n2. 食べます — tasdiq shakli.\n\n💡 Haqiqiy yirtqichning iborasi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べません。",
+            translation: "Я не ем мясо.",
+          },
+          {
+            jp: "スーパーで <ruby>肉<rt>にく</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил мясо в супермаркете.",
+          },
+          {
+            jp: "なんの <ruby>肉<rt>にく</rt></ruby>ですか。",
+            translation: "Чьё это мясо? (Из какого животного?)",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べません。",
+            translation: "Go'sht yemayman.",
+          },
+          {
+            jp: "スーパーで <ruby>肉<rt>にく</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Supermarketdan go'sht sotib oldim.",
+          },
+          {
+            jp: "なんの <ruby>肉<rt>にく</rt></ruby>ですか。",
+            translation: "Qanday (qaysi hayvon) go'shti?",
+          },
+        ],
+      },
+    },
+    {
+      id: 268,
+      lesson: 6,
+      japanese: "<ruby>魚<rt>さかな</rt></ruby>",
+      cleanWord: "魚",
+      translations: { ru: "рыба", uz: "baliq" },
+      exampleSentences: {
+        ru: {
+          jp: "この <ruby>魚<rt>さかな</rt></ruby>は わたしを <ruby>見<rt>み</rt></ruby>ます。",
+          translation: "Эта рыба смотрит на меня.",
+          grammarInfo:
+            "1. この 魚は — эта рыба (тема).\n2. わたしを 見ます — смотрит на меня (объект).\n\n💡 В Японии рыбу часто подают целиком, с головой и глазами.",
+        },
+        uz: {
+          jp: "この <ruby>魚<rt>さかな</rt></ruby>は わたしを <ruby>見<rt>み</rt></ruby>ます。",
+          translation: "Bu baliq menga qarab turibdi.",
+          grammarInfo:
+            "1. この 魚は — bu baliq (mavzu).\n2. わたしを 見ます — menga qaraydi (obyekt).\n\n💡 Yaponiyada baliq ko'pincha boshi va ko'zlari bilan birga butun holda tortiq qilinadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я ем рыбу.",
+          },
+          {
+            jp: "<ruby>魚<rt>さかな</rt></ruby>と <ruby>肉<rt>にく</rt></ruby>、どちらが いいですか。",
+            translation: "Рыба или мясо, что лучше?",
+          },
+          {
+            jp: "<ruby>魚<rt>さかな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил рыбу.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Baliq yeyman.",
+          },
+          {
+            jp: "<ruby>魚<rt>さかな</rt></ruby>と <ruby>肉<rt>にく</rt></ruby>、どちらが いいですか。",
+            translation: "Baliqmi yoki go'shtmi, qaysi biri yaxshi?",
+          },
+          {
+            jp: "<ruby>魚<rt>さかな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Baliq sotib oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 269,
+      lesson: 6,
+      japanese: "<ruby>野菜<rt>やさい</rt></ruby>",
+      cleanWord: "野菜",
+      translations: { ru: "овощи", uz: "sabzavotlar" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>毎日<rt>まいにち</rt></ruby> １００キロの <ruby>野菜<rt>やさい</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+          translation: "Каждый день я покупаю 100 килограммов овощей.",
+          grammarInfo:
+            "1. １００キロの — 100 килограммов (как определение к овощам).\n2. 買います — покупаю.\n\n⚠️ Этого количества хватит на целую армию кроликов.",
+        },
+        uz: {
+          jp: "<ruby>毎日<rt>まいにち</rt></ruby> １００キロの <ruby>野菜<rt>やさい</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+          translation: "Men har kuni 100 kilo sabzavot sotib olaman.",
+          grammarInfo:
+            "1. １００キロの — 100 kilogramm (sabzavotlarga aniqlovchi sifatida).\n2. 買います — sotib olaman.\n\n⚠️ Bu miqdor butun quyonlar armiyasiga yetadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>野菜<rt>やさい</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я покупаю овощи.",
+          },
+          {
+            jp: "<ruby>野菜<rt>やさい</rt></ruby>は どこですか。",
+            translation: "Где овощи?",
+          },
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>野菜<rt>やさい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я каждый день ем овощи.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>野菜<rt>やさい</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Sabzavot sotib olaman.",
+          },
+          {
+            jp: "<ruby>野菜<rt>やさい</rt></ruby>は どこですか。",
+            translation: "Sabzavotlar qayerda?",
+          },
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>野菜<rt>やさい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Har kuni sabzavot yeyman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 270,
+      lesson: 6,
+      japanese: "<ruby>果物<rt>くだもの</rt></ruby>",
+      cleanWord: "果物",
+      translations: { ru: "фрукты", uz: "mevalar" },
+      exampleSentences: {
+        ru: {
+          jp: "スーパーで <ruby>果物<rt>くだもの</rt></ruby>と <ruby>靴<rt>くつ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "В супермаркете я купил фрукты и обувь.",
+          grammarInfo:
+            "1. と — союз «и».\n2. 買いました — купил.\n\n💡 В Японии фрукты невероятно дорогие и часто продаются как элитные подарки.",
+        },
+        uz: {
+          jp: "スーパーで <ruby>果物<rt>くだもの</rt></ruby>と <ruby>靴<rt>くつ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Supermarketdan meva va poyabzal sotib oldim.",
+          grammarInfo:
+            "1. と — «va» bog'lovchisi.\n2. 買いました — sotib oldim.\n\n💡 Yaponiyada mevalar nihoyatda qimmat va ko'pincha elita sovg'asi sifatida sotiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>果物<rt>くだもの</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましょう。",
+            translation: "Давайте поедим фрукты.",
+          },
+          {
+            jp: "これは <ruby>日本<rt>にほん</rt></ruby>の <ruby>果物<rt>くだもの</rt></ruby>です。",
+            translation: "Это японские фрукты.",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby> <ruby>果物<rt>くだもの</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Утром я ем фрукты.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>果物<rt>くだもの</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましょう。",
+            translation: "Mevalar yeylik.",
+          },
+          {
+            jp: "これは <ruby>日本<rt>にほん</rt></ruby>の <ruby>果物<rt>くだもの</rt></ruby>です。",
+            translation: "Bu yapon mevalari.",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby> <ruby>果物<rt>くだもの</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Ertalab meva yeyman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 271,
+      lesson: 6,
+      japanese: "<ruby>水<rt>みず</rt></ruby>",
+      cleanWord: "水",
+      translations: { ru: "вода", uz: "suv" },
+      exampleSentences: {
+        ru: {
+          jp: "これは <ruby>水<rt>みず</rt></ruby>では ありません。お<ruby>酒<rt>さけ</rt></ruby>です。",
+          translation: "Это не вода. Это алкоголь.",
+          grammarInfo:
+            "1. ではありません — отрицание существительного (не является).\n2. です — утверждение.\n\n⚠️ Отличная отмазка для пятничного вечера.",
+        },
+        uz: {
+          jp: "これは <ruby>水<rt>みず</rt></ruby>では ありません。お<ruby>酒<rt>さけ</rt></ruby>です。",
+          translation: "Bu suv emas. Bu spirtli ichimlik.",
+          grammarInfo:
+            "1. ではありません — otning inkor shakli (emas).\n2. です — tasdiq ma'nosi.\n\n⚠️ Juma oqshomi uchun ajoyib bahona.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Я пью воду.",
+          },
+          {
+            jp: "お<ruby>水<rt>みず</rt></ruby>を お<ruby>願<rt>ねが</rt></ruby>いします。",
+            translation: "Воды, пожалуйста.",
+          },
+          {
+            jp: "<ruby>水<rt>みず</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил воду.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Suv ichaman.",
+          },
+          {
+            jp: "お<ruby>水<rt>みず</rt></ruby>を お<ruby>願<rt>ねが</rt></ruby>いします。",
+            translation: "Iltimos, suv bering.",
+          },
+          {
+            jp: "<ruby>水<rt>みず</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Suv sotib oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 272,
+      lesson: 6,
+      japanese: "お<ruby>茶<rt>ちゃ</rt></ruby>",
+      cleanWord: "お茶",
+      translations: { ru: "чай (японский)", uz: "choy (yapon choyi)" },
+      exampleSentences: {
+        ru: {
+          jp: "イギリス<ruby>人<rt>じん</rt></ruby>は お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みません。<ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "Англичане не пьют зеленый чай. Они пьют черный чай.",
+          grammarInfo:
+            "1. イギリス人は — англичане (тема).\n2. お茶 — японский зеленый чай.\n\n💡 В Японии слово お茶 по умолчанию означает именно зелёный чай.",
+        },
+        uz: {
+          jp: "イギリス<ruby>人<rt>じん</rt></ruby>は お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みません。<ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+          translation:
+            "Inglizlar ko'k choy ichmaydi. Ular qora choy ichishadi.",
+          grammarInfo:
+            "1. イギリス人は — inglizlar (mavzu).\n2. お茶 — yapon ko'k choyi.\n\n💡 Yaponiyada お茶 so'zi odatda aynan ko'k choyni anglatadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "お<ruby>茶<rt>ちゃ</rt></ruby>を どうぞ。",
+            translation: "Пожалуйста, угощайтесь чаем.",
+          },
+          {
+            jp: "お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Я пью чай.",
+          },
+          {
+            jp: "<ruby>熱<rt>あつ</rt></ruby>い お<ruby>茶<rt>ちゃ</rt></ruby>です。",
+            translation: "Это горячий чай.",
+          },
+        ],
+        uz: [
+          {
+            jp: "お<ruby>茶<rt>ちゃ</rt></ruby>を どうぞ。",
+            translation: "Marhamat, choy oling.",
+          },
+          {
+            jp: "お<ruby>茶<rt>ちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Choy ichaman.",
+          },
+          {
+            jp: "<ruby>熱<rt>あつ</rt></ruby>い お<ruby>茶<rt>ちゃ</rt></ruby>です。",
+            translation: "Bu issiq choy.",
+          },
+        ],
+      },
+    },
+    {
+      id: 273,
+      lesson: 6,
+      japanese: "<ruby>紅茶<rt>こうちゃ</rt></ruby>",
+      cleanWord: "紅茶",
+      translations: { ru: "чёрный чай", uz: "qora choy" },
+      exampleSentences: {
+        ru: {
+          jp: "ロシア<ruby>人<rt>じん</rt></ruby>と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました。",
+          translation: "Я пил черный чай вместе с русским.",
+          grammarInfo:
+            "1. ロシア人と — с русским (частица と означает «с кем-то»).\n2. 一緒に — вместе.\n\n💡 Иероглифы 紅茶 буквально переводятся как «красный чай».",
+        },
+        uz: {
+          jp: "ロシア<ruby>人<rt>じん</rt></ruby>と <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みました。",
+          translation: "Men rus bilan birga qora choy ichdim.",
+          grammarInfo:
+            "1. ロシア人と — rus bilan (と yuklamasi «kim bilandir» degan ma'noni beradi).\n2. 一緒に — birgalikda.\n\n💡 紅茶 iyerogliflari so'zma-so'z «qizil choy» deb tarjima qilinadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Я пью черный чай.",
+          },
+          {
+            jp: "<ruby>紅茶<rt>こうちゃ</rt></ruby>と コーヒー、どちらが いいですか。",
+            translation: "Черный чай или кофе, что предпочитаете?",
+          },
+          {
+            jp: "<ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил черный чай.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Qora choy ichaman.",
+          },
+          {
+            jp: "<ruby>紅茶<rt>こうちゃ</rt></ruby>と コーヒー、どちらが いいですか。",
+            translation: "Qora choymi yoki qahva, qaysi birini xohlaysiz?",
+          },
+          {
+            jp: "<ruby>紅茶<rt>こうちゃ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Qora choy sotib oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 274,
+      lesson: 6,
+      japanese: "<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby> / ミルク",
+      cleanWord: "牛乳 / ミルク",
+      translations: { ru: "молоко", uz: "sut" },
+      exampleSentences: {
+        ru: {
+          jp: "トイレで <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みませんか。",
+          translation: "Не попить ли нам молока в туалете?",
+          grammarInfo:
+            "1. トイレで — место действия.\n2. ませんか — вежливое приглашение сделать что-то вместе.\n\n💡 Отличное место для свидания (нет).",
+        },
+        uz: {
+          jp: "トイレで <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みませんか。",
+          translation: "Hojatxonada sut ichmaymizmi?",
+          grammarInfo:
+            "1. トイレで — harakat joyi.\n2. ませんか — biror narsani birga qilishga xushmuomala taklif.\n\n💡 Uchrashuv uchun ajoyib joy (yo'q).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я покупаю молоко.",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>、<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Утром я пью молоко.",
+          },
+          {
+            jp: "これは わたしの <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>です。",
+            translation: "Это мое молоко.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Sut sotib olaman.",
+          },
+          {
+            jp: "<ruby>朝<rt>あさ</rt></ruby>、<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Ertalab sut ichaman.",
+          },
+          {
+            jp: "これは わたしの <ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>です。",
+            translation: "Bu mening sutim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 275,
+      lesson: 6,
+      japanese: "ジュース",
+      cleanWord: "ジュース",
+      translations: { ru: "сок", uz: "sharbat" },
+      exampleSentences: {
+        ru: {
+          jp: "これは <ruby>肉<rt>にく</rt></ruby>の ジュースですか。",
+          translation: "Это сок из мяса?",
+          grammarInfo:
+            "1. 肉の ジュース — мясной сок (の показывает состав).\n2. ですか — вопрос.\n\n💡 Звучит отвратительно, но запоминается моментально!",
+        },
+        uz: {
+          jp: "これは <ruby>肉<rt>にく</rt></ruby>の ジュースですか。",
+          translation: "Bu go'sht sharbatimi?",
+          grammarInfo:
+            "1. 肉の ジュース — go'sht sharbati (の tarkibni ko'rsatadi).\n2. ですか — so'roq.\n\n💡 Judayam jirkanch eshitiladi, lekin darhol yodda qoladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ジュースを <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Я пью сок.",
+          },
+          {
+            jp: "リンゴジュースを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил яблочный сок.",
+          },
+          { jp: "ジュースを どうぞ。", translation: "Угощайтесь соком." },
+        ],
+        uz: [
+          {
+            jp: "ジュースを <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Sharbat ichaman.",
+          },
+          {
+            jp: "リンゴジュースを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Olma sharbati sotib oldim.",
+          },
+          {
+            jp: "ジュースを どうぞ。",
+            translation: "Marhamat, sharbat oling.",
+          },
+        ],
+      },
+    },
+    {
+      id: 276,
+      lesson: 6,
+      japanese: "ビール",
+      cleanWord: "ビール",
+      translations: { ru: "пиво", uz: "pivo" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>先生<rt>せんせい</rt></ruby>は <ruby>朝<rt>あさ</rt></ruby> ６<ruby>時<rt>じ</rt></ruby>に ビールを <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "Учитель пьет пиво в 6 утра.",
+          grammarInfo:
+            "1. 朝 ６時に — в 6 утра (に указывает на точное время).\n2. 飲みます — пьёт пиво.\n\n💡 Кажется, у сенсея был тяжелый день... еще вчера.",
+        },
+        uz: {
+          jp: "<ruby>先生<rt>せんせい</rt></ruby>は <ruby>朝<rt>あさ</rt></ruby> ６<ruby>時<rt>じ</rt></ruby>に ビールを <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "O'qituvchi ertalab soat 6 da pivo ichadi.",
+          grammarInfo:
+            "1. 朝 ６時に — ertalab soat 6 da (に aniq vaqtni ko'rsatadi).\n2. 飲みます — ichadi.\n\n💡 Ko'rinishidan, senseyning kechagi kuni og'ir o'tgan...",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ビールを <ruby>飲<rt>の</rt></ruby>みませんか。",
+            translation: "Не выпить ли нам пива?",
+          },
+          {
+            jp: "スーパーで ビールを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я покупаю пиво в супермаркете.",
+          },
+          { jp: "ビールは どこですか。", translation: "Где пиво?" },
+        ],
+        uz: [
+          {
+            jp: "ビールを <ruby>飲<rt>の</rt></ruby>みませんか。",
+            translation: "Pivo ichmaymizmi?",
+          },
+          {
+            jp: "スーパーで ビールを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Supermarketda pivo sotib olaman.",
+          },
+          { jp: "ビールは どこですか。", translation: "Pivo qayerda?" },
+        ],
+      },
+    },
+    {
+      id: 277,
+      lesson: 6,
+      japanese: "お<ruby>酒<rt>さけ</rt></ruby>",
+      cleanWord: "お酒",
+      translations: {
+        ru: "саке, алкогольные напитки",
+        uz: "sake, spirtli ichimliklar",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "お<ruby>酒<rt>さけ</rt></ruby>と <ruby>水<rt>みず</rt></ruby>、<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>飲<rt>の</rt></ruby>みましょう。",
+          translation: "Давайте пить алкоголь и воду вместе.",
+          grammarInfo:
+            "1. と — союз «и» (алкоголь и вода).\n2. ましょう — призыв к действию (давайте выпьем).\n\n💡 Пить алкоголь с водой — лучший способ избежать похмелья.",
+        },
+        uz: {
+          jp: "お<ruby>酒<rt>さけ</rt></ruby>と <ruby>水<rt>みず</rt></ruby>、<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>飲<rt>の</rt></ruby>みましょう。",
+          translation: "Keling, spirtli ichimlik va suvni birga ichamiz.",
+          grammarInfo:
+            "1. と — «va» bog'lovchisi (spirtli ichimlik va suv).\n2. ましょう — harakatga chaqiriq (keling, ichamiz).\n\n💡 Spirtli ichimlikni suv bilan ichish — bosh og'rig'ining oldini olish uchun eng yaxshi usul.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みません。",
+            translation: "Я не пью алкоголь.",
+          },
+          {
+            jp: "お<ruby>酒<rt>さけ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いましょう。",
+            translation: "Давайте купим алкоголь.",
+          },
+          {
+            jp: "<ruby>日本<rt>にほん</rt></ruby>の お<ruby>酒<rt>さけ</rt></ruby>です。",
+            translation: "Это японское саке.",
+          },
+        ],
+        uz: [
+          {
+            jp: "お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みません。",
+            translation: "Spirtli ichimlik ichmayman.",
+          },
+          {
+            jp: "お<ruby>酒<rt>さけ</rt></ruby>を <ruby>買<rt>か</rt></ruby>いましょう。",
+            translation: "Spirtli ichimlik sotib olaylik.",
+          },
+          {
+            jp: "<ruby>日本<rt>にほん</rt></ruby>の お<ruby>酒<rt>さけ</rt></ruby>です。",
+            translation: "Bu yapon sakesi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 278,
+      lesson: 6,
+      japanese: "たばこ",
+      cleanWord: "たばこ",
+      translations: { ru: "сигареты", uz: "sigaret, tamaki" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>美術館<rt>びじゅつかん</rt></ruby>で たばこを <ruby>吸<rt>す</rt></ruby>いましたか。",
+          translation: "Вы курили сигареты в художественном музее?",
+          grammarInfo:
+            "1. で — место действия.\n2. か — вопрос.\n\n💡 Задавать такие вопросы нужно суровым тоном полицейского.",
+        },
+        uz: {
+          jp: "<ruby>美術館<rt>びじゅつかん</rt></ruby>で たばこを <ruby>吸<rt>す</rt></ruby>いましたか。",
+          translation: "San'at muzeyida sigaret chekdingizmi?",
+          grammarInfo:
+            "1. で — harakat joyi.\n2. か — so'roq.\n\n💡 Bunday savollarni politsiyachining jiddiy ohangida berish kerak.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "たばこを <ruby>吸<rt>す</rt></ruby>いますか。",
+            translation: "Вы курите?",
+          },
+          {
+            jp: "たばこを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил сигареты.",
+          },
+          {
+            jp: "アメリカの たばこです。",
+            translation: "Это американские сигареты.",
+          },
+        ],
+        uz: [
+          {
+            jp: "たばこを <ruby>吸<rt>す</rt></ruby>いますか。",
+            translation: "Siz chekasizmi?",
+          },
+          {
+            jp: "たばこを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Sigaret sotib oldim.",
+          },
+          {
+            jp: "アメリカの たばこです。",
+            translation: "Bu Amerika sigaretasi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 279,
+      lesson: 6,
+      japanese: "<ruby>手紙<rt>てがみ</rt></ruby>",
+      cleanWord: "手紙",
+      translations: { ru: "письмо", uz: "xat, maktub" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。",
+          translation: "Я написал письмо собаке.",
+          grammarInfo:
+            "1. に — адресат (кому пишем).\n2. 手紙を書きました — написал письмо.\n\n💡 Иероглифы 手 (рука) + 紙 (бумага) = письмо (бумага из ваших рук).",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。",
+          translation: "Itimga xat yozdim.",
+          grammarInfo:
+            "1. に — maktub qabul qiluvchisini bildiradi (kimga).\n2. 手紙を書きました — xat yozdim.\n\n💡 手 (qo'l) + 紙 (qog'oz) iyerogliflari = xat (qo'lingizdagi qog'oz).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>手紙<rt>てがみ</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
+            translation: "Я читаю письмо.",
+          },
+          {
+            jp: "だれの <ruby>手紙<rt>てがみ</rt></ruby>ですか。",
+            translation: "Чьё это письмо?",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу письмо другу.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>手紙<rt>てがみ</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
+            translation: "Xat o'qiyapman.",
+          },
+          {
+            jp: "だれの <ruby>手紙<rt>てがみ</rt></ruby>ですか。",
+            translation: "Bu kimning xati?",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Do'stimga xat yozaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 280,
+      lesson: 6,
+      japanese: "レポート",
+      cleanWord: "レポート",
+      translations: { ru: "отчёт, доклад", uz: "hisobot, doklad" },
+      exampleSentences: {
+        ru: {
+          jp: "スーパーで チョコレートの レポートを <ruby>書<rt>か</rt></ruby>きました。",
+          translation: "Я написал отчет о шоколаде в супермаркете.",
+          grammarInfo:
+            "1. で — место действия.\n2. チョコレートの レポート — отчёт о (чём) шоколаде.\n\n💡 Жизнь исследователя полна странных мест для работы.",
+        },
+        uz: {
+          jp: "スーパーで チョコレートの レポートを <ruby>書<rt>か</rt></ruby>きました。",
+          translation: "Supermarketda shokolad haqida hisobot yozdim.",
+          grammarInfo:
+            "1. で — harakat joyi.\n2. チョコレートの レポート — shokolad (nima) haqidagi hisobot.\n\n💡 Tadqiqotchining hayoti ishlash uchun g'alati joylarga to'la.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "レポートを <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу отчёт.",
+          },
+          {
+            jp: "レポートを <ruby>読<rt>よ</rt></ruby>みました。",
+            translation: "Я прочитал отчёт.",
+          },
+          {
+            jp: "これは わたしの レポートです。",
+            translation: "Это мой отчёт.",
+          },
+        ],
+        uz: [
+          {
+            jp: "レポートを <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Hisobot yozaman.",
+          },
+          {
+            jp: "レポートを <ruby>読<rt>よ</rt></ruby>みました。",
+            translation: "Hisobotni o'qib chiqdim.",
+          },
+          {
+            jp: "これは わたしの レポートです。",
+            translation: "Bu mening hisobotim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 281,
+      lesson: 6,
+      japanese: "<ruby>写真<rt>しゃしん</rt></ruby>",
+      cleanWord: "写真",
+      translations: { ru: "фотография", uz: "surat, rasm" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で <ruby>私<rt>わたし</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましたか。",
+          translation: "Вы сфотографировали меня в банке?",
+          grammarInfo:
+            "1. 私の写真 — мое фото (меня).\n2. 撮りましたか — прошедшее время + вопрос.\n\n💡 Ловим сталкеров с помощью грамматики японского!",
+        },
+        uz: {
+          jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で <ruby>私<rt>わたし</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましたか。",
+          translation: "Bankda mening suratimni oldingizmi?",
+          grammarInfo:
+            "1. 私の写真 — mening rasmim.\n2. 撮りましたか — o'tgan zamon + so'roq.\n\n💡 Yapon tili grammatikasi yordamida yashirincha kuzatuvchilarni tutamiz!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ります。",
+            translation: "Я фотографирую.",
+          },
+          {
+            jp: "あの <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>見<rt>み</rt></ruby>ましょう。",
+            translation: "Давайте посмотрим ту фотографию.",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>です。",
+            translation: "Это фото друга.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ります。",
+            translation: "Suratga olyapman.",
+          },
+          {
+            jp: "あの <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>見<rt>み</rt></ruby>ましょう。",
+            translation: "Anavi suratni ko'raylik.",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>です。",
+            translation: "Do'stimning surati.",
+          },
+        ],
+      },
+    },
+    {
+      id: 282,
+      lesson: 6,
+      japanese: "ビデオ",
+      cleanWord: "ビデオ",
+      translations: { ru: "видео", uz: "video" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>毎晩<rt>まいばん</rt></ruby> <ruby>一人<rt>ひとり</rt></ruby>で わたしの ビデオを <ruby>見<rt>み</rt></ruby>ます。",
+          translation:
+            "Каждый вечер я в одиночестве смотрю видео с самим собой.",
+          grammarInfo:
+            "1. 毎晩 (каждую ночь) — указывает частоту.\n2. 一人で — один (без никого).\n\n💡 Идеальное времяпровождение для нарциссов!",
+        },
+        uz: {
+          jp: "<ruby>毎晩<rt>まいばん</rt></ruby> <ruby>一人<rt>ひとり</rt></ruby>で わたしの ビデオを <ruby>見<rt>み</rt></ruby>ます。",
+          translation: "Har oqshom yolg'iz o'zim o'z videomni tomosha qilaman.",
+          grammarInfo:
+            "1. 毎晩 (har oqshom) — takroriylikni ko'rsatadi.\n2. 一人で — yolg'iz o'zim.\n\n💡 Narsisslar uchun ideal mashg'ulot!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ビデオを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Я смотрю видео.",
+          },
+          {
+            jp: "あの ビデオは おもしろいです。",
+            translation: "То видео интересное.",
+          },
+          {
+            jp: "ビデオを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил видео.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ビデオを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Video ko'raman.",
+          },
+          {
+            jp: "あの ビデオは おもしろいです。",
+            translation: "Anavi video qiziqarli.",
+          },
+          {
+            jp: "ビデオを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Video sotib oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 283,
+      lesson: 6,
+      japanese: "<ruby>店<rt>みせ</rt></ruby>",
+      cleanWord: "店",
+      translations: { ru: "магазин", uz: "do'kon, magazin" },
+      exampleSentences: {
+        ru: {
+          jp: "あの <ruby>店<rt>みせ</rt></ruby>で <ruby>友達<rt>ともだち</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "В том магазине я купил друга.",
+          grammarInfo:
+            "1. あの 店 — тот магазин (далеко).\n2. で — место действия.\n\n💡 Роботы, тамагочи или черный рынок? Грамматика стерпит всё.",
+        },
+        uz: {
+          jp: "あの <ruby>店<rt>みせ</rt></ruby>で <ruby>友達<rt>ともだち</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Anavi do'konda do'st sotib oldim.",
+          grammarInfo:
+            "1. あの 店 — anavi do'kon (uzoqda).\n2. で — harakat joyi.\n\n💡 Robotlar, tamagochi yoki qora bozormi? Grammatika bariga chidaydi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>店<rt>みせ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Я иду в магазин.",
+          },
+          {
+            jp: "あの <ruby>店<rt>みせ</rt></ruby>は どこですか。",
+            translation: "Где тот магазин?",
+          },
+          {
+            jp: "<ruby>店<rt>みせ</rt></ruby>で パンを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я покупаю хлеб в магазине.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>店<rt>みせ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Do'konga boraman.",
+          },
+          {
+            jp: "あの <ruby>店<rt>みせ</rt></ruby>は どこですか。",
+            translation: "Anavi do'kon qayerda?",
+          },
+          {
+            jp: "<ruby>店<rt>みせ</rt></ruby>で パンを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Do'konda non sotib olaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 284,
+      lesson: 6,
+      japanese: "<ruby>庭<rt>にわ</rt></ruby>",
+      cleanWord: "庭",
+      translations: { ru: "сад, двор", uz: "bog', hovli" },
+      exampleSentences: {
+        ru: {
+          jp: "わたしの <ruby>庭<rt>にわ</rt></ruby>で テニスを しませんか。",
+          translation: "Не поиграть ли нам в теннис в моем саду?",
+          grammarInfo:
+            "1. 庭で — частица で указывает место, где произошло действие.\n2. しませんか — вежливое приглашение.\n\n💡 Хвастаемся богатством! Японские сады обычно созданы для созерцания, а не для тенниса.",
+        },
+        uz: {
+          jp: "わたしの <ruby>庭<rt>にわ</rt></ruby>で テニスを しませんか。",
+          translation: "Hovlimda tennis o'ynamaymizmi?",
+          grammarInfo:
+            "1. 庭で — で yuklamasi harakat qayerda sodir bo'layotganini bildiradi.\n2. しませんか — xushmuomala taklif.\n\n💡 Boylik bilan maqtanmoqdamiz! Yapon bog'lari odatda tomosha qilish uchun yaratilgan, tennis uchun emas.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "きれいな <ruby>庭<rt>にわ</rt></ruby>ですね。",
+            translation: "Какой красивый сад, не так ли?",
+          },
+          {
+            jp: "<ruby>庭<rt>にわ</rt></ruby>で <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましょう。",
+            translation: "Давайте сфотографируемся в саду.",
+          },
+          {
+            jp: "<ruby>庭<rt>にわ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Я иду во двор.",
+          },
+        ],
+        uz: [
+          {
+            jp: "きれいな <ruby>庭<rt>にわ</rt></ruby>ですね。",
+            translation: "Chiroyli bog' ekan-a?",
+          },
+          {
+            jp: "<ruby>庭<rt>にわ</rt></ruby>で <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りましょう。",
+            translation: "Bog'da rasmga tushaylik.",
+          },
+          {
+            jp: "<ruby>庭<rt>にわ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Hovliga chiqaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 285,
+      lesson: 6,
+      japanese: "<ruby>宿題<rt>しゅくだい</rt></ruby>",
+      cleanWord: "宿題",
+      translations: { ru: "домашнее задание", uz: "uy vazifasi" },
+      exampleSentences: {
+        ru: {
+          jp: "いつ <ruby>宿題<rt>しゅくだい</rt></ruby>を しますか。… しません。",
+          translation: "Когда ты сделаешь домашнее задание? ... Никогда.",
+          grammarInfo:
+            "1. をします — глагол «делать», превращающий существительное в действие.\n2. しません — отрицание.\n\n💡 Дерзкий ответ, но грамматически верный!",
+        },
+        uz: {
+          jp: "いつ <ruby>宿題<rt>しゅくだい</rt></ruby>を しますか。… しません。",
+          translation: "Uy vazifasini qachon qilasiz? ... Qilmayman.",
+          grammarInfo:
+            "1. をします — otni harakatga aylantiruvchi fe'l («bajarmoq»).\n2. しません — inkor shakli.\n\n💡 Qaysarona javob, ammo grammatik jihatdan to'g'ri!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>宿題<rt>しゅくだい</rt></ruby>を しましたか。",
+            translation: "Вы сделали домашнее задание?",
+          },
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>宿題<rt>しゅくだい</rt></ruby>を します。",
+            translation: "Я делаю домашку каждый день.",
+          },
+          {
+            jp: "<ruby>宿題<rt>しゅくだい</rt></ruby>は どこですか。",
+            translation: "Где домашнее задание?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>宿題<rt>しゅくだい</rt></ruby>を しましたか。",
+            translation: "Uy vazifasini qildingizmi?",
+          },
+          {
+            jp: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>宿題<rt>しゅくだい</rt></ruby>を します。",
+            translation: "Har kuni uy vazifasini qilaman.",
+          },
+          {
+            jp: "<ruby>宿題<rt>しゅくだい</rt></ruby>は どこですか。",
+            translation: "Uy vazifasi qayerda?",
+          },
+        ],
+      },
+    },
+    {
+      id: 286,
+      lesson: 6,
+      japanese: "テニス",
+      cleanWord: "テニス",
+      translations: { ru: "теннис", uz: "tennis" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>夜<rt>よる</rt></ruby>の １２<ruby>時<rt>じ</rt></ruby>に <ruby>一人<rt>ひとり</rt></ruby>で テニスを しました。",
+          translation: "В 12 часов ночи я играл в теннис один.",
+          grammarInfo:
+            "1. 一人で — один (способ действия).\n2. テニスをします — играть в теннис.\n\n⚠️ Играть одному в теннис довольно сложно.",
+        },
+        uz: {
+          jp: "<ruby>夜<rt>よる</rt></ruby>の １２<ruby>時<rt>じ</rt></ruby>に <ruby>一人<rt>ひとり</rt></ruby>で テニスを しました。",
+          translation: "Tungi soat 12 da o'zim yolg'iz tennis o'ynadim.",
+          grammarInfo:
+            "1. 一人で — o'zim yolg'iz (harakat usuli).\n2. テニスをします — tennis o'ynamoq.\n\n⚠️ Yolg'iz tennis o'ynash ancha qiyin.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "テニスを しましょう。",
+            translation: "Давайте поиграем в теннис.",
+          },
+          {
+            jp: "テニスを しませんか。",
+            translation: "Не сыграть ли в теннис?",
+          },
+          {
+            jp: "どこで テニスを しますか。",
+            translation: "Где вы играете в теннис?",
+          },
+        ],
+        uz: [
+          { jp: "テニスを しましょう。", translation: "Tennis o'ynaylik." },
+          { jp: "テニスを しませんか。", translation: "Tennis o'ynamaymizmi?" },
+          {
+            jp: "どこで テニスを しますか。",
+            translation: "Qayerda tennis o'ynaysiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 287,
+      lesson: 6,
+      japanese: "サッカー",
+      cleanWord: "サッカー",
+      translations: { ru: "футбол", uz: "futbol" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>病院<rt>びょういん</rt></ruby>で サッカーを しません。",
+          translation: "В больнице мы в футбол не играем.",
+          grammarInfo:
+            "1. で указывает место действия.\n2. しません — отрицание настоящего-будущего времени.\n\n💡 Идеальное предложение для нарушителей спокойствия.",
+        },
+        uz: {
+          jp: "<ruby>病院<rt>びょういん</rt></ruby>で サッカーを しません。",
+          translation: "Kasalxonada futbol o'ynamaymiz.",
+          grammarInfo:
+            "1. で harakat joyini ko'rsatadi.\n2. しません — hozirgi-kelasi zamon inkor shakli.\n\n💡 Tinchlikni buzuvchilar uchun mukammal gap.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "サッカーを します。", translation: "Я играю в футбол." },
+          {
+            jp: "サッカーを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Я смотрю футбол.",
+          },
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は サッカーを します。",
+            translation: "Тот человек играет в футбол.",
+          },
+        ],
+        uz: [
+          { jp: "サッカーを します。", translation: "Futbol o'ynayman." },
+          {
+            jp: "サッカーを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Futbol ko'raman.",
+          },
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は サッカーを します。",
+            translation: "Anavi odam futbol o'ynaydi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 288,
+      lesson: 6,
+      japanese: "お<ruby>花見<rt>はなみ</rt></ruby>",
+      cleanWord: "お花見",
+      translations: { ru: "любование сакурой", uz: "sakurani tomosha qilish" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>明日<rt>あした</rt></ruby> <ruby>銀行<rt>ぎんこう</rt></ruby>で お<ruby>花見<rt>はなみ</rt></ruby>を しましょう。",
+          translation: "Давайте завтра любоваться сакурой в банке.",
+          grammarInfo:
+            "1. 銀行で — в банке.\n2. ましょう — призыв к совместному действию.\n\n💡 Оханами в банке? Японские менеджеры будут в шоке.",
+        },
+        uz: {
+          jp: "<ruby>明日<rt>あした</rt></ruby> <ruby>銀行<rt>ぎんこう</rt></ruby>で お<ruby>花見<rt>はなみ</rt></ruby>を しましょう。",
+          translation: "Keling, ertaga bankda sakurani tomosha qilamiz.",
+          grammarInfo:
+            "1. 銀行で — bankda.\n2. ましょう — birgalikdagi harakatga chaqiriq.\n\n💡 Bankda ohanami? Yapon menejerlari shokka tushadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "お<ruby>花見<rt>はなみ</rt></ruby>を しましょう。",
+            translation: "Давайте устроим ханами.",
+          },
+          {
+            jp: "いつ お<ruby>花見<rt>はなみ</rt></ruby>を しますか。",
+            translation: "Когда мы будем любоваться сакурой?",
+          },
+          {
+            jp: "お<ruby>花見<rt>はなみ</rt></ruby>は きれいです。",
+            translation: "Ханами — это красиво.",
+          },
+        ],
+        uz: [
+          {
+            jp: "お<ruby>花見<rt>はなみ</rt></ruby>を しましょう。",
+            translation: "Keling, sakurani tomosha qilamiz.",
+          },
+          {
+            jp: "いつ お<ruby>花見<rt>はなみ</rt></ruby>を しますか。",
+            translation: "Qachon sakurani tomosha qilamiz?",
+          },
+          {
+            jp: "お<ruby>花見<rt>はなみ</rt></ruby>は きれいです。",
+            translation: "Hanami bu chiroyli.",
+          },
+        ],
+      },
+    },
+    {
+      id: 289,
+      lesson: 6,
+      japanese: "<ruby>何<rt>なに</rt></ruby>",
+      cleanWord: "何",
+      translations: { ru: "что", uz: "nima" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を しましたか。",
+          translation: "Что вы делали вчера ночью?",
+          grammarInfo:
+            "1. 何を — что (вопросительное слово + вин. падеж).\n2. しましたか — делали?\n\n💡 Вопрос звучит как допрос у детектива.",
+        },
+        uz: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>の <ruby>夜<rt>よる</rt></ruby>、<ruby>何<rt>なに</rt></ruby>を しましたか。",
+          translation: "Kecha tunda nima qildingiz?",
+          grammarInfo:
+            "1. 何を — nima (so'roq so'zi + tushum kelishigi).\n2. しましたか — qildingiz?\n\n💡 Savol xuddi detektiv so'rog'idek yangraydi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
+            translation: "Что вы купите?",
+          },
+          {
+            jp: "<ruby>何<rt>なに</rt></ruby>を <ruby>見<rt>み</rt></ruby>ましたか。",
+            translation: "Что вы видели?",
+          },
+          {
+            jp: "それ、<ruby>何<rt>なん</rt></ruby>ですか。",
+            translation: "Что это там у вас?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>何<rt>なに</rt></ruby>を <ruby>買<rt>か</rt></ruby>いますか。",
+            translation: "Nima sotib olasiz?",
+          },
+          {
+            jp: "<ruby>何<rt>なに</rt></ruby>を <ruby>見<rt>み</rt></ruby>ましたか。",
+            translation: "Nima ko'rdingiz?",
+          },
+          {
+            jp: "それ、<ruby>何<rt>なん</rt></ruby>ですか。",
+            translation: "Anavi nima?",
+          },
+        ],
+      },
+    },
+    {
+      id: 290,
+      lesson: 6,
+      japanese: "いっしょに",
+      cleanWord: "一緒に",
+      translations: { ru: "вместе", uz: "birga, birgalikda" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>夜<rt>よる</rt></ruby> １２<ruby>時<rt>じ</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>銀行<rt>ぎんこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きませんか。",
+          translation: "Не пойти ли нам вместе в банк в 12 часов ночи?",
+          grammarInfo:
+            "1. １２時に — точное время.\n2. 銀行へ — направление (в банк).\n3. 行きませんか — приглашение.\n\n💡 Отличный способ найти соучастника.",
+        },
+        uz: {
+          jp: "<ruby>夜<rt>よる</rt></ruby> １２<ruby>時<rt>じ</rt></ruby>に <ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>銀行<rt>ぎんこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きませんか。",
+          translation: "Tungi soat 12 da birgalikda bankka bormaymizmi?",
+          grammarInfo:
+            "1. １２時に — aniq vaqt.\n2. 銀行へ — yo'nalish (bankka).\n3. 行きませんか — taklif.\n\n💡 Jinoiy sherik topishning ajoyib usuli.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "いっしょに <ruby>行<rt>い</rt></ruby>きましょう。",
+            translation: "Пойдемте вместе.",
+          },
+          {
+            jp: "いっしょに <ruby>食<rt>た</rt></ruby>べませんか。",
+            translation: "Не поедим ли вместе?",
+          },
+          {
+            jp: "いっしょに <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "Мы вернулись вместе.",
+          },
+        ],
+        uz: [
+          {
+            jp: "いっしょに <ruby>行<rt>い</rt></ruby>きましょう。",
+            translation: "Birgalikda boraylik.",
+          },
+          {
+            jp: "いっしょに <ruby>食<rt>た</rt></ruby>べませんか。",
+            translation: "Birgalikda ovqatlanmaymizmi?",
+          },
+          {
+            jp: "いっしょに <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "Birgalikda qaytdik.",
+          },
+        ],
+      },
+    },
+    {
+      id: 291,
+      lesson: 6,
+      japanese: "ちょっと",
+      cleanWord: "ちょっと",
+      translations: { ru: "немного, недолго", uz: "bir oz, sal, biroz vaqt" },
+      exampleSentences: {
+        ru: {
+          jp: "Ａ：<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>銀行<rt>ぎんこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きませんか。 Ｂ：<ruby>銀行<rt>ぎんこう</rt></ruby>は ちょっと…",
+          translation:
+            "А: Пойдемте вместе в банк? Б: В банк — это немного (неудобно)...",
+          grammarInfo:
+            "1. ちょっと… — мягкий отказ.\n\n💡 В Японии не говорят прямое «нет» (いいえ), чтобы не обидеть человека.",
+        },
+        uz: {
+          jp: "Ａ：<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>銀行<rt>ぎんこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きませんか。 Ｂ：<ruby>銀行<rt>ぎんこう</rt></ruby>は ちょっと…",
+          translation:
+            "A: Birgalikda bankka bormaymizmi? B: Bank biroz (noqulay)...",
+          grammarInfo:
+            "1. ちょっと… — yumshoq rad etish.\n\n💡 Yaponiyada odamni xafa qilmaslik uchun to'g'ridan-to'g'ri «yo'q» (いいえ) deyilmaydi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ちょっと <ruby>待<rt>ま</rt></ruby>って ください。",
+            translation: "Подождите немного, пожалуйста.",
+          },
+          {
+            jp: "ちょっと <ruby>休<rt>やす</rt></ruby>みましょう。",
+            translation: "Давайте немного отдохнем.",
+          },
+          {
+            jp: "ちょっと <ruby>高<rt>たか</rt></ruby>いです。",
+            translation: "Это немного дороговато.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ちょっと <ruby>待<rt>ま</rt></ruby>って ください。",
+            translation: "Biroz kuting, iltimos.",
+          },
+          {
+            jp: "ちょっと <ruby>休<rt>やす</rt></ruby>みましょう。",
+            translation: "Biroz dam olaylik.",
+          },
+          {
+            jp: "ちょっと <ruby>高<rt>たか</rt></ruby>いです。",
+            translation: "Bu biroz qimmat.",
+          },
+        ],
+      },
+    },
+    {
+      id: 292,
+      lesson: 6,
+      japanese: "いつも",
+      cleanWord: "いつも",
+      translations: { ru: "всегда, обычно", uz: "har doim, odatda" },
+      exampleSentences: {
+        ru: {
+          jp: "あの <ruby>人<rt>ひと</rt></ruby>は いつも わたしの パンを <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Тот человек всегда съедает мой хлеб.",
+          grammarInfo:
+            "1. いつも — наречие частотности (всегда).\n2. Ставится обычно перед глаголом или объектом действия.\n\n⚠️ Пора заводить отдельный холодильник.",
+        },
+        uz: {
+          jp: "あの <ruby>人<rt>ひと</rt></ruby>は いつも わたしの パンを <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Anavi odam doim mening nonimni yeb qo'yadi.",
+          grammarInfo:
+            "1. いつも — takroriylik ravishi (har doim).\n2. Odatda fe'ldan yoki harakat obyektidan oldin qo'yiladi.\n\n⚠️ Alohida muzlatgich olish vaqti keldi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "いつも パンを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я всегда покупаю хлеб.",
+          },
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は いつも <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Тот человек всегда ходит на работу.",
+          },
+          {
+            jp: "いつも <ruby>宿題<rt>しゅくだい</rt></ruby>を します。",
+            translation: "Я всегда делаю домашнее задание.",
+          },
+        ],
+        uz: [
+          {
+            jp: "いつも パンを <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Har doim non sotib olaman.",
+          },
+          {
+            jp: "あの <ruby>人<rt>ひと</rt></ruby>は いつも <ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Anavi odam doim ishga boradi.",
+          },
+          {
+            jp: "いつも <ruby>宿題<rt>しゅくだい</rt></ruby>を します。",
+            translation: "Men har doim uy vazifasini qilaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 293,
+      lesson: 6,
+      japanese: "<ruby>時々<rt>ときどき</rt></ruby>",
+      cleanWord: "時々",
+      translations: { ru: "иногда", uz: "ba'zan, vaqti-vaqti bilan" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>時々<rt>ときどき</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きません。",
+          translation: "Иногда я не хожу на работу.",
+          grammarInfo:
+            "1. 時々 — означает «время от времени, иногда».\n2. Знак 々 означает повторение предыдущего иероглифа.\n\n💡 В Японии не пойти на работу без причины — огромный скандал!",
+        },
+        uz: {
+          jp: "<ruby>時々<rt>ときどき</rt></ruby>、<ruby>会社<rt>かいしゃ</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きません。",
+          translation: "Ba'zan men ishga bormayman.",
+          grammarInfo:
+            "1. 時々 — «vaqti-vaqti bilan, ba'zan» degani.\n2. 々 belgisi oldingi iyeroglifning takrorlanishini bildiradi.\n\n💡 Yaponiyada sababsiz ishga bormaslik juda katta janjalga aylanadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>時々<rt>ときどき</rt></ruby> お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Иногда я пью алкоголь.",
+          },
+          {
+            jp: "<ruby>時々<rt>ときどき</rt></ruby> テニスを します。",
+            translation: "Иногда я играю в теннис.",
+          },
+          {
+            jp: "<ruby>時々<rt>ときどき</rt></ruby> えいがを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Время от времени я смотрю фильмы.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>時々<rt>ときどき</rt></ruby> お<ruby>酒<rt>さけ</rt></ruby>を <ruby>飲<rt>の</rt></ruby>みます。",
+            translation: "Ba'zan men spirtli ichimlik ichaman.",
+          },
+          {
+            jp: "<ruby>時々<rt>ときどき</rt></ruby> テニスを します。",
+            translation: "Ba'zan men tennis o'ynayman.",
+          },
+          {
+            jp: "<ruby>時々<rt>ときどき</rt></ruby> えいがを <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Vaqti-vaqti bilan kino ko'raman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 294,
+      lesson: 7,
+      japanese: "<ruby>切<rt>き</rt></ruby>ります",
+      cleanWord: "切ります",
+      translations: { ru: "резать, нарезать", uz: "kesmoq, to'g'ramoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>、はさみで クレジットカードを <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Вчера я разрезал кредитную карту ножницами.",
+          grammarInfo:
+            "1. はさみで (ножницами) — частица で указывает на инструмент действия.\n2. クレジットカードを (кредитную карту) — частица を указывает на объект действия.\n3. 切りました (разрезал) — глагол в прошедшем времени.\n\n💡 В Японии слово «kirimasu» (резать) также используется в значении «завершить звонок / положить трубку»!",
+        },
+        uz: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>、はさみで クレジットカードを <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Kecha men kredit kartani qaychi bilan kesib tashladim.",
+          grammarInfo:
+            "1. はさみで (qaychi bilan) — で yuklamasi harakat qurolini ko'rsatadi.\n2. クレジットカードを (kredit kartani) — を tushum kelishigi yuklamasi.\n3. 切りました (kesdim) — fe'lning o'tgan zamon shakli.\n\n💡 Yapon tilida «kirimasu» (kesmoq) so'zi telefonda «go'shakni qo'ymoq» ma'nosida ham ishlatiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>を <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Я режу бумагу.",
+          },
+          {
+            jp: "ナイフで パンを <ruby>切<rt>き</rt></ruby>りました。",
+            translation: "Я порезал хлеб ножом.",
+          },
+          {
+            jp: "なにで リンゴを <ruby>切<rt>き</rt></ruby>りますか。",
+            translation: "Чем ты режешь яблоко?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>を <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Men qog'ozni kesyapman.",
+          },
+          {
+            jp: "ナイフで パンを <ruby>切<rt>き</rt></ruby>りました。",
+            translation: "Nonni pichoq bilan kesdim.",
+          },
+          {
+            jp: "なにで リンゴを <ruby>切<rt>き</rt></ruby>りますか。",
+            translation: "Olmani nima bilan kesyapsan?",
+          },
+        ],
+      },
+    },
+    {
+      id: 295,
+      lesson: 7,
+      japanese: "<ruby>送<rt>おく</rt></ruby>ります",
+      cleanWord: "送ります",
+      translations: { ru: "посылать, отправлять", uz: "jo'natmoq, yubormoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に プレゼントを <ruby>送<rt>おく</rt></ruby>りました。",
+          translation: "Я отправил собаке подарок.",
+          grammarInfo:
+            "1. 犬に (собаке) — кому направлено действие (получатель).\n2. を — объект действия (подарок).\n\n💡 Отправлять посылки животным — странно, но грамматически безупречно! Частица に показывает получателя.",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に プレゼントを <ruby>送<rt>おく</rt></ruby>りました。",
+          translation: "Men itga sovg'a jo'natdim.",
+          grammarInfo:
+            "1. 犬に (itga) — harakat yo'nalishi (qabul qiluvchi).\n2. を — tushum kelishigi (sovg'ani).\n\n💡 Hayvonlarga posilka jo'natish g'alati, lekin grammatik jihatdan to'g'ri! に qo'shimchasi qabul qiluvchini bildiradi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Я отправлю письмо другу.",
+          },
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>に <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>りました。",
+            translation: "Я отправил посылку семье.",
+          },
+          {
+            jp: "だれに <ruby>送<rt>おく</rt></ruby>りましたか。",
+            translation: "Кому ты отправил?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Do'stimga xat jo'nataman.",
+          },
+          {
+            jp: "<ruby>家族<rt>かぞく</rt></ruby>に <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>りました。",
+            translation: "Oilamga jo'natma yubordim.",
+          },
+          {
+            jp: "だれに <ruby>送<rt>おく</rt></ruby>りましたか。",
+            translation: "Kimga jo'natdingiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 296,
+      lesson: 7,
+      japanese: "あげます",
+      cleanWord: "あげます",
+      translations: { ru: "давать (кому-то)", uz: "(kimdirga) bermoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>先生<rt>せんせい</rt></ruby>に １００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>を あげました。",
+          translation: "Я дал учителю миллион иен.",
+          grammarInfo:
+            "1. 先生に — кому (учителю).\n2. １００万円を — что (миллион иен).\n3. あげました — дал (в прошедшем времени).\n\n⚠️ В Японии давать учителю деньги напрямую — это грубо. А вот конфеты (okashi) — в самый раз!",
+        },
+        uz: {
+          jp: "<ruby>先生<rt>せんせい</rt></ruby>に １００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>を あげました。",
+          translation: "O'qituvchiga bir million iyen berdim.",
+          grammarInfo:
+            "1. 先生に — kimga (o'qituvchiga).\n2. １００万円を — nimani (1 million iyen).\n3. あげました — berdim (o'tgan zamon).\n\n⚠️ Yaponiyada o'qituvchiga to'g'ridan-to'g'ri pul berish odobsizlik sanaladi. Lekin shirinlik berish — ayni muddao!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>肉<rt>にく</rt></ruby>を あげました。",
+            translation: "Я дал собаке мясо.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を あげます。",
+            translation: "Я подарю маме цветы.",
+          },
+          { jp: "なにを あげますか。", translation: "Что ты дашь?" },
+        ],
+        uz: [
+          {
+            jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>肉<rt>にく</rt></ruby>を あげました。",
+            translation: "Itga go'sht berdim.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を あげます。",
+            translation: "Onamga gul sovg'a qilaman.",
+          },
+          { jp: "なにを あげますか。", translation: "Nima berasiz?" },
+        ],
+      },
+    },
+    {
+      id: 297,
+      lesson: 7,
+      japanese: "もらいます",
+      cleanWord: "もらいます",
+      translations: { ru: "получать", uz: "olmoq, qabul qilmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>、 <ruby>猫<rt>ねこ</rt></ruby>に ケータイを もらいました。",
+          translation: "Вчера я получил от кошки мобильный телефон.",
+          grammarInfo:
+            "1. 猫に — от кого (можно также использовать から).\n2. もらいました — получил (действие к себе).\n\n💡 Как кошка купила телефон? Это останется загадкой!",
+        },
+        uz: {
+          jp: "<ruby>昨日<rt>きのう</rt></ruby>、 <ruby>猫<rt>ねこ</rt></ruby>に ケータイを もらいました。",
+          translation: "Kecha men mushukdan mobil telefon oldim.",
+          grammarInfo:
+            "1. 猫に — kimdan (から ham ishlatish mumkin).\n2. もらいました — oldim (o'ziga qaratilgan harakat).\n\n💡 Mushuk telefonni qanday sotib olgani sirligicha qolmoqda!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>に お<ruby>金<rt>かね</rt></ruby>を もらいました。",
+            translation: "Я получил деньги от отца.",
+          },
+          {
+            jp: "<ruby>会社<rt>かいしゃ</rt></ruby>から メールを もらいました。",
+            translation: "Я получил письмо от компании.",
+          },
+          { jp: "だれに もらいましたか。", translation: "От кого ты получил?" },
+        ],
+        uz: [
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>に お<ruby>金<rt>かね</rt></ruby>を もらいました。",
+            translation: "Otamdan pul oldim.",
+          },
+          {
+            jp: "<ruby>会社<rt>かいしゃ</rt></ruby>から メールを もらいました。",
+            translation: "Kompaniyadan xat oldim.",
+          },
+          { jp: "だれに もらいましたか。", translation: "Kimdan oldingiz?" },
+        ],
+      },
+    },
+    {
+      id: 298,
+      lesson: 7,
+      japanese: "<ruby>貸<rt>か</rt></ruby>します",
+      cleanWord: "貸します",
+      translations: {
+        ru: "давать в долг, на прокат",
+        uz: "qarzga yoki ijaraga bermoq",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "だれにも お<ruby>金<rt>かね</rt></ruby>を <ruby>貸<rt>か</rt></ruby>しません！",
+          translation: "Я никому не одолжу свои деньги!",
+          grammarInfo:
+            "1. だれにも (никому) — вопросительное слово + に + も с отрицанием.\n2. 貸しません — не одолжу (отрицание в настоящем-будущем времени).\n\n💡 Дружба дружбой, а деньги врозь. «kashimasu» — это давать своё на время.",
+        },
+        uz: {
+          jp: "だれにも お<ruby>金<rt>かね</rt></ruby>を <ruby>貸<rt>か</rt></ruby>しません！",
+          translation: "Men pulimni hech kimga qarzga bermayman!",
+          grammarInfo:
+            "1. だれにも (hech kimga) — so'roq so'z + に + も inkor fe'li bilan birga.\n2. 貸しません — qarz bermayman (hozirgi-kelasi zamon inkori).\n\n💡 Do'stlik o'z yo'liga, pul o'z yo'liga. «kashimasu» — bu o'z narsasini vaqtincha birovga bermoq.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>車<rt>くるま</rt></ruby>を <ruby>貸<rt>か</rt></ruby>します。",
+            translation: "Я одолжу машину другу.",
+          },
+          {
+            jp: "けしゴムを <ruby>貸<rt>か</rt></ruby>しました。",
+            translation: "Я одолжил ластик.",
+          },
+          {
+            jp: "だれに <ruby>貸<rt>か</rt></ruby>しますか。",
+            translation: "Кому ты одолжишь?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>車<rt>くるま</rt></ruby>を <ruby>貸<rt>か</rt></ruby>します。",
+            translation: "Do'stimga mashinamni qarzga beraman.",
+          },
+          {
+            jp: "けしゴムを <ruby>貸<rt>か</rt></ruby>しました。",
+            translation: "O'chirg'ichni vaqtincha berdim.",
+          },
+          {
+            jp: "だれに <ruby>貸<rt>か</rt></ruby>しますか。",
+            translation: "Kimga qarzga berasiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 299,
+      lesson: 7,
+      japanese: "<ruby>借<rt>か</rt></ruby>ります",
+      cleanWord: "借ります",
+      translations: {
+        ru: "брать в долг, на прокат",
+        uz: "qarzga yoki ijaraga olmoq",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で はさみを <ruby>借<rt>か</rt></ruby>りました。",
+          translation: "Я одолжил ножницы в банке.",
+          grammarInfo:
+            "1. 銀行で — место действия (в банке).\n2. 借りました — взял в долг / на время.\n\n💡 Обычно в банке берут в долг деньги, но ситуации бывают разные!",
+        },
+        uz: {
+          jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で はさみを <ruby>借<rt>か</rt></ruby>りました。",
+          translation: "Bankdan qaychi qarzga oldim.",
+          grammarInfo:
+            "1. 銀行で — harakat joyi (bankda).\n2. 借りました — qarzga / vaqtincha oldim.\n\n💡 Odatda bankdan pul qarzga olinadi, lekin vaziyat har xil bo'lishi mumkin!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Я взял книгу в библиотеке.",
+          },
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>から お<ruby>金<rt>かね</rt></ruby>を <ruby>借<rt>か</rt></ruby>ります。",
+            translation: "Я займу деньги у отца.",
+          },
+          {
+            jp: "だれに <ruby>借<rt>か</rt></ruby>りましたか。",
+            translation: "У кого ты одолжил?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>図書館<rt>としょかん</rt></ruby>で <ruby>本<rt>ほん</rt></ruby>を <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Kutubxonadan kitob oldim.",
+          },
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>から お<ruby>金<rt>かね</rt></ruby>を <ruby>借<rt>か</rt></ruby>ります。",
+            translation: "Otamdan qarzga pul olaman.",
+          },
+          {
+            jp: "だれに <ruby>借<rt>か</rt></ruby>りましたか。",
+            translation: "Kimdan qarzga oldingiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 300,
+      lesson: 7,
+      japanese: "<ruby>教<rt>おし</rt></ruby>えます",
+      cleanWord: "教えます",
+      translations: {
+        ru: "преподавать, обучать",
+        uz: "o'rgatmoq, dars bermoq",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えます。",
+          translation: "Я обучаю собаку японскому языку.",
+          grammarInfo:
+            "1. 犬に — кому (собаке).\n2. 教えます — учить, преподавать, сообщать информацию.\n\n💡 Если вы можете объяснить японский язык собаке, значит, вы точно его поняли сами!",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えます。",
+          translation: "Men itga yapon tilini o'rgatyapman.",
+          grammarInfo:
+            "1. 犬に — kimga (itga).\n2. 教えます — o'rgatmoq.\n\n💡 Agar siz yapon tilini itga tushuntira olsangiz, demak o'zingiz uni mukammal tushungansiz!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>は <ruby>英語<rt>えいご</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えます。",
+            translation: "Учитель преподает английский.",
+          },
+          {
+            jp: "パソコンを <ruby>教<rt>おし</rt></ruby>えましょうか。",
+            translation: "Обучить вас компьютеру?",
+          },
+          {
+            jp: "だれに <ruby>教<rt>おし</rt></ruby>えますか。",
+            translation: "Кому ты преподаешь?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>は <ruby>英語<rt>えいご</rt></ruby>を <ruby>教<rt>おし</rt></ruby>えます。",
+            translation: "O'qituvchi ingliz tilidan dars beradi.",
+          },
+          {
+            jp: "パソコンを <ruby>教<rt>おし</rt></ruby>えましょうか。",
+            translation: "Sizga kompyuterni o'rgataymi?",
+          },
+          {
+            jp: "だれに <ruby>教<rt>おし</rt></ruby>えますか。",
+            translation: "Kimga dars berasiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 301,
+      lesson: 7,
+      japanese: "<ruby>習<rt>なら</rt></ruby>います",
+      cleanWord: "習います",
+      translations: { ru: "изучать (у кого-то)", uz: "o'rganmoq (kimdandir)" },
+      exampleSentences: {
+        ru: {
+          jp: "５<ruby>歳<rt>さい</rt></ruby>の <ruby>子供<rt>こども</rt></ruby>に <ruby>英語<rt>えいご</rt></ruby>を <ruby>習<rt>なら</rt></ruby>いました。",
+          translation: "Я учил английский язык у 5-летнего ребенка.",
+          grammarInfo:
+            "1. 子供に — от кого (можно также から).\n2. 習いました — учился.\n\n💡 В отличие от «benkyou shimasu» (учиться вообще), «naraimasu» означает перенимать навык именно от конкретного человека.",
+        },
+        uz: {
+          jp: "５<ruby>歳<rt>さい</rt></ruby>の <ruby>子供<rt>こども</rt></ruby>に <ruby>英語<rt>えいご</rt></ruby>を <ruby>習<rt>なら</rt></ruby>いました。",
+          translation: "Men ingliz tilini 5 yoshli boladan o'rgandim.",
+          grammarInfo:
+            "1. 子供に — kimdan (から ham ishlatish mumkin).\n2. 習いました — o'rgandim.\n\n💡 «Benkyou shimasu» (umuman o'qimoq) dan farqli o'laroq, «naraimasu» aynan ma'lum bir ustozdan biror narsa o'rganishni bildiradi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ミラーさんに <ruby>英語<rt>えいご</rt></ruby>を <ruby>習<rt>なら</rt></ruby>います。",
+            translation: "Я учу английский у Миллера.",
+          },
+          {
+            jp: "どこで <ruby>習<rt>なら</rt></ruby>いましたか。",
+            translation: "Где вы этому научились?",
+          },
+          {
+            jp: "<ruby>学校<rt>がっこう</rt></ruby>で <ruby>習<rt>なら</rt></ruby>いました。",
+            translation: "Выучил в школе.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ミラーさんに <ruby>英語<rt>えいご</rt></ruby>を <ruby>習<rt>なら</rt></ruby>います。",
+            translation: "Millerdan ingliz tilini o'rganyapman.",
+          },
+          {
+            jp: "どこで <ruby>習<rt>なら</rt></ruby>いましたか。",
+            translation: "Buni qayerda o'rgangansiz?",
+          },
+          {
+            jp: "<ruby>学校<rt>がっこう</rt></ruby>で <ruby>習<rt>なら</rt></ruby>いました。",
+            translation: "Maktabda o'rganganman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 302,
+      lesson: 7,
+      japanese: "かけます",
+      cleanWord: "かけます",
+      translations: { ru: "звонить (по телефону)", uz: "qo'ng'iroq qilmoq" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>午前<rt>ごぜん</rt></ruby> ３<ruby>時<rt>じ</rt></ruby>に <ruby>先生<rt>せんせい</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけました。",
+          translation: "В 3 часа ночи (утра) я позвонил учителю.",
+          grammarInfo:
+            "1. ３時に — когда (в 3 часа).\n2. 先生に — кому (направление действия).\n\n⚠️ Звонить кому-то ночью в Японии — это огромное табу (мэйваку), никогда так не делайте!",
+        },
+        uz: {
+          jp: "<ruby>午前<rt>ごぜん</rt></ruby> ３<ruby>時<rt>じ</rt></ruby>に <ruby>先生<rt>せんせい</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけました。",
+          translation: "Tungi soat 3 da o'qituvchiga qo'ng'iroq qildim.",
+          grammarInfo:
+            "1. ３時に — qachon (soat 3 da).\n2. 先生に — kimga (yo'nalish).\n\n⚠️ Yaponiyada kimgadir yarim tunda telefon qilish katta madaniy xato (meiwaku) hisoblanadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。",
+            translation: "Я позвоню маме.",
+          },
+          {
+            jp: "<ruby>会社<rt>かいしゃ</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけました。",
+            translation: "Я позвонил в компанию.",
+          },
+          { jp: "だれに かけましたか。", translation: "Кому вы звонили?" },
+        ],
+        uz: [
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。",
+            translation: "Onamga qo'ng'iroq qilaman.",
+          },
+          {
+            jp: "<ruby>会社<rt>かいしゃ</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけました。",
+            translation: "Kompaniyaga telefon qildim.",
+          },
+          {
+            jp: "だれに かけましたか。",
+            translation: "Kimga telefon qildingiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 303,
+      lesson: 7,
+      japanese: "<ruby>手<rt>て</rt></ruby>",
+      cleanWord: "手",
+      translations: { ru: "рука, кисть", uz: "qo'l, panja" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>は はしで ごはんを <ruby>食<rt>た</rt></ruby>べますか。 いいえ、 <ruby>手<rt>て</rt></ruby>で <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Собака ест рис палочками? Нет, руками.",
+          grammarInfo:
+            "1. はしで / 手で — с помощью чего (инструмент).\n2. 食べますか — вопрос.\n\n💡 Японцы едят руками только некоторые виды суши и онигири. Рамен — только палочками!",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>は はしで ごはんを <ruby>食<rt>た</rt></ruby>べますか。 いいえ、 <ruby>手<rt>て</rt></ruby>で <ruby>食<rt>た</rt></ruby>べます。",
+          translation:
+            "It guruchni tayoqchalar bilan yeydimi? Yo'q, qo'li bilan.",
+          grammarInfo:
+            "1. はしで / 手で — nima bilan (vosita).\n2. 食べますか — so'roq gap.\n\n💡 Yaponlar qo'l bilan faqatgina ba'zi sushi turlari va onigirini yeyishadi. Ramen esa faqat tayoqchalar bilan yeyiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の <ruby>手<rt>て</rt></ruby>です。",
+            translation: "Это моя рука.",
+          },
+          {
+            jp: "<ruby>手<rt>て</rt></ruby>で <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу письмо от руки.",
+          },
+          {
+            jp: "<ruby>手<rt>て</rt></ruby>で ごはんを <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я ем рис руками.",
+          },
+        ],
+        uz: [
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の <ruby>手<rt>て</rt></ruby>です。",
+            translation: "Bu mening qo'lim.",
+          },
+          {
+            jp: "<ruby>手<rt>て</rt></ruby>で <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Xatni qo'lda yozaman.",
+          },
+          {
+            jp: "<ruby>手<rt>て</rt></ruby>で ごはんを <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Guruchni qo'lim bilan yeyman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 304,
+      lesson: 7,
+      japanese: "はし",
+      cleanWord: "はし",
+      translations: { ru: "палочки для еды", uz: "ovqatlanish tayoqchalari" },
+      exampleSentences: {
+        ru: {
+          jp: "はしで コーヒーを <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "Я пью кофе палочками.",
+          grammarInfo:
+            "1. はしで — палочками (инструмент).\n2. 飲みます — пью.\n\n💡 Идеальное предложение, чтобы сбить японца с толку. Абсурд, но грамматика безупречна!",
+        },
+        uz: {
+          jp: "はしで コーヒーを <ruby>飲<rt>の</rt></ruby>みます。",
+          translation: "Qahvani tayoqchalar bilan ichaman.",
+          grammarInfo:
+            "1. はしで — tayoqchalar bilan (vosita).\n2. 飲みます — ichaman.\n\n💡 Yaponlarni hayratda qoldirish uchun ajoyib gap. G'alati, ammo grammatikasi mukammal!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "はしで <ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я ем рыбу палочками.",
+          },
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の はしです。",
+            translation: "Это мои палочки.",
+          },
+          { jp: "はしを もらいました。", translation: "Я получил палочки." },
+        ],
+        uz: [
+          {
+            jp: "はしで <ruby>魚<rt>さかな</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Baliqni tayoqchalar bilan yeyman.",
+          },
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の はしです。",
+            translation: "Bu mening tayoqchalarim.",
+          },
+          { jp: "はしを もらいました。", translation: "Men tayoqcha oldim." },
+        ],
+      },
+    },
+    {
+      id: 305,
+      lesson: 7,
+      japanese: "スプーン",
+      cleanWord: "スプーン",
+      translations: { ru: "ложка", uz: "qoshiq" },
+      exampleSentences: {
+        ru: {
+          jp: "スプーンで <ruby>肉<rt>にく</rt></ruby>を <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Я разрезал мясо ложкой.",
+          grammarInfo:
+            "1. スプーンで — ложкой.\n2. 肉を — мясо.\n3. 切りました — разрезал.\n\n💡 Наверное, это было очень нежное мясо!",
+        },
+        uz: {
+          jp: "スプーンで <ruby>肉<rt>にく</rt></ruby>を <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Go'shtni qoshiq bilan kesdim.",
+          grammarInfo:
+            "1. スプーンで — qoshiq bilan.\n2. 肉を — go'shtni.\n3. 切りました — kesdim.\n\n💡 Balki bu juda yumshoq go'sht bo'lgandir!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "スプーンで <ruby>食<rt>た</rt></ruby>べますか。",
+            translation: "Вы едите ложкой?",
+          },
+          {
+            jp: "スプーンを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил ложку.",
+          },
+          { jp: "スプーンは どこですか。", translation: "Где ложка?" },
+        ],
+        uz: [
+          {
+            jp: "スプーンで <ruby>食<rt>た</rt></ruby>べますか。",
+            translation: "Qoshiq bilan yeysizmi?",
+          },
+          {
+            jp: "スプーンを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Qoshiq sotib oldim.",
+          },
+          { jp: "スプーンは どこですか。", translation: "Qoshiq qayerda?" },
+        ],
+      },
+    },
+    {
+      id: 306,
+      lesson: 7,
+      japanese: "ナイフ",
+      cleanWord: "ナイフ",
+      translations: { ru: "нож", uz: "pichoq" },
+      exampleSentences: {
+        ru: {
+          jp: "ナイフじゃ ありません。 <ruby>私<rt>わたし</rt></ruby>の ケータイです！",
+          translation: "Это не нож. Это мой мобильный телефон!",
+          grammarInfo:
+            "1. ナイフじゃありません — отрицание существительного (не нож).\n2. ケータイです — утверждение.\n\n💡 Японские кухонные ножи славятся во всем мире, но путать их с телефоном очень опасно.",
+        },
+        uz: {
+          jp: "ナイフじゃ ありません。 <ruby>私<rt>わたし</rt></ruby>の ケータイです！",
+          translation: "Bu pichoq emas. Bu mening mobil telefonim!",
+          grammarInfo:
+            "1. ナイフじゃありません — otning inkor shakli (pichoq emas).\n2. ケータイです — tasdiq shakli.\n\n💡 Yapon oshxona pichoqlari dunyoga mashhur, lekin ularni telefon bilan adashtirish xavfli.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ナイフで リンゴを <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Я режу яблоко ножом.",
+          },
+          {
+            jp: "ナイフと フォークで <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я ем ножом и вилкой.",
+          },
+          {
+            jp: "あの ナイフは <ruby>私<rt>わたし</rt></ruby>の です。",
+            translation: "Тот нож мой.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ナイフで リンゴを <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Olmani pichoq bilan kesaman.",
+          },
+          {
+            jp: "ナイフと フォークで <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Pichoq va vilka bilan yeyman.",
+          },
+          {
+            jp: "あの ナイフは <ruby>私<rt>わたし</rt></ruby>の です。",
+            translation: "Anavi pichoq menikidir.",
+          },
+        ],
+      },
+    },
+    {
+      id: 307,
+      lesson: 7,
+      japanese: "フォーク",
+      cleanWord: "フォーク",
+      translations: { ru: "вилка", uz: "vilka, sanchqi" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>日本人<rt>にほんじん</rt></ruby>は フォークで ごはんを <ruby>食<rt>た</rt></ruby>べません。",
+          translation: "Японцы не едят рис вилкой.",
+          grammarInfo:
+            "1. 日本人は — тема (японцы).\n2. フォークで — с помощью чего (вилкой).\n3. 食べません — отрицание (не едят).\n\n⚠️ Есть рис или суши вилкой в Японии — это настоящий культурный шок для шеф-повара!",
+        },
+        uz: {
+          jp: "<ruby>日本人<rt>にほんじん</rt></ruby>は フォークで ごはんを <ruby>食<rt>た</rt></ruby>べません。",
+          translation: "Yaponlar guruchni vilka bilan yeyishmaydi.",
+          grammarInfo:
+            "1. 日本人は — ega (yaponlar).\n2. フォークで — nima bilan (vilka bilan).\n3. 食べません — inkor shakl (yeyishmaydi).\n\n⚠️ Yaponiyada guruch yoki sushini vilka bilan yeyish oshpaz uchun haqiqiy madaniy shok hisoblanadi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "フォークを ください。",
+            translation: "Дайте вилку, пожалуйста.",
+          },
+          {
+            jp: "フォークで <ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Я ем мясо вилкой.",
+          },
+          { jp: "フォークは ありますか。", translation: "У вас есть вилка?" },
+        ],
+        uz: [
+          {
+            jp: "フォークを ください。",
+            translation: "Iltimos, vilka bering.",
+          },
+          {
+            jp: "フォークで <ruby>肉<rt>にく</rt></ruby>を <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Go'shtni vilka bilan yeyman.",
+          },
+          { jp: "フォークは ありますか。", translation: "Vilka bormi?" },
+        ],
+      },
+    },
+    {
+      id: 308,
+      lesson: 7,
+      japanese: "はさみ",
+      cleanWord: "はさみ",
+      translations: { ru: "ножницы", uz: "qaychi" },
+      exampleSentences: {
+        ru: {
+          jp: "はさみで <ruby>先生<rt>せんせい</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Я разрезал фотографию учителя ножницами.",
+          grammarInfo:
+            "1. はさみで — инструмент (ножницами).\n2. 先生の写真を — чью фотографию (принадлежность).\n\n💡 Наверное, учитель поставил вам очень плохую оценку!",
+        },
+        uz: {
+          jp: "はさみで <ruby>先生<rt>せんせい</rt></ruby>の <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "O'qituvchining rasmini qaychi bilan kesib tashladim.",
+          grammarInfo:
+            "1. はさみで — vosita (qaychi bilan).\n2. 先生の写真を — kimning rasmini (qaratqich kelishigi).\n\n💡 Ustoz juda yomon baho qo'ygan bo'lsa kerak-da!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "はさみで <ruby>紙<rt>かみ</rt></ruby>を <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Я режу бумагу ножницами.",
+          },
+          {
+            jp: "はさみを <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Я одолжил ножницы.",
+          },
+          {
+            jp: "はさみで <ruby>何<rt>なに</rt></ruby>を <ruby>切<rt>き</rt></ruby>りますか。",
+            translation: "Что вы режете ножницами?",
+          },
+        ],
+        uz: [
+          {
+            jp: "はさみで <ruby>紙<rt>かみ</rt></ruby>を <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Qog'ozni qaychi bilan kesaman.",
+          },
+          {
+            jp: "はさみを <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Qaychi qarzga oldim.",
+          },
+          {
+            jp: "はさみで <ruby>何<rt>なに</rt></ruby>を <ruby>切<rt>き</rt></ruby>りますか。",
+            translation: "Qaychi bilan nima kesyapsiz?",
+          },
+        ],
+      },
+    },
+    {
+      id: 309,
+      lesson: 7,
+      japanese: "パソコン",
+      cleanWord: "パソコン",
+      translations: { ru: "персональный компьютер", uz: "shaxsiy kompyuter" },
+      exampleSentences: {
+        ru: {
+          jp: "トイレで パソコンを <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Я купил компьютер в туалете.",
+          grammarInfo:
+            "1. トイレで — место действия (в туалете).\n2. 買いました — купил.\n\n💡 Слово パソコン — это типичное японское сокращение от английского Personal Computer.",
+        },
+        uz: {
+          jp: "トイレで パソコンを <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Men hojatxonada kompyuter sotib oldim.",
+          grammarInfo:
+            "1. トイレで — harakat bajarilgan joy (hojatxonada).\n2. 買いました — sotib oldim.\n\n💡 パソコン so'zi inglizcha Personal Computer so'zining yaponcha qisqartmasidir.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "パソコンで <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Я смотрю фильмы на компьютере.",
+          },
+          {
+            jp: "パソコンを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил компьютер.",
+          },
+          {
+            jp: "パソコンで <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу письмо на компьютере.",
+          },
+        ],
+        uz: [
+          {
+            jp: "パソコンで <ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ます。",
+            translation: "Kompyuterda kino ko'raman.",
+          },
+          {
+            jp: "パソコンを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Kompyuter sotib oldim.",
+          },
+          {
+            jp: "パソコンで <ruby>手紙<rt>てがみ</rt></ruby>を <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Kompyuterda xat yozaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 310,
+      lesson: 7,
+      japanese: "ケータイ",
+      cleanWord: "ケータイ",
+      translations: { ru: "мобильный телефон", uz: "mobil telefon" },
+      exampleSentences: {
+        ru: {
+          jp: "これは <ruby>私<rt>わたし</rt></ruby>の ケータイじゃ ありません。 <ruby>犬<rt>いぬ</rt></ruby>のです。",
+          translation: "Это не мой мобильный телефон. Это телефон моей собаки.",
+          grammarInfo:
+            "1. じゃありません — отрицание.\n2. 犬のです — принадлежит собаке (частица の заменяет существительное).\n\n💡 В Японии собаки в модной одежде с аксессуарами — обычное явление.",
+        },
+        uz: {
+          jp: "これは <ruby>私<rt>わたし</rt></ruby>の ケータイじゃ ありません。 <ruby>犬<rt>いぬ</rt></ruby>のです。",
+          translation: "Bu mening telefonim emas. Bu itimniki.",
+          grammarInfo:
+            "1. じゃありません — inkor shakli.\n2. 犬のです — itga tegishli (の qo'shimchasi otni o'rnini bosyapti).\n\n💡 Yaponiyada modaga mos kiyingan va aksessuarlari bor itlarni tez-tez uchratish mumkin.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ケータイで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ります。",
+            translation: "Я делаю фото на телефон.",
+          },
+          {
+            jp: "ケータイを もらいました。",
+            translation: "Я получил телефон в подарок.",
+          },
+          {
+            jp: "ケータイは ありません。",
+            translation: "У меня нет телефона.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ケータイで <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ります。",
+            translation: "Telefonda rasmga olaman.",
+          },
+          {
+            jp: "ケータイを もらいました。",
+            translation: "Men telefon sovg'a oldim.",
+          },
+          { jp: "ケータイは ありません。", translation: "Menda telefon yo'q." },
+        ],
+      },
+    },
+    {
+      id: 311,
+      lesson: 7,
+      japanese: "メール",
+      cleanWord: "メール",
+      translations: { ru: "электронное письмо", uz: "elektron xat, email" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>毎晩<rt>まいばん</rt></ruby>、 <ruby>猫<rt>ねこ</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>ります。",
+          translation: "Я каждый вечер отправляю письмо кошке.",
+          grammarInfo:
+            "1. 毎晩 — каждый вечер.\n2. 猫に — получатель (кошке).\n3. 送ります — отправляю.\n\n💡 В японском メール — это и email, и сообщение в мессенджере.",
+        },
+        uz: {
+          jp: "<ruby>毎晩<rt>まいばん</rt></ruby>、 <ruby>猫<rt>ねこ</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>ります。",
+          translation: "Har oqshom mushukka elektron xat jo'nataman.",
+          grammarInfo:
+            "1. 毎晩 — har oqshom.\n2. 猫に — qabul qiluvchi (mushukka).\n3. 送ります — jo'nataman.\n\n💡 Yapon tilida メール so'zi ham email, ham SMS ma'nosida keladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "メールを <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу email.",
+          },
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>りました。",
+            translation: "Я отправил письмо учителю.",
+          },
+          {
+            jp: "メールで <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Я отправлю по электронной почте.",
+          },
+        ],
+        uz: [
+          {
+            jp: "メールを <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Email yozyapman.",
+          },
+          {
+            jp: "<ruby>先生<rt>せんせい</rt></ruby>に メールを <ruby>送<rt>おく</rt></ruby>りました。",
+            translation: "O'qituvchiga elektron xat yubordim.",
+          },
+          {
+            jp: "メールで <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Elektron pochta orqali jo'nataman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 312,
+      lesson: 7,
+      japanese: "<ruby>年賀状<rt>ねんがじょう</rt></ruby>",
+      cleanWord: "年賀状",
+      translations: { ru: "новогодняя открытка", uz: "Yangi yil otkritkasi" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>年賀状<rt>ねんがじょう</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。",
+          translation: "Я написал новогоднюю открытку собаке.",
+          grammarInfo:
+            "1. 犬に — кому (собаке).\n2. 年賀状を — что (новогоднюю открытку).\n\n💡 В Японии отправка новогодних открыток — это целый ритуал. Почта доставляет их ровно утром 1 января!",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に <ruby>年賀状<rt>ねんがじょう</rt></ruby>を <ruby>書<rt>か</rt></ruby>きました。",
+          translation: "Men itga Yangi yil otkritkasini yozdim.",
+          grammarInfo:
+            "1. 犬に — kimga (itga).\n2. 年賀状を — nimani (Yangi yil otkritkasini).\n\n💡 Yaponiyada Yangi yil otkritkalarini yuborish butun bir an'ana. Pochta ularni aynan 1-yanvar saharda yetkazib beradi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>年賀状<rt>ねんがじょう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил новогоднюю открытку.",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>年賀状<rt>ねんがじょう</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Я отправлю новогоднюю открытку другу.",
+          },
+          {
+            jp: "<ruby>年賀状<rt>ねんがじょう</rt></ruby>を もらいました。",
+            translation: "Я получил новогоднюю открытку.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>年賀状<rt>ねんがじょう</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Yangi yil otkritkasi sotib oldim.",
+          },
+          {
+            jp: "<ruby>友達<rt>ともだち</rt></ruby>に <ruby>年賀状<rt>ねんがじょう</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Do'stimga Yangi yil otkritkasi yuboraman.",
+          },
+          {
+            jp: "<ruby>年賀状<rt>ねんがじょう</rt></ruby>を もらいました。",
+            translation: "Yangi yil otkritkasi oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 313,
+      lesson: 7,
+      japanese: "パンチ",
+      cleanWord: "パンチ",
+      translations: { ru: "дырокол", uz: "teshgich, dirokol" },
+      exampleSentences: {
+        ru: {
+          jp: "１００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>で パンチを <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Я купил дырокол за 1 000 000 иен.",
+          grammarInfo:
+            "1. １００万円で — за миллион иен (цена).\n2. 買いました — купил.\n\n💡 В английском «punch» может означать удар кулаком, но в Японии в офисе это обычный дырокол. Но за такие деньги он должен быть золотым!",
+        },
+        uz: {
+          jp: "１００<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>で パンチを <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Men 1 000 000 iyenga dirokol sotib oldim.",
+          grammarInfo:
+            "1. １００万円で — 1 million iyenga (narx).\n2. 買いました — sotib oldim.\n\n💡 Ingliz tilida «punch» musht bilan urishni anglatishi mumkin, lekin Yaponiyada bu ofisdagi oddiy dirokoldir. Shunday narxga u aniq oltindan bo'lishi kerak!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "これは パンチです。", translation: "Это дырокол." },
+          {
+            jp: "パンチを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил дырокол.",
+          },
+          { jp: "パンチは どこですか。", translation: "Где дырокол?" },
+        ],
+        uz: [
+          { jp: "これは パンチです。", translation: "Bu dirokoldir." },
+          {
+            jp: "パンチを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Dirokol sotib oldim.",
+          },
+          { jp: "パンチは どこですか。", translation: "Dirokol qayerda?" },
+        ],
+      },
+    },
+    {
+      id: 314,
+      lesson: 7,
+      japanese: "ホッチキス",
+      cleanWord: "ホッチキス",
+      translations: { ru: "степлер", uz: "stepler" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>は ホッチキスを <ruby>食<rt>た</rt></ruby>べました。",
+          translation: "Собака съела степлер.",
+          grammarInfo:
+            "1. 犬は — тема (собака).\n2. ホッチキスを — объект.\n\n💡 Слово ホッチキス пришло в Японию как название американской компании E.H. Hotchkiss и так навсегда и закрепилось в языке!",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>は ホッチキスを <ruby>食<rt>た</rt></ruby>べました。",
+          translation: "It steplerni yeb qo'ydi.",
+          grammarInfo:
+            "1. 犬は — mavzu (it).\n2. ホッチキスを — obyekt (steplerni).\n\n💡 ホッチキス so'zi Yaponiyaga Amerikaning E.H. Hotchkiss kompaniyasi nomidan kelib chiqqan va tilda butunlay qolib ketgan!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "ホッチキスを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил степлер.",
+          },
+          {
+            jp: "あの ホッチキスは <ruby>先生<rt>せんせい</rt></ruby>の です。",
+            translation: "Тот степлер принадлежит учителю.",
+          },
+          {
+            jp: "ホッチキスを <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Я одолжил степлер.",
+          },
+        ],
+        uz: [
+          {
+            jp: "ホッチキスを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Stepler sotib oldim.",
+          },
+          {
+            jp: "あの ホッチキスは <ruby>先生<rt>せんせい</rt></ruby>の です。",
+            translation: "Anavi stepler o'qituvchiniki.",
+          },
+          {
+            jp: "ホッチキスを <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Stepler qarzga oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 315,
+      lesson: 7,
+      japanese: "セロテープ",
+      cleanWord: "セロテープ",
+      translations: { ru: "клейкая лента, скотч", uz: "skotch" },
+      exampleSentences: {
+        ru: {
+          jp: "これは セロテープです。 <ruby>食<rt>た</rt></ruby>べません。",
+          translation: "Это скотч. Его не едят.",
+          grammarInfo:
+            "1. セロテープです — это скотч.\n2. 食べません — не едят.\n\n💡 Sellotape — это британский бренд. В Японии это слово стало нарицательным для любой прозрачной клейкой ленты.",
+        },
+        uz: {
+          jp: "これは セロテープです。 <ruby>食<rt>た</rt></ruby>べません。",
+          translation: "Bu skotch. Uni yemaydilar.",
+          grammarInfo:
+            "1. セロテープです — bu skotch.\n2. 食べません — yeyilmaydi.\n\n💡 Sellotape — Britaniya brendi bo'lib, Yaponiyada har qanday shaffof skotchni shu nom bilan atash odat tusiga kirgan.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "セロテープを <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Я одолжил скотч.",
+          },
+          {
+            jp: "セロテープは どこですか。",
+            translation: "Где находится скотч?",
+          },
+          {
+            jp: "セロテープを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил скотч.",
+          },
+        ],
+        uz: [
+          {
+            jp: "セロテープを <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Skotchni qarzga oldim.",
+          },
+          { jp: "セロテープは どこですか。", translation: "Skotch qayerda?" },
+          {
+            jp: "セロテープを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Skotch sotib oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 316,
+      lesson: 7,
+      japanese: "<ruby>消<rt>け</rt></ruby>しゴム",
+      cleanWord: "消しゴム",
+      translations: { ru: "ластик, резинка", uz: "o'chirg'ich" },
+      exampleSentences: {
+        ru: {
+          jp: "お<ruby>金<rt>かね</rt></ruby>じゃ ありません。 <ruby>消<rt>け</rt></ruby>しゴムです。",
+          translation: "Это не деньги. Это ластик.",
+          grammarInfo:
+            "1. お金じゃありません — отрицание (не является деньгами).\n2. 消しゴムです — утверждение.\n\n💡 В Японии делают ластики в виде еды, денег и даже суши! Они выглядят невероятно реалистично.",
+        },
+        uz: {
+          jp: "お<ruby>金<rt>かね</rt></ruby>じゃ ありません。 <ruby>消<rt>け</rt></ruby>しゴムです。",
+          translation: "Bu pul emas. Bu o'chirg'ich.",
+          grammarInfo:
+            "1. お金じゃありません — inkor shakli (pul emas).\n2. 消しゴムです — tasdiq shakli.\n\n💡 Yaponiyada ovqat, pul va hatto sushi shaklidagi o'chirg'ichlar ishlab chiqariladi! Ular xuddi haqiqiydek ko'rinadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>私<rt>わたし</rt></ruby>の <ruby>消<rt>け</rt></ruby>しゴムです。",
+            translation: "Это мой ластик.",
+          },
+          {
+            jp: "<ruby>消<rt>け</rt></ruby>しゴムを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил ластик.",
+          },
+          {
+            jp: "あの <ruby>消<rt>け</rt></ruby>しゴムは いくらですか。",
+            translation: "Сколько стоит тот ластик?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>私<rt>わたし</rt></ruby>の <ruby>消<rt>け</rt></ruby>しゴムです。",
+            translation: "Bu mening o'chirg'ichim.",
+          },
+          {
+            jp: "<ruby>消<rt>け</rt></ruby>しゴムを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "O'chirg'ich sotib oldim.",
+          },
+          {
+            jp: "あの <ruby>消<rt>け</rt></ruby>しゴムは いくらですか。",
+            translation: "Anavi o'chirg'ich qancha turadi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 317,
+      lesson: 7,
+      japanese: "<ruby>紙<rt>かみ</rt></ruby>",
+      cleanWord: "紙",
+      translations: { ru: "бумага", uz: "qog'oz" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>紙<rt>かみ</rt></ruby>の ケータイを <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Я купил бумажный мобильный телефон.",
+          grammarInfo:
+            "1. 紙の — из бумаги (частица の указывает на материал).\n2. 買いました — купил.\n\n💡 Японская традиционная бумага «васи» (和紙) настолько прочная, что из нее делали даже одежду и зонты!",
+        },
+        uz: {
+          jp: "<ruby>紙<rt>かみ</rt></ruby>の ケータイを <ruby>買<rt>か</rt></ruby>いました。",
+          translation: "Qog'ozdan yasalgan mobil telefon sotib oldim.",
+          grammarInfo:
+            "1. 紙の — qog'ozdan yasalgan (の qo'shimchasi materialni bildiradi).\n2. 買いました — sotib oldim.\n\n💡 Yapon an'anaviy qog'ozi «washi» (和紙) shunchalik mustahkamki, undan hatto kiyim va soyabonlar ham yasalgan!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>に <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Я пишу на бумаге.",
+          },
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>を ください。",
+            translation: "Дайте бумагу, пожалуйста.",
+          },
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>を <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Я режу бумагу.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>に <ruby>書<rt>か</rt></ruby>きます。",
+            translation: "Qog'ozga yozaman.",
+          },
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>を ください。",
+            translation: "Iltimos, qog'oz bering.",
+          },
+          {
+            jp: "<ruby>紙<rt>かみ</rt></ruby>を <ruby>切<rt>き</rt></ruby>ります。",
+            translation: "Qog'ozni kesaman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 318,
+      lesson: 7,
+      japanese: "<ruby>花<rt>はな</rt></ruby>",
+      cleanWord: "花",
+      translations: { ru: "цветок, цветы", uz: "gul, gullar" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>猫<rt>ねこ</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を もらいました。",
+          translation: "Я получил цветок от кошки.",
+          grammarInfo:
+            "1. 猫に — от кого (можно также から).\n2. もらいました — получил.\n\n💡 В Японии язык цветов (Hanakotoba) очень развит. Какая романтичная у вас кошка!",
+        },
+        uz: {
+          jp: "<ruby>猫<rt>ねこ</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を もらいました。",
+          translation: "Mushukdan gul sovg'a oldim.",
+          grammarInfo:
+            "1. 猫に — kimdan (から ham ishlatish mumkin).\n2. もらいました — oldim.\n\n💡 Yaponiyada gullar tili (Hanakotoba) juda rivojlangan. Mushugingiz rosa romantik ekan!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>花<rt>はな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил цветы.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を あげます。",
+            translation: "Я подарю цветы маме.",
+          },
+          {
+            jp: "<ruby>花<rt>はな</rt></ruby>を もらいました。",
+            translation: "Я получил цветы.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>花<rt>はな</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Gul sotib oldim.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を あげます。",
+            translation: "Onamga gul beraman.",
+          },
+          {
+            jp: "<ruby>花<rt>はな</rt></ruby>を もらいました。",
+            translation: "Gul sovg'a oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 319,
+      lesson: 7,
+      japanese: "シャツ",
+      cleanWord: "シャツ",
+      translations: { ru: "рубашка", uz: "ko'ylak" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に シャツを <ruby>貸<rt>か</rt></ruby>しました。",
+          translation: "Я одолжил рубашку собаке.",
+          grammarInfo:
+            "1. 犬に — кому (собаке).\n2. 貸しました — одолжил.\n\n💡 В жаркое японское лето многие бизнесмены носят специальные охлаждающие рубашки (cool biz).",
+        },
+        uz: {
+          jp: "<ruby>犬<rt>いぬ</rt></ruby>に シャツを <ruby>貸<rt>か</rt></ruby>しました。",
+          translation: "Men itga ko'ylakni qarzga berdim.",
+          grammarInfo:
+            "1. 犬に — kimga (itga).\n2. 貸しました — qarzga berdim.\n\n💡 Yaponiyaning issiq yozida ko'plab biznesmenlar maxsus sovutuvchi ko'ylaklar (cool biz) kiyishadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "シャツを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Я купил рубашку.",
+          },
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の シャツです。",
+            translation: "Это моя рубашка.",
+          },
+          { jp: "シャツを もらいました。", translation: "Я получил рубашку." },
+        ],
+        uz: [
+          {
+            jp: "シャツを <ruby>買<rt>か</rt></ruby>いました。",
+            translation: "Ko'ylak sotib oldim.",
+          },
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の シャツです。",
+            translation: "Bu mening ko'ylagim.",
+          },
+          { jp: "シャツを もらいました。", translation: "Ko'ylak oldim." },
+        ],
+      },
+    },
+    {
+      id: 320,
+      lesson: 7,
+      japanese: "プレゼント",
+      cleanWord: "プレゼント",
+      translations: { ru: "подарок", uz: "sovg'a" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>先生<rt>せんせい</rt></ruby>の プレゼントは トマトでした。",
+          translation: "Подарок для учителя был помидором.",
+          grammarInfo:
+            "1. 先生のプレゼント — подарок для учителя (сущ + の + сущ).\n2. でした — был (прошедшее время).\n\n⚠️ В Японии дарить подарки (омиягэ) — это искусство. Подарить просто так помидор считается очень странным.",
+        },
+        uz: {
+          jp: "<ruby>先生<rt>せんせい</rt></ruby>の プレゼントは トマトでした。",
+          translation: "O'qituvchi uchun sovg'a pomidor edi.",
+          grammarInfo:
+            "1. 先生のプレゼント — o'qituvchi uchun sovg'a (ot + の + ot).\n2. でした — edi (o'tgan zamon).\n\n⚠️ Yaponiyada sovg'a berish (omiyage) bu alohida san'at. Shunchaki bitta pomidor berish g'alati qabul qilinadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "プレゼントを あげます。", translation: "Я подарю подарок." },
+          {
+            jp: "プレゼントを もらいました。",
+            translation: "Я получил подарок.",
+          },
+          { jp: "これは プレゼントです。", translation: "Это подарок." },
+        ],
+        uz: [
+          { jp: "プレゼントを あげます。", translation: "Sovg'a beraman." },
+          { jp: "プレゼントを もらいました。", translation: "Sovg'a oldim." },
+          { jp: "これは プレゼントです。", translation: "Bu sovg'adir." },
+        ],
+      },
+    },
+    {
+      id: 321,
+      lesson: 7,
+      japanese: "<ruby>荷物<rt>にもつ</rt></ruby>",
+      cleanWord: "荷物",
+      translations: { ru: "багаж, груз, посылка", uz: "yuk, bagaj, jo'natma" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>りました。",
+          translation: "Я отправил багаж на велосипеде.",
+          grammarInfo:
+            "1. 自転車で — на велосипеде (средство).\n2. 荷物を — багаж.\n\n💡 Японские службы доставки (такубин) известны тем, что практически НИКОГДА не теряют багаж и доставляют минута в минуту.",
+        },
+        uz: {
+          jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>で <ruby>荷物<rt>にもつ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>りました。",
+          translation: "Yukni velosipedda jo'natdim.",
+          grammarInfo:
+            "1. 自転車で — velosipedda (vosita).\n2. 荷物を — yukni.\n\n💡 Yapon yetkazib berish xizmatlari (takubin) o'zining yuklarni DEYARLI HECH QACHON yo'qotmasligi va vaqtida yetkazishi bilan mashhur.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>荷物<rt>にもつ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Я отправлю посылку.",
+          },
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の <ruby>荷物<rt>にもつ</rt></ruby>です。",
+            translation: "Это мой багаж.",
+          },
+          {
+            jp: "<ruby>荷物<rt>にもつ</rt></ruby>を もらいました。",
+            translation: "Я получил посылку.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>荷物<rt>にもつ</rt></ruby>を <ruby>送<rt>おく</rt></ruby>ります。",
+            translation: "Jo'natmani yuboraman.",
+          },
+          {
+            jp: "これは <ruby>私<rt>わたし</rt></ruby>の <ruby>荷物<rt>にもつ</rt></ruby>です。",
+            translation: "Bu mening yukim.",
+          },
+          {
+            jp: "<ruby>荷物<rt>にもつ</rt></ruby>を もらいました。",
+            translation: "Jo'natmani oldim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 322,
+      lesson: 7,
+      japanese: "お<ruby>金<rt>かね</rt></ruby>",
+      cleanWord: "お金",
+      translations: { ru: "деньги", uz: "pul" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>私<rt>わたし</rt></ruby>は お<ruby>金<rt>かね</rt></ruby>じゃ ありません！",
+          translation: "Я — не деньги!",
+          grammarInfo:
+            "1. 私は — тема (я).\n2. お金じゃありません — отрицание существительного (не деньги).\n\n💡 Абсурдно, но идеально для отработки отрицания «ja arimasen». К слову «деньги» всегда добавляют уважительную приставку «お» (o).",
+        },
+        uz: {
+          jp: "<ruby>私<rt>わたし</rt></ruby>は お<ruby>金<rt>かね</rt></ruby>じゃ ありません！",
+          translation: "Men pul emasman!",
+          grammarInfo:
+            "1. 私は — ega (men).\n2. お金じゃありません — ot inkor shakli (pul emasman).\n\n💡 Mantiqsiz gap bo'lsa-da, «ja arimasen» inkor qoidasini mashq qilish uchun ajoyib. «Pul» so'ziga doim «お» (o) hurmat prefiksi qo'shiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で お<ruby>金<rt>かね</rt></ruby>を <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Я одолжил деньги в банке.",
+          },
+          {
+            jp: "お<ruby>金<rt>かね</rt></ruby>を もらいました。",
+            translation: "Я получил деньги.",
+          },
+          {
+            jp: "お<ruby>金<rt>かね</rt></ruby>は ありません。",
+            translation: "У меня нет денег.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>銀行<rt>ぎんこう</rt></ruby>で お<ruby>金<rt>かね</rt></ruby>を <ruby>借<rt>か</rt></ruby>りました。",
+            translation: "Bankdan pul qarz oldim.",
+          },
+          {
+            jp: "お<ruby>金<rt>かね</rt></ruby>を もらいました。",
+            translation: "Pul oldim.",
+          },
+          {
+            jp: "お<ruby>金<rt>かね</rt></ruby>は ありません。",
+            translation: "Menda pul yo'q.",
+          },
+        ],
+      },
+    },
+    {
+      id: 323,
+      lesson: 7,
+      japanese: "<ruby>切符<rt>きっぷ</rt></ruby>",
+      cleanWord: "切符",
+      translations: {
+        ru: "билет (на транспорт)",
+        uz: "chipta (transport uchun)",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "トイレの <ruby>紙<rt>かみ</rt></ruby>じゃ ありません。 <ruby>新幹線<rt>しんかんせん</rt></ruby>の <ruby>切符<rt>きっぷ</rt></ruby>です。",
+          translation: "Это не туалетная бумага. Это билет на синкансэн.",
+          grammarInfo:
+            "1. 新幹線の切符 — билет (на что?) на синкансэн (сущ + の + сущ).\n2. トイレの紙 — туалетная бумага.\n\n💡 В Японии слово 切符 используется только для транспорта. Билет в кино или на концерт — это チケット (chiketto)!",
+        },
+        uz: {
+          jp: "トイレの <ruby>紙<rt>かみ</rt></ruby>じゃ ありません。 <ruby>新幹線<rt>しんかんせん</rt></ruby>の <ruby>切符<rt>きっぷ</rt></ruby>です。",
+          translation:
+            "Bu hojatxona qog'ozi emas. Bu shinkansen (tezyurar poyezd) chiptasi.",
+          grammarInfo:
+            "1. 新幹線の切符 — shinkansen (uchun) chipta.\n2. トイレの紙 — hojatxona qog'ozi.\n\n💡 Yaponiyada 切符 so'zi faqat transport uchun ishlatiladi. Kino yoki kontsert chiptasi チケット (chiketto) deyiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>切符<rt>きっぷ</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Я куплю билет.",
+          },
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>の <ruby>切符<rt>きっぷ</rt></ruby>です。",
+            translation: "Это билет на самолет.",
+          },
+          {
+            jp: "<ruby>切符<rt>きっぷ</rt></ruby>は どこですか。",
+            translation: "Где билет?",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>切符<rt>きっぷ</rt></ruby>を <ruby>買<rt>か</rt></ruby>います。",
+            translation: "Chipta sotib olaman.",
+          },
+          {
+            jp: "<ruby>飛行機<rt>ひこうき</rt></ruby>の <ruby>切符<rt>きっぷ</rt></ruby>です。",
+            translation: "Bu samolyot chiptasi.",
+          },
+          {
+            jp: "<ruby>切符<rt>きっぷ</rt></ruby>は どこですか。",
+            translation: "Chipta qayerda?",
+          },
+        ],
+      },
+    },
+    {
+      id: 324,
+      lesson: 7,
+      japanese: "クリスマス",
+      cleanWord: "クリスマス",
+      translations: { ru: "Рождество", uz: "Rojdestvo" },
+      exampleSentences: {
+        ru: {
+          jp: "クリスマスに だれも <ruby>来<rt>き</rt></ruby>ませんでした。",
+          translation: "На Рождество никто не пришел.",
+          grammarInfo:
+            "1. クリスマスに — когда (на Рождество).\n2. だれも — никто (в сочетании с отрицательным глаголом).\n\n💡 В Японии Рождество — день для свиданий. Есть торт одному — это клише одиночества (kuribotchi).",
+        },
+        uz: {
+          jp: "クリスマスに だれも <ruby>来<rt>き</rt></ruby>ませんでした。",
+          translation: "Rojdestvoda hech kim kelmadi.",
+          grammarInfo:
+            "1. クリスマスに — qachon (Rojdestvoda).\n2. だれも — hech kim (inkor fe'l bilan).\n\n💡 Yaponlar Rojdestvoni asosan juftlikda nishonlashadi. Yolg'iz tort yeyish — yolg'izlik ramzi (kuribotchi).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "クリスマスに <ruby>何<rt>なに</rt></ruby>を しますか。",
+            translation: "Что вы будете делать на Рождество?",
+          },
+          {
+            jp: "クリスマスの プレゼントです。",
+            translation: "Это рождественский подарок.",
+          },
+          { jp: "クリスマスは いつですか。", translation: "Когда Рождество?" },
+        ],
+        uz: [
+          {
+            jp: "クリスマスに <ruby>何<rt>なに</rt></ruby>を しますか。",
+            translation: "Rojdestvoda nima qilasiz?",
+          },
+          {
+            jp: "クリスマスの プレゼントです。",
+            translation: "Bu Rojdestvo sovg'asi.",
+          },
+          { jp: "クリスマスは いつですか。", translation: "Rojdestvo qachon?" },
+        ],
+      },
+    },
+    {
+      id: 325,
+      lesson: 7,
+      japanese: "<ruby>父<rt>ちち</rt></ruby>",
+      cleanWord: "父",
+      translations: { ru: "(мой) отец", uz: "(mening) otam" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>父<rt>ちち</rt></ruby>は パソコンで ごはんを <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Мой отец ест рис с помощью компьютера.",
+          grammarInfo:
+            "1. 父 — мой отец (используется только для разговора о СВОЕМ отце).\n2. パソコンで — с помощью чего (инструмент).\n\n⚠️ Никогда не называйте чужого отца «ちち» — это звучит фамильярно и странно!",
+        },
+        uz: {
+          jp: "<ruby>父<rt>ちち</rt></ruby>は パソコンで ごはんを <ruby>食<rt>た</rt></ruby>べます。",
+          translation: "Otam guruchni kompyuter bilan yeydi.",
+          grammarInfo:
+            "1. 父 — mening otam (faqat O'Z otasi haqida gapirganda ishlatiladi).\n2. パソコンで — nima bilan (kompyuter orqali).\n\n⚠️ Hech qachon birovning otasini «ちち» demang — bu juda g'alati va hurmatsizlikdek eshitiladi!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。",
+            translation: "Я позвоню отцу.",
+          },
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>の <ruby>車<rt>くるま</rt></ruby>です。",
+            translation: "Это машина отца.",
+          },
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>は <ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+            translation: "Мой отец — служащий компании.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。",
+            translation: "Otamga qo'ng'iroq qilaman.",
+          },
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>の <ruby>車<rt>くるま</rt></ruby>です。",
+            translation: "Otamning mashinasi.",
+          },
+          {
+            jp: "<ruby>父<rt>ちち</rt></ruby>は <ruby>会社員<rt>かいしゃいん</rt></ruby>です。",
+            translation: "Otam — kompaniya xodimi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 326,
+      lesson: 7,
+      japanese: "<ruby>母<rt>はは</rt></ruby>",
+      cleanWord: "母",
+      translations: { ru: "(моя) мать", uz: "(mening) onam" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>母<rt>はは</rt></ruby>は スプーンで ケータイを <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Моя мать разрезала мобильный телефон ложкой.",
+          grammarInfo:
+            "1. 母 (haha) — МОЯ мама.\n2. スプーンで — ложкой (инструмент).\n\n💡 Японцы очень строго разделяют слова для СВОЕЙ семьи (скромные) и ЧУЖОЙ семьи (уважительные).",
+        },
+        uz: {
+          jp: "<ruby>母<rt>はは</rt></ruby>は スプーンで ケータイを <ruby>切<rt>き</rt></ruby>りました。",
+          translation: "Onam mobil telefonni qoshiq bilan kesdi.",
+          grammarInfo:
+            "1. 母 (haha) — MENING onam.\n2. スプーンで — qoshiq bilan.\n\n💡 Yaponlar O'Z oilasi (kamtargina) va BIROVNING oilasi (hurmatli) uchun ishlatiladigan so'zlarni juda qat'iy ajratishadi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を あげます。",
+            translation: "Я подарю маме цветы.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>の <ruby>誕生日<rt>たんじょうび</rt></ruby>です。",
+            translation: "Это день рождения моей мамы.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>は <ruby>先生<rt>せんせい</rt></ruby>です。",
+            translation: "Моя мама — учитель.",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>に <ruby>花<rt>はな</rt></ruby>を あげます。",
+            translation: "Onamga gul sovg'a qilaman.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>の <ruby>誕生日<rt>たんじょうび</rt></ruby>です。",
+            translation: "Bu onamning tug'ilgan kuni.",
+          },
+          {
+            jp: "<ruby>母<rt>はは</rt></ruby>は <ruby>先生<rt>せんせい</rt></ruby>です。",
+            translation: "Onam — o'qituvchi.",
+          },
+        ],
+      },
+    },
+    {
+      id: 327,
+      lesson: 7,
+      japanese: "お<ruby>父<rt>とう</rt></ruby>さん",
+      cleanWord: "お父さん",
+      translations: { ru: "(чей-то) отец", uz: "(birovning) otasi" },
+      exampleSentences: {
+        ru: {
+          jp: "ミラーさんの お<ruby>父<rt>とう</rt></ruby>さんは ５<ruby>歳<rt>さい</rt></ruby>ですか。",
+          translation: "Отцу господина Миллера 5 лет?",
+          grammarInfo:
+            "1. お父さん (otou-san) — ЧУЖОЙ отец (вежливо).\n2. ５歳ですか — 5 лет? (вопрос).\n\n⚠️ Обратите внимание на почтительную приставку «お» (o) и суффикс «さん» (san). Они показывают уважение к семье собеседника.",
+        },
+        uz: {
+          jp: "ミラーさんの お<ruby>父<rt>とう</rt></ruby>さんは ５<ruby>歳<rt>さい</rt></ruby>ですか。",
+          translation: "Miller janoblarining otasi 5 yoshdami?",
+          grammarInfo:
+            "1. お父さん (otou-san) — BIROVNING otasi (hurmat bilan).\n2. ５歳ですか — 5 yoshdami?\n\n⚠️ Hurmat ma'nosini bildiruvchi «お» (o) prefiksi va «さん» (san) suffiksiga e'tibor bering. Ular suhbatdoshning oilasiga hurmatni bildiradi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "お<ruby>父<rt>とう</rt></ruby>さんは どこですか。",
+            translation: "Где ваш отец?",
+          },
+          {
+            jp: "太郎（たろう）くんの お<ruby>父<rt>とう</rt></ruby>さんです。",
+            translation: "Это отец Таро.",
+          },
+          {
+            jp: "お<ruby>父<rt>とう</rt></ruby>さんは <ruby>会社員<rt>かいしゃいん</rt></ruby>ですか。",
+            translation: "Ваш отец — служащий?",
+          },
+        ],
+        uz: [
+          {
+            jp: "お<ruby>父<rt>とう</rt></ruby>さんは どこですか。",
+            translation: "Otangiz qayerda?",
+          },
+          {
+            jp: "太郎（たろう）くんの お<ruby>父<rt>とう</rt></ruby>さんです。",
+            translation: "Bu Taroning otasi.",
+          },
+          {
+            jp: "お<ruby>父<rt>とう</rt></ruby>さんは <ruby>会社員<rt>かいしゃいん</rt></ruby>ですか。",
+            translation: "Otangiz kompaniya xodimimi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 328,
+      lesson: 7,
+      japanese: "お<ruby>母<rt>かあ</rt></ruby>さん",
+      cleanWord: "お母さん",
+      translations: { ru: "(чья-то) мать", uz: "(birovning) onasi" },
+      exampleSentences: {
+        ru: {
+          jp: "ミラーさんの お<ruby>母<rt>かあ</rt></ruby>さんは １８<ruby>歳<rt>さい</rt></ruby>ですか？！",
+          translation: "Маме Миллера 18 лет?!",
+          grammarInfo:
+            "1. お母さん (okaa-san) — чужая мать.\n2. １８歳 — 18 лет.\n\n💡 Японские дети зовут своих мам «Okaa-san» (Мама), но, говоря о ней другим людям, всегда используют строгое «Haha».",
+        },
+        uz: {
+          jp: "ミラーさんの お<ruby>母<rt>かあ</rt></ruby>さんは １８<ruby>歳<rt>さい</rt></ruby>ですか？！",
+          translation: "Millerning onasi 18 yoshdami?!",
+          grammarInfo:
+            "1. お母さん (okaa-san) — birovning onasi.\n2. １８歳 — 18 yosh.\n\n💡 Yapon bolalari o'z onalarini «Okaa-san» (Oyi) deb chaqirishadi, lekin boshqalarga o'z onasi haqida gapirganda har doim qat'iy «Haha» ishlatiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "お<ruby>母<rt>かあ</rt></ruby>さんは どこですか。",
+            translation: "Где ваша мама?",
+          },
+          {
+            jp: "お<ruby>母<rt>かあ</rt></ruby>さんは <ruby>先生<rt>せんせい</rt></ruby>ですか。",
+            translation: "Ваша мама учитель?",
+          },
+          {
+            jp: "お<ruby>母<rt>かあ</rt></ruby>さんに <ruby>花<rt>はな</rt></ruby>を あげましたか。",
+            translation: "Вы подарили цветы маме?",
+          },
+        ],
+        uz: [
+          {
+            jp: "お<ruby>母<rt>かあ</rt></ruby>さんは どこですか。",
+            translation: "Onangiz qayerda?",
+          },
+          {
+            jp: "お<ruby>母<rt>かあ</rt></ruby>さんは <ruby>先生<rt>せんせい</rt></ruby>ですか。",
+            translation: "Onangiz o'qituvchimi?",
+          },
+          {
+            jp: "お<ruby>母<rt>かあ</rt></ruby>さんに <ruby>花<rt>はな</rt></ruby>を あげましたか。",
+            translation: "Onangizga gul berdingizmi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 329,
+      lesson: 7,
+      japanese: "スペイン",
+      cleanWord: "スペイン",
+      translations: { ru: "Испания", uz: "Ispaniya" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>で スペインへ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Я поеду в Испанию на велосипеде.",
+          grammarInfo:
+            "1. 自転車で — на велосипеде (средство передвижения).\n2. スペインへ — в Испанию (направление).\n\n💡 Страны пишутся катаканой, так как это заимствованные слова.",
+        },
+        uz: {
+          jp: "<ruby>自転車<rt>じてんしゃ</rt></ruby>で スペインへ <ruby>行<rt>い</rt></ruby>きます。",
+          translation: "Ispaniyaga velosipedda boraman.",
+          grammarInfo:
+            "1. 自転車で — velosipedda (transport vositasi).\n2. スペインへ — Ispaniyaga (yo'nalish).\n\n💡 Mamlakatlar nomlari chet tilidan o'zlashtirilganligi uchun katakanada yoziladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "スペインへ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Я еду в Испанию.",
+          },
+          { jp: "スペインの ワインです。", translation: "Это испанское вино." },
+          {
+            jp: "スペイン<ruby>語<rt>ご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。",
+            translation: "Я изучаю испанский язык.",
+          },
+        ],
+        uz: [
+          {
+            jp: "スペインへ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Ispaniyaga boraman.",
+          },
+          { jp: "スペインの ワインです。", translation: "Bu Ispaniya vinosi." },
+          {
+            jp: "スペイン<ruby>語<rt>ご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。",
+            translation: "Ispan tilini o'rganyapman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 330,
+      lesson: 7,
+      japanese: "もう",
+      cleanWord: "もう",
+      translations: { ru: "уже", uz: "allaqachon" },
+      exampleSentences: {
+        ru: {
+          jp: "もう わたしの <ruby>宿題<rt>しゅくだい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+          translation: "Ты УЖЕ съел мою домашнюю работу?!",
+          grammarInfo:
+            "1. もう — уже (используется с прошедшим временем).\n2. 食べましたか — съел?\n\n⚠️ Обратите внимание: «もう» + прошедшее время означает «уже». А «もう» + утверждение количества означает «еще» (もう１回 - еще раз).",
+        },
+        uz: {
+          jp: "もう わたしの <ruby>宿題<rt>しゅくだい</rt></ruby>を <ruby>食<rt>た</rt></ruby>べましたか。",
+          translation: "Mening uy vazifamni ALLAQACHON yeb qo'ydingmi?!",
+          grammarInfo:
+            "1. もう — allaqachon (o'tgan zamon bilan ishlatiladi).\n2. 食べましたか — yedingmi?\n\n⚠️ E'tibor bering: «もう» + o'tgan zamon «allaqachon» degani. Lekin «もう» + miqdor «yana» degan ma'noni beradi (もう１回 - yana bir marta).",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "もう <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "Он уже ушел домой.",
+          },
+          {
+            jp: "もう １２<ruby>時<rt>じ</rt></ruby>です。",
+            translation: "Уже 12 часов.",
+          },
+          {
+            jp: "もう <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。",
+            translation: "Я уже поужинал.",
+          },
+        ],
+        uz: [
+          {
+            jp: "もう <ruby>帰<rt>かえ</rt></ruby>りました。",
+            translation: "U allaqachon uyga ketdi.",
+          },
+          {
+            jp: "もう １２<ruby>時<rt>じ</rt></ruby>です。",
+            translation: "Allaqachon soat 12 bo'ldi.",
+          },
+          {
+            jp: "もう <ruby>晩<rt>ばん</rt></ruby>ごはんを <ruby>食<rt>た</rt></ruby>べました。",
+            translation: "Kechki ovqatni allaqachon yedim.",
+          },
+        ],
+      },
+    },
+    {
+      id: 331,
+      lesson: 7,
+      japanese: "まだ",
+      cleanWord: "まだ",
+      translations: { ru: "ещё не", uz: "hali emas, hali yo'q" },
+      exampleSentences: {
+        ru: {
+          jp: "もう お<ruby>金<rt>かね</rt></ruby>を あげましたよ！…いいえ、 まだです。",
+          translation: "Я же уже дал вам деньги! ...Нет, еще нет.",
+          grammarInfo:
+            "1. もうあげました — уже дал.\n2. まだです — еще нет.\n\n💡 «mada desu» — самый частый и естественный способ сказать «еще нет» в ответ на вопрос с «mou».",
+        },
+        uz: {
+          jp: "もう お<ruby>金<rt>かね</rt></ruby>を あげましたよ！…いいえ、 まだです。",
+          translation: "Men sizga pulni berdim-ku! ...Yo'q, hali bermading.",
+          grammarInfo:
+            "1. もうあげました — allaqachon berdim.\n2. まだです — hali yo'q (hali qilinmadi).\n\n💡 «mada desu» — «mou» bilan berilgan savolga «hali yo'q» deb javob berishning eng tabiiy va ko'p uchraydigan usuli.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "まだですか。", translation: "Еще нет?" },
+          { jp: "いいえ、 まだです。", translation: "Нет, еще нет." },
+          {
+            jp: "まだ <ruby>行<rt>い</rt></ruby>きません。",
+            translation: "Я еще не иду.",
+          },
+        ],
+        uz: [
+          { jp: "まだですか。", translation: "Hali yo'qmi?" },
+          { jp: "いいえ、 まだです。", translation: "Yo'q, hali yo'q." },
+          {
+            jp: "まだ <ruby>行<rt>い</rt></ruby>きません。",
+            translation: "Hali bormayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 332,
+      lesson: 7,
+      japanese: "これから",
+      cleanWord: "これから",
+      translations: { ru: "с этих пор, скоро", uz: "bundan buyon, tez orada" },
+      exampleSentences: {
+        ru: {
+          jp: "これから <ruby>犬<rt>いぬ</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。",
+          translation: "Сейчас (с этого момента) я позвоню собаке.",
+          grammarInfo:
+            "1. これから — с этого момента, сейчас.\n2. 電話をかけます — позвоню.\n\n💡 «Korekara» означает действие, которое вот-вот начнется в будущем.",
+        },
+        uz: {
+          jp: "これから <ruby>犬<rt>いぬ</rt></ruby>に <ruby>電話<rt>でんわ</rt></ruby>を かけます。",
+          translation: "Hozir (shu vaqtdan boshlab) itga qo'ng'iroq qilaman.",
+          grammarInfo:
+            "1. これから — shu paytdan boshlab, hozir.\n2. 電話をかけます — qo'ng'iroq qilaman.\n\n💡 «Korekara» kelajakda aynan shu damdan boshlanadigan harakatni bildiradi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "これから <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Сейчас я буду есть.",
+          },
+          {
+            jp: "これから <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Скоро я поеду в Японию.",
+          },
+          {
+            jp: "これから <ruby>勉強<rt>べんきょう</rt></ruby>します。",
+            translation: "Сейчас я начну учиться.",
+          },
+        ],
+        uz: [
+          {
+            jp: "これから <ruby>食<rt>た</rt></ruby>べます。",
+            translation: "Hozir ovqatlanaman.",
+          },
+          {
+            jp: "これから <ruby>日本<rt>にほん</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きます。",
+            translation: "Tez orada Yaponiyaga boraman.",
+          },
+          {
+            jp: "これから <ruby>勉強<rt>べんきょう</rt></ruby>します。",
+            translation: "Hozir o'qishni boshlayman.",
+          },
+        ],
+      },
+    },
+    {
+      id: 333,
+      lesson: 7,
+      japanese: "〜、すてきですね。",
+      cleanWord: "〜、すてきですね。",
+      translations: { ru: "Как это прекрасно!", uz: "Juda ajoyib-a!" },
+      exampleSentences: {
+        ru: {
+          jp: "その <ruby>紙<rt>かみ</rt></ruby>の シャツ、 すてきですね。",
+          translation: "Эта бумажная рубашка просто чудесна!",
+          grammarInfo:
+            "1. すてきですね — комплимент. Частица ね ждет согласия собеседника.\n\n💡 Японцы очень любят делать комплименты вещам собеседника, даже самым обычным мелочам.",
+        },
+        uz: {
+          jp: "その <ruby>紙<rt>かみ</rt></ruby>の シャツ、 すてきですね。",
+          translation: "Bu qog'ozli ko'ylak juda ajoyib-a!",
+          grammarInfo:
+            "1. すてきですね — maqtov so'zi. ね qo'shimchasi suhbatdoshdan tasdiq kutadi.\n\n💡 Yaponlar suhbatdoshining narsalariga, hatto eng mayda va oddiy buyumlariga ham maqtov aytishni juda yaxshi ko'radilar.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "その シャツ、 すてきですね。",
+            translation: "Какая у вас классная рубашка!",
+          },
+          {
+            jp: "その カバン、 すてきですね。",
+            translation: "Какая прекрасная сумка!",
+          },
+          { jp: "すてきですね。", translation: "Как здорово/прекрасно!" },
+        ],
+        uz: [
+          {
+            jp: "その シャツ、 すてきですね。",
+            translation: "Ko'ylagingiz juda ajoyib-a!",
+          },
+          {
+            jp: "その カバン、 すてきですね。",
+            translation: "Qanday ajoyib sumka!",
+          },
+          { jp: "すてきですね。", translation: "Juda ajoyib-a!" },
+        ],
+      },
+    },
+    {
+      id: 334,
+      lesson: 7,
+      japanese: "いらっしゃい",
+      cleanWord: "いらっしゃい",
+      translations: { ru: "Добро пожаловать", uz: "Xush kelibsiz" },
+      exampleSentences: {
+        ru: {
+          jp: "いらっしゃい！ ここは トイレです。",
+          translation: "Добро пожаловать! Это туалет.",
+          grammarInfo:
+            "1. いらっしゃい — неформальное приветствие гостя дома.\n2. ここは — это место.\n\n💡 В магазинах вы услышите более длинную и формальную версию: «Irasshaimase».",
+        },
+        uz: {
+          jp: "いらっしゃい！ ここは トイレです。",
+          translation: "Xush kelibsiz! Bu hojatxona.",
+          grammarInfo:
+            "1. いらっしゃい — uyga kelgan mehmonga aytiladigan norasmiy salomlashish.\n2. ここは — bu yer.\n\n💡 Do'konlarda uning uzunroq va rasmiyroq shaklini eshitasiz: «Irasshaimase».",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "いらっしゃい。 どうぞ。",
+            translation: "Добро пожаловать. Проходите.",
+          },
+          { jp: "あ、 いらっしゃい。", translation: "О, добро пожаловать." },
+          {
+            jp: "みんな、 いらっしゃい。",
+            translation: "Все, добро пожаловать.",
+          },
+        ],
+        uz: [
+          {
+            jp: "いらっしゃい。 どうぞ。",
+            translation: "Xush kelibsiz. Marhamat.",
+          },
+          { jp: "あ、 いらっしゃい。", translation: "Oh, xush kelibsiz." },
+          {
+            jp: "みんな、 いらっしゃい。",
+            translation: "Barchangiz, xush kelibsiz.",
+          },
+        ],
+      },
+    },
+    {
+      id: 335,
+      lesson: 7,
+      japanese: "どうぞ おあがりください",
+      cleanWord: "どうぞ おあがりください",
+      translations: { ru: "Заходите, пожалуйста", uz: "Kiring, marhamat" },
+      exampleSentences: {
+        ru: {
+          jp: "どうぞ おあがりください。 コーヒーは １<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+          translation: "Пожалуйста, заходите. Кофе стоит 10 000 иен.",
+          grammarInfo:
+            "1. どうぞおあがりください — фраза-приглашение в дом.\n\n💡 Фраза буквально означает «пожалуйста, поднимитесь», так как в японских домах прихожая находится ниже уровня пола.",
+        },
+        uz: {
+          jp: "どうぞ おあがりください。 コーヒーは １<ruby>万<rt>まん</rt></ruby><ruby>円<rt>えん</rt></ruby>です。",
+          translation: "Kiring, marhamat. Qahva 10 000 iyen turadi.",
+          grammarInfo:
+            "1. どうぞおあがりください — uyga taklif qilish iborasi.\n\n💡 Ibora so'zma-so'z «iltimos, tepaga ko'tariling» degani, chunki yapon uylarida dahliz (genkan) pol sathidan pastroq joylashgan.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "どうぞ おあがりください。",
+            translation: "Проходите, пожалуйста.",
+          },
+          {
+            jp: "はい、 どうぞ おあがりください。",
+            translation: "Да, проходите, пожалуйста.",
+          },
+          {
+            jp: "さあ、 どうぞ おあがりください。",
+            translation: "Ну же, проходите, пожалуйста.",
+          },
+        ],
+        uz: [
+          { jp: "どうぞ おあがりください。", translation: "Kiring, marhamat." },
+          {
+            jp: "はい、 どうぞ おあがりください。",
+            translation: "Ha, kiring, marhamat.",
+          },
+          {
+            jp: "さあ、 どうぞ おあがりください。",
+            translation: "Qani, kiring, marhamat.",
+          },
+        ],
+      },
+    },
+    {
+      id: 336,
+      lesson: 7,
+      japanese: "<ruby>失礼<rt>しつれい</rt></ruby>します",
+      cleanWord: "失礼します",
+      translations: {
+        ru: "Извините за беспокойство",
+        uz: "Bezovta qilganim uchun uzr",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>失礼<rt>しつれい</rt></ruby>します。 あなたの ケーキを もらいます。",
+          translation: "Извините за беспокойство. Я забираю ваш торт.",
+          grammarInfo:
+            "1. 失礼します — буквально «я совершаю грубость», говорят при входе или когда беспокоят.\n2. もらいます — беру / получаю.\n\n💡 Обязательная фраза при входе в кабинет начальника или чужой дом.",
+        },
+        uz: {
+          jp: "<ruby>失礼<rt>しつれい</rt></ruby>します。 あなたの ケーキを もらいます。",
+          translation: "Bezovta qilganim uchun uzr. Men tortingizni olyapman.",
+          grammarInfo:
+            "1. 失礼します — so'zma-so'z «qo'pollik qilyapman», birovning xonasiga kirganda aytiladi.\n2. もらいます — olyapman.\n\n💡 Boshliqning xonasiga yoki birovning uyiga kirayotganda albatta aytilishi kerak.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "<ruby>失礼<rt>しつれい</rt></ruby>します。",
+            translation: "Извините (входя в комнату).",
+          },
+          {
+            jp: "あ、 <ruby>失礼<rt>しつれい</rt></ruby>します。",
+            translation: "А, простите за беспокойство.",
+          },
+          {
+            jp: "じゃ、 <ruby>失礼<rt>しつれい</rt></ruby>します。",
+            translation: "Ну, я пойду (до свидания).",
+          },
+        ],
+        uz: [
+          {
+            jp: "<ruby>失礼<rt>しつれい</rt></ruby>します。",
+            translation: "Kechirasiz (xonaga kirayotganda).",
+          },
+          {
+            jp: "あ、 <ruby>失礼<rt>しつれい</rt></ruby>します。",
+            translation: "A, bezovta qilganim uchun uzr.",
+          },
+          {
+            jp: "じゃ、 <ruby>失礼<rt>しつれい</rt></ruby>します。",
+            translation: "Bo'pti, men ketdim (xayrlashuv).",
+          },
+        ],
+      },
+    },
+    {
+      id: 337,
+      lesson: 7,
+      japanese: "〜は いかがですか。",
+      cleanWord: "〜は いかがですか。",
+      translations: { ru: "Не хотите ли ~?", uz: "~ xohlaysizmi?" },
+      exampleSentences: {
+        ru: {
+          jp: "トマトの ジュースは いかがですか。",
+          translation: "Не хотите ли томатный сок?",
+          grammarInfo:
+            "1. いかがですか — вежливое предложение чего-либо (не хотите ли?).\n\n💡 Это очень вежливый способ предложить гостю еду или напиток. Звучит мягче, чем просто «пьете ли вы сок?».",
+        },
+        uz: {
+          jp: "トマトの ジュースは いかがですか。",
+          translation: "Pomidor sharbati xohlaysizmi?",
+          grammarInfo:
+            "1. いかがですか — biror narsani muloyimlik bilan taklif qilish.\n\n💡 Mehmoningizga yegulik yoki ichimlik taklif qilishning eng xushmuomala usuli. Oddiy «sharbat ichasizmi?» deganiga qaraganda ancha yumshoq eshitiladi.",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          {
+            jp: "お<ruby>茶<rt>ちゃ</rt></ruby>は いかがですか。",
+            translation: "Не хотите ли чаю?",
+          },
+          { jp: "コーヒーは いかがですか。", translation: "Как насчет кофе?" },
+          {
+            jp: "もう<ruby>一杯<rt>いっぱい</rt></ruby> いかがですか。",
+            translation: "Не хотите ли еще чашечку?",
+          },
+        ],
+        uz: [
+          {
+            jp: "お<ruby>茶<rt>ちゃ</rt></ruby>は いかがですか。",
+            translation: "Choy xohlaysizmi?",
+          },
+          {
+            jp: "コーヒーは いかがですか。",
+            translation: "Qahvaga nima deysiz?",
+          },
+          {
+            jp: "もう<ruby>一杯<rt>いっぱい</rt></ruby> いかがですか。",
+            translation: "Yana bir piyola ichasizmi?",
+          },
+        ],
+      },
+    },
+    {
+      id: 338,
+      lesson: 7,
+      japanese: "いただきます",
+      cleanWord: "いただきます",
+      translations: {
+        ru: "С удовольствием! (перед едой)",
+        uz: "Yoqimli ishtaha! (ovqatdan oldin)",
+      },
+      exampleSentences: {
+        ru: {
+          jp: "いただきます！ あ、 これは <ruby>消<rt>け</rt></ruby>しゴムです。",
+          translation: "Приятного аппетита! Ой, это же ластик.",
+          grammarInfo:
+            "1. いただきます — фраза перед едой (букв. «я смиренно принимаю»).\n\n💡 В Японии очень реалистичные ластики в виде еды. Легко перепутать, если очень голоден!",
+        },
+        uz: {
+          jp: "いただきます！ あ、 これは <ruby>消<rt>け</rt></ruby>しゴムです。",
+          translation: "Yoqimli ishtaha! Oh, bu o'chirg'ich-ku.",
+          grammarInfo:
+            "1. いただきます — ovqatdan oldin aytiladigan minnatdorchilik iborasi.\n\n💡 Yaponiyada ovqat ko'rinishidagi o'chirg'ichlar juda haqiqiy ko'rinadi. Qattiq och qolganda adashtirib qo'yish hech gap emas!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "いただきます。", translation: "Приятного аппетита." },
+          { jp: "さあ、 いただきます。", translation: "Ну, давайте есть." },
+          {
+            jp: "みんなで いただきます。",
+            translation: "Всем приятного аппетита.",
+          },
+        ],
+        uz: [
+          { jp: "いただきます。", translation: "Yoqimli ishtaha." },
+          {
+            jp: "さあ、 いただきます。",
+            translation: "Qani, ovqatlanishni boshlaymiz.",
+          },
+          {
+            jp: "みんなで いただきます。",
+            translation: "Barchaga yoqimli ishtaha.",
+          },
+        ],
+      },
+    },
+    {
+      id: 339,
+      lesson: 7,
+      japanese: "ごちそうさまでした",
+      cleanWord: "ごちそうさまでした",
+      translations: { ru: "Спасибо за угощение", uz: "Taom uchun rahmat" },
+      exampleSentences: {
+        ru: {
+          jp: "<ruby>水<rt>みず</rt></ruby>でした。 ごちそうさまでした。",
+          translation: "Это была просто вода. Спасибо за угощение.",
+          grammarInfo:
+            "1. ごちそうさまでした — спасибо за еду (после трапезы).\n\n💡 «Gochisousama deshita» говорят всегда после еды. А вот убегать не заплатив — это очень плохая идея!",
+        },
+        uz: {
+          jp: "<ruby>水<rt>みず</rt></ruby>でした。 ごちそうさまでした。",
+          translation: "Bu shunchaki suv edi. Taom uchun rahmat.",
+          grammarInfo:
+            "1. ごちそうさまでした — ovqat uchun rahmat (ovqatdan keyin).\n\n💡 «Gochisousama deshita» ovqatdan so'ng doim aytiladi. Lekin pul to'lamasdan qochib ketish yomon fikr!",
+        },
+      },
+      dictionaryExamples: {
+        ru: [
+          { jp: "ごちそうさまでした。", translation: "Спасибо за еду." },
+          {
+            jp: "いつも ごちそうさまでした。",
+            translation: "Спасибо вам за постоянные угощения.",
+          },
+          {
+            jp: "あー、 ごちそうさまでした。",
+            translation: "Аах, спасибо за еду (было вкусно).",
+          },
+        ],
+        uz: [
+          { jp: "ごちそうさまでした。", translation: "Taom uchun rahmat." },
+          {
+            jp: "いつも ごちそうさまでした。",
+            translation: "Doimiy ziyofat uchun rahmat.",
+          },
+          {
+            jp: "あー、 ごちそうさまでした。",
+            translation: "Aah, taom uchun rahmat (mazali edi).",
+          },
+        ],
+      },
+    },
   ];
 
   // Remove accidental duplicated vocabulary entries by id.
@@ -22773,16 +30291,48 @@
       "</div>";
     container.appendChild(header);
 
+    var exSentence = word.exampleSentences
+      ? word.exampleSentences[state.lang]
+      : null;
     var examples = word.dictionaryExamples
       ? word.dictionaryExamples[state.lang]
       : null;
+    var mergedExamples = [];
+    var mergedExampleMap = {};
+
+    function pushMergedExample(jp, translation) {
+      var cleanJp = typeof jp === "string" ? jp.trim() : "";
+      var cleanTranslation =
+        typeof translation === "string" ? translation.trim() : "";
+      if (!cleanJp && !cleanTranslation) return;
+
+      var key = cleanJp + "||" + cleanTranslation;
+      if (mergedExampleMap[key]) return;
+
+      mergedExampleMap[key] = true;
+      mergedExamples.push({
+        jp: cleanJp,
+        translation: cleanTranslation,
+      });
+    }
+
+    if (exSentence) {
+      pushMergedExample(exSentence.jp, exSentence.translation);
+    }
     if (examples && examples.length > 0) {
+      examples.forEach(function (ex) {
+        if (!ex) return;
+        pushMergedExample(ex.jp, ex.translation);
+      });
+    }
+
+    if (mergedExamples.length > 0) {
       var exLabel = document.createElement("div");
       exLabel.className = "dict-examples-label";
       exLabel.textContent = txt.examples;
       container.appendChild(exLabel);
 
-      examples.forEach(function (ex) {
+      mergedExamples.forEach(function (ex) {
         var item = document.createElement("div");
         item.className = "dict-example-item";
         item.innerHTML =
@@ -22796,7 +30346,6 @@
       });
     }
 
-    var exSentence = word.exampleSentences[state.lang];
     if (exSentence && exSentence.grammarInfo) {
       var gramDiv = document.createElement("div");
       gramDiv.className = "dict-grammar-note";
